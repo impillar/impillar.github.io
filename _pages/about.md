@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Dr. Guozhu Meng obtained his Ph.D degree from the School of Computer Science and Engineering, Nanyang Technological University, Singapore at 2017. His supervisors are Asst Prof. [Liu Yang](http://www.ntu.edu.sg/home/yangliu/) and Assoc Prof. [Zhang Jie](http://www.ntu.edu.sg/home/zhangj/). In addition, he has been working closely with Dr. [Xue Yinxing](https://sites.google.com/site/yinxingxue/).
+Dr. Guozhu Meng obtained his Ph.D degree from the School of Computer Science and Engineering, Nanyang Technological University, Singapore at 2017. His supervisors are Assoc Prof. [Liu Yang](http://www.ntu.edu.sg/home/yangliu/) and Assoc Prof. [Zhang Jie](http://www.ntu.edu.sg/home/zhangj/). In addition, he has been working closely with Dr. [Xue Yinxing](https://sites.google.com/site/yinxingxue/).
 
 He is currently working as a research fellow in NTU. His research focuses on system security with a specialization on mobile computing. In particular,
 About Me and Our System Security Blog
