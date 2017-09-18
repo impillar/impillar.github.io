@@ -17,20 +17,25 @@ Education
 
 Work experience
 ======
-* Associate Scientist Summer 2015: Research Assistant
+* Associate Scientist  (2011.12 - 2013.01)
   * National University of Singapore, Singapore
   * Duties included: Formal verification of web authentication protocol
   * Supervisor: Dr. Liu Yang
 
-* Research Associate Fall 2015: Research Assistant
-  * Nanyang Technology University, Singapore
+* Research Associate   (2013.02 - 2017.07)
+  * Nanyang Technological University, Singapore
+  * Duties included: Android security, including malware detection and generation, Android testing, large-scale app analysis (e.g., financial apps), Android performance analysis
+  * Supervisor: Dr. Liu Yang
+
+* Research Fellow      (2015.08 - )
+  * Nanyang Technological University, Singapore
   * Duties included: Android security, including malware detection and generation, Android testing, large-scale app analysis (e.g., financial apps), Android performance analysis
   * Supervisor: Dr. Liu Yang
 
 Publications
 ======
   <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-publication.html %}
   {% endfor %}</ul>
 
 Talks
@@ -45,6 +50,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Service and leadership
+Service
 ======
-#* Currently signed in to 43 different slack teams
+
