@@ -6,6 +6,8 @@ excerpt: 'It is a work of protocol verifcation to detect vulnerabilities in web 
 date: 2013-02-01
 venue: 'Proceedings of the 20th Annual Network and Distributed System Security Symposium'
 paperurl: 'http://impillar.github.io/files/ndss2015authscan.pdf'
+author: "Guangdong Bai, Jike Lei, Guozhu Meng, Sai Sathyanarayan Venkatraman, Prateek Saxena, Jun Sun, Yang Liu, and Jin Song Dong"
+address: "San Diego, California, USA"
 citation: 'Guangdong Bai, Jike Lei, Guozhu Meng, Sai Sathyanarayan Venkatraman, Prateek Saxena, Jun Sun, Yang Liu, and Jin Song Dong. (2013). &quot;AuthScan: Automatic Extraction of Web Authentication Protocols from Implementations.&quot; <i>Proceedings of the 20th Annual Network and Distributed System Security Symposium</i>'
 ---
 <!--
