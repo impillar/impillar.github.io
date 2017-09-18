@@ -8,6 +8,7 @@ venue: 'The 32nd IEEE/ACM International Conference on Automated Software Enginee
 paperurl: 'http://impillar.github.io/files/ase2017micode.pdf'
 author: "Yun Lin, Guozhu Meng, Yinxing Xue, Zhenchang Xing, Jun Sun, Xin Peng, Yang Liu, Wenyun Zhao, and Jinsong Dong"
 address: "Urbana-Champaign, Illinois, USA"
+year: 2017
 citation: ''
 ---
 <!--
