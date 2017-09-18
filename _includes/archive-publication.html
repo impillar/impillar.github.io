@@ -41,16 +41,23 @@ author_profile: true
 		{% if post.author %}
 			{{ post.author }},
 		{% endif %}
-        &nbsp;"{{ title }},"
+        "{{ title }},"
 		{% if post.venue %}
-			&nbsp;in <i>{{ post.venue }}</i>
+			in <i>{{ post.venue }}</i>
+		{% endif %}
+		{% if post.volume %}
+			, vol. {{ post.volume}}
+		{% endif %}
+		{% if post.issue %}
+			issue {{ post.issue }}
 		{% endif %}
 		{% if post.address %}
 			,&nbsp;{{ post.address }}
 		{% endif %}
-		{% if post.date %}
-			,&nbsp;{{ post.date }}
+		{% if post.year %}
+			,&nbsp;{{ post.year }}
 		{% endif %}
+		
 		{% if post.page %}
 			,&nbsp;pp. {{ post.page }}
 		{% endif %}
