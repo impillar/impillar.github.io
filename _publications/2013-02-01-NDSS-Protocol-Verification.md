@@ -8,7 +8,7 @@ venue: 'Proceedings of the 20th Annual Network and Distributed System Security S
 paperurl: 'http://impillar.github.io/files/ndss2015authscan.pdf'
 author: "Guangdong Bai, Jike Lei, Guozhu Meng, Sai Sathyanarayan Venkatraman, Prateek Saxena, Jun Sun, Yang Liu, and Jin Song Dong"
 address: "San Diego, California, USA"
-citation: 'Guangdong Bai, Jike Lei, Guozhu Meng, Sai Sathyanarayan Venkatraman, Prateek Saxena, Jun Sun, Yang Liu, and Jin Song Dong. (2013). &quot;AuthScan: Automatic Extraction of Web Authentication Protocols from Implementations.&quot; <i>Proceedings of the 20th Annual Network and Distributed System Security Symposium</i>'
+citation: 'Guangdong Bai, Jike Lei, <b>Guozhu Meng</b>, Sai Sathyanarayan Venkatraman, Prateek Saxena, Jun Sun, Yang Liu, and Jin Song Dong. (2013). &quot;AuthScan: Automatic Extraction of Web Authentication Protocols from Implementations.&quot; <i>Proceedings of the 20th Annual Network and Distributed System Security Symposium</i>'
 ---
 <!--
 This paper is about the number 1. The number 2 is left for future work.
