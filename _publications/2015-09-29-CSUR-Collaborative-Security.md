@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2015-09-29-CSUR-Collaborative-Security
 excerpt: 'It is a survey of collaborative security' #'This paper is about the number 1. The number 2 is left for future work.'
 date: 2015-09-29
-venue: 'ACM Computing Surveys'
+venue: 'ACM Computing Surveys (CSUR)'
 paperurl: 'http://impillar.github.io/files/csur2015.pdf'
 volume: 48
 issue: 1
