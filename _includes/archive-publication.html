@@ -38,7 +38,7 @@
 			, vol. {{ post.volume}}
 		{% endif %}
 		{% if post.issue %}
-			issue {{ post.issue }}
+			, issue {{ post.issue }}
 		{% endif %}
 		{% if post.address %}
 			,&nbsp;{{ post.address }}
@@ -51,11 +51,11 @@
 			,&nbsp;pp. {{ post.page }}
 		{% endif %}
 		{% if post.citation and post.paperurl %}
-			.&nbsp;[ <a href="{{ post.paperurl }}">PDF</a> | <a href="{{ post.bib }}">BIB</a> ]
+			.&nbsp;[ <span font-size="8"><a href="{{ post.paperurl }}">PDF</a> | <a href="{{ post.bib }}">BIB</a></span> ]
 		{% elsif post.citation %}
-			.&nbsp;[ <a href="{{ post.bib }}">BIB</a> ]
+			.&nbsp;[ <span font-size="8"><a href="{{ post.bib }}">BIB</a></span> ]
 		{% elsif post.paperurl %}
-			.&nbsp;[ <a href="{{ post.paperurl }}">PDF</a> ]
+			.&nbsp;[ <span font-size="8"><a href="{{ post.paperurl }}">PDF</a></span> ]
 		{% endif %}
       </li>
  
