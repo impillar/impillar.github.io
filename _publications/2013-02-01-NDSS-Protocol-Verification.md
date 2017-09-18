@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2013-02-01-NDSS-Protocol-Verification
 excerpt: 'It is a work of protocol verifcation to detect vulnerabilities in web protocols' #'This paper is about the number 1. The number 2 is left for future work.'
 date: 2013-02-01
-venue: 'Proceedings of the 20th Annual Network and Distributed System Security Symposium'
+venue: 'Proceedings of the 20th Annual Network and Distributed System Security Symposium (NDSS)'
 paperurl: 'http://impillar.github.io/files/ndss2015authscan.pdf'
 author: "Guangdong Bai, Jike Lei, Guozhu Meng, Sai Sathyanarayan Venkatraman, Prateek Saxena, Jun Sun, Yang Liu, and Jin Song Dong"
 address: "San Diego, California, USA"
