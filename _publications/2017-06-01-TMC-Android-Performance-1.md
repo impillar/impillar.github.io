@@ -8,6 +8,7 @@ author: "Liang He, Guozhu Meng, Yu Gu, Cong Liu, Jun Sun, Ting Zhu, Yang Liu, an
 venue: 'IEEE Transactions on Mobile Computing (TMC)'
 volume: 16
 issue: 6
+year: 2017
 page: "1544--1558"
 paperurl: 'http://impillar.github.io/files/tmc2017bmods.pdf'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
