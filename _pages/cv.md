@@ -27,7 +27,7 @@ Work experience
   * Duties included: Android security, including malware detection and generation, Android testing, large-scale app analysis (e.g., financial apps), Android performance analysis
   * Supervisor: Dr. Liu Yang
 
-* Research Fellow      (2015.08 - )
+* Research Fellow      (2017.08 - )
   * Nanyang Technological University, Singapore
   * Duties included: Android security, including malware detection and generation, Android testing, large-scale app analysis (e.g., financial apps), Android performance analysis
   * Supervisor: Dr. Liu Yang
