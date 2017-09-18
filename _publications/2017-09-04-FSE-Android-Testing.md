@@ -7,6 +7,7 @@ author: "Ting Su, Guozhu Meng, Yuting Chen, Ke Wu, Weiming Yang, Yao Yao, Geguan
 date: 2017-09-04
 venue: '11th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE)'
 page: "245--256"
+year: 2017
 address: "Paderborn, Germany"
 paperurl: 'http://impillar.github.io/files/fse2017stoat.pdf'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
