@@ -7,6 +7,7 @@ date: 2017-04-18
 author: "Liang He, Eugene Kim, Kang G Shin, Guozhu Meng, and Tian He"
 venue: 'Proceedings of the 8th International Conference on Cyber-Physical System (ICCPS)'
 page: "51--60"
+year: 2017
 address: "Pittsburgh, Pennsylvania, USA"
 paperurl: 'http://impillar.github.io/files/iccps2017vbash.pdf'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
