@@ -10,6 +10,7 @@ page: "51--60"
 year: 2017
 address: "Pittsburgh, Pennsylvania, USA"
 paperurl: 'http://impillar.github.io/files/iccps2017vbash.pdf'
+bib: 'http://impillar.github.io/files/iccps2017vbash.md'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 This paper is about the number 1. The number 2 is left for future work.

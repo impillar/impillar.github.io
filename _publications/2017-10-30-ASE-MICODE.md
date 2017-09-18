@@ -6,6 +6,7 @@ excerpt: 'It is a work of protocol verifcation to detect vulnerabilities in web 
 date: 2017-10-30
 venue: 'The 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE)'
 paperurl: 'http://impillar.github.io/files/ase2017micode.pdf'
+bib: 'http://impillar.github.io/files/ase2017micode.md'
 author: "Yun Lin, Guozhu Meng, Yinxing Xue, Zhenchang Xing, Jun Sun, Xin Peng, Yang Liu, Wenyun Zhao, and Jinsong Dong"
 address: "Urbana-Champaign, Illinois, USA"
 year: 2017
