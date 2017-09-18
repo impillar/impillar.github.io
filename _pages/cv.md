@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in School Software Engineering, Tianjin University, 2009
 * M.S. in School of Computer Science and Technology, Tianjin University, 2012
-* Ph.D in School of Computer Science and Engineering, Tianjin University, 2017
+* Ph.D in School of Computer Science and Engineering, Nanyang Technological University, 2017
 
 Work experience
 ======
