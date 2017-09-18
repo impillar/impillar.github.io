@@ -25,37 +25,7 @@
             alt="">
         </div>
 		{% endif %}
- 
-      <p>
-		{% if post.author %}
-			{{ post.author }},
-		{% endif %}
-        &nbsp;"{{ title }},"
-		
-		{% if post.venue %}
-			&nbsp;in <i>{{ post.venue }}</i>,
-		{% endif %}
-		
-		{% if post.address %}
-			&nbsp;{{ post.address }},
-		{% endif %}
-		
-		{% if post.date %}
-			&nbsp;{{ post.date }},
-		{% endif %}
 
-		{% if post.page %}
-			&nbsp;pp. {{ post.page }}
-		{% endif %}
- 
-		{% if post.citation and post.paperurl %}
-			.&nbsp;[ <a href="{{ post.paperurl }}">PDF</a> | <a href="{{ post.bib }}">BIB</a> ]
-		{% elsif post.citation %}
-			.&nbsp;[ <a href="{{ post.bib }}">BIB</a> ]
-		{% elsif post.paperurl %}
-			.&nbsp;[ <a href="{{ post.paperurl }}">PDF</a> ]
-		{% endif %}
-      </p>
  
     </article>
 </div>
