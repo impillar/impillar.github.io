@@ -10,8 +10,7 @@ redirect_from:
 
 Dr. Guozhu Meng obtained his Ph.D degree from the School of Computer Science and Engineering, Nanyang Technological University, Singapore at 2017. His supervisors are Assoc Prof. [Liu Yang](http://www.ntu.edu.sg/home/yangliu/) and Assoc Prof. [Zhang Jie](http://www.ntu.edu.sg/home/zhangj/). In addition, he has been working closely with Dr. [Xue Yinxing](https://sites.google.com/site/yinxingxue/).
 
-He is currently working as a research fellow in NTU. His research focuses on system security with a specialization on mobile computing. In particular,
-About Me and Our System Security Blog
+He will joined Institute of Information Engineering of Chinese Academy of Sciences as Associate Professor in 2018. He is currently working as a research fellow in NTU. His research focuses on system security with a specialization on mobile computing as follows:
 
 **Android security**. Conducted a work to analyze Android malware and detect malware (ISSTA 2016 paper, IJCNN 2016 paper), and a work to evaluate existing anti-malware tools (AsiaCCS 2016 paper). Another work has been done, with regard to Android ecosystem, to analyze the spread model of Android malware across multiple markets, and security patches of apps across verions.
 
@@ -25,4 +24,6 @@ About Me and Our System Security Blog
 
 Recent news
 ======
++ Our two research papers on empirical study of framework exception in Android, and deep learning based code generation from Android GUI designs is accepted by ICSE 2018
++ Our research paper on mining design templates for Java projects is accepted by ASE 2017
 + Our research paper on model-based Android app testing is accepted by ESEC/FSE 2017

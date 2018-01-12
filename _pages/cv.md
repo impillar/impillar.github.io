@@ -17,9 +17,14 @@ Education
 
 Work experience
 ======
-* Associate Scientist  (2011.12 - 2013.01)
-  * National University of Singapore, Singapore
-  * Duties included: Formal verification of web authentication protocol
+* Visting Research Fellow (2017.09.01 - 2017.11.31)
+  * University of Luxembourg, Luxembourg
+  * Duties included: Android vulnerbaility analysis, detection, automated exploit generation
+  * Supervisor: Prof. Sjourke Mauw, Dr. Olga Gadyatskaya
+
+* Research Fellow      (2017.08 - )
+  * Nanyang Technological University, Singapore
+  * Duties included: Android security, including malware detection and generation, Android testing, large-scale app analysis (e.g., financial apps), Android performance analysis
   * Supervisor: Dr. Liu Yang
 
 * Research Associate   (2013.02 - 2017.07)
@@ -27,9 +32,9 @@ Work experience
   * Duties included: Android security, including malware detection and generation, Android testing, large-scale app analysis (e.g., financial apps), Android performance analysis
   * Supervisor: Dr. Liu Yang
 
-* Research Fellow      (2017.08 - )
-  * Nanyang Technological University, Singapore
-  * Duties included: Android security, including malware detection and generation, Android testing, large-scale app analysis (e.g., financial apps), Android performance analysis
+* Associate Scientist  (2011.12 - 2013.01)
+  * National University of Singapore, Singapore
+  * Duties included: Formal verification of web authentication protocol
   * Supervisor: Dr. Liu Yang
 
 Publications
