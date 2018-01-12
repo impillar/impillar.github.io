@@ -50,6 +50,7 @@
 		{% if post.page %}
 			,&nbsp;pp. {{ post.page }}
 		{% endif %}
+          
 		{% if post.bib and post.paperurl %}
 			.&nbsp;[ <span style="font-size:12px"><a href="{{ post.paperurl }}" style="color:blue">PDF</a> | <a href="{{ post.bib }}" style="color:blue">BIB</a></span> ]
 		{% elsif post.bib %}
