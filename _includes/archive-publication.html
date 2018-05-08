@@ -35,28 +35,28 @@
 			in <i>{{ post.venue }}</i>
 		{% endif %}
 		{% if post.volume %}
-			, vol. {{ post.volume}}
+		, vol. {{ post.volume}}
 		{% endif %}
 		{% if post.issue %}
-			, issue {{ post.issue }}
+        , issue {{ post.issue }}
 		{% endif %}
 		{% if post.address %}
-			,&nbsp;{{ post.address }}
+		,&nbsp;{{ post.address }}
 		{% endif %}
 		{% if post.year %}
-			,&nbsp;{{ post.year }}
+		,&nbsp;{{ post.year }}
 		{% endif %}
 		
 		{% if post.page %}
-			,&nbsp;pp. {{ post.page }}
+		,&nbsp;pp. {{ post.page }}
 		{% endif %}
           
 		{% if post.bib and post.paperurl %}
-			.&nbsp;[ <span style="font-size:12px"><a href="{{ post.paperurl }}" style="color:blue">PDF</a> | <a href="{{ post.bib }}" style="color:blue">BIB</a></span> ]
+		.&nbsp;[ <span style="font-size:12px"><a href="{{ post.paperurl }}" style="color:blue">PDF</a> | <a href="{{ post.bib }}" style="color:blue">BIB</a></span> ]
 		{% elsif post.bib %}
-			.&nbsp;[ <span style="font-size:12px color:blue"><a href="{{ post.bib }}">BIB</a></span> ]
+		.&nbsp;[ <span style="font-size:12px color:blue"><a href="{{ post.bib }}">BIB</a></span> ]
 		{% elsif post.paperurl %}
-			.&nbsp;[ <span style="font-size:12px color:blue"><a href="{{ post.paperurl }}">PDF</a></span> ]
+		.&nbsp;[ <span style="font-size:12px color:blue"><a href="{{ post.paperurl }}">PDF</a></span> ]
 		{% endif %}
       </li>
  
