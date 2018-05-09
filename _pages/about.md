@@ -14,7 +14,7 @@ He will join Institute of Information Engineering of Chinese Academy of Sciences
 
 **Android security**. Conducted a work to analyze Android malware and detect malware (ISSTA 2016 paper, IJCNN 2016 paper), and a work to evaluate existing anti-malware tools (AsiaCCS 2016 paper). Another work has been done, with regard to Android ecosystem, to analyze the spread model of Android malware across multiple markets, and security patches of apps across verions.
 
-**Big data analysis**. We have collected millions of Android apps and malware, and conducted a work to try to learn knowledge from the big data such as malware characteristics, evolution and trend. The main techniques include machine learning, deep learning and statistics inference.
+**Big data analysis**. We have collected millions of Android apps and malware, and conducted a work to try to learn knowledge from the big data such as bug detection and crash analysis (FSE 2017 paper, ICSE 2018 paper), automated GUI code generation (ICSE 2018 paper), malware characteristics, evolution and trend. The main techniques include machine learning, deep learning and statistics inference.
 
 **Mobile energy analysis and optimization**. We have conducted a work to study the issues of power consumption, and propose optimizing solutions to raise the efficiency of battery on mobile device (TMC 2016 paper, ICCPS 2017 paper). In addition, we carry on a work to detect energy bugs in Android apps in order to optimize energy usage at application level.
 
@@ -24,6 +24,7 @@ He will join Institute of Information Engineering of Chinese Academy of Sciences
 
 Recent news
 ======
++ We are organizing an exciting workshop on mobile app analysis (A-Mobile: https://a-mobile.github.io/) as a satellite event of the prestigious software engineering conference ASE 2018. We welcome all relevant submissions via easychair link: https://easychair.org/conferences/?conf=amobile2018
 + Our ICSE 2018 paper "Larget-Scale Analysis of Framework-Specific Exceptions in Android Apps" won ACM SIGSOFT Distinguished Paper Award
 + Our two research papers on empirical study of framework exception in Android, and deep learning based code generation from Android GUI designs is accepted by ICSE 2018
 + Our Automated Android App Testing tool-Stoat won the First Prize of Tool Demo in NASAC 2017
