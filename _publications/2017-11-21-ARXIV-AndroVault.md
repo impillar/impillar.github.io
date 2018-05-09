@@ -1,4 +1,5 @@
 ---
+title: "AndroVault: Constructing Knowledge Graph from Millions of Android Apps for Automated Analysis"
 collection: publications
 permalink: /publication/2017-11-21-ARXIV-AndroVault
 excerpt: 'It is construction of knowledge graph for automatic analysis' #'This paper is about the number 1. The number 2 is left for future work.'
