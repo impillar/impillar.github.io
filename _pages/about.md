@@ -24,6 +24,8 @@ He will join Institute of Information Engineering of Chinese Academy of Sciences
 
 Recent news
 ======
++ Our ICSE 2018 paper "Larget-Scale Analysis of Framework-Specific Exceptions in Android Apps" won ACM SIGSOFT Distinguished Paper Award
 + Our two research papers on empirical study of framework exception in Android, and deep learning based code generation from Android GUI designs is accepted by ICSE 2018
++ Our Automated Android App Testing tool-Stoat won the First Prize of Tool Demo in NASAC 2017
 + Our research paper on mining design templates for Java projects is accepted by ASE 2017
 + Our research paper on model-based Android app testing is accepted by ESEC/FSE 2017
