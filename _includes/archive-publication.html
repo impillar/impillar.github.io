@@ -58,6 +58,10 @@
 		{% elsif post.paperurl %}
 		.&nbsp;[ <span style="font-size:12px color:blue"><a href="{{ post.paperurl }}">PDF</a></span> ]
 		{% endif %}
+
+        {% if post.remark %}
+          &nbsp; <span style="font-style:bold color:red">post.remark</span>
+        {% endif %}
       </li>
  
     </article>
