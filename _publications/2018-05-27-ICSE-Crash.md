@@ -9,7 +9,7 @@ paperurl: 'http://impillar.github.io/files/icse2018crash.pdf'
 bib: 'http://impillar.github.io/files/icse2018crash.md'
 author: "Lingling Fan, Ting Su, Sen Chen, Guozhu Meng, Yang Liu, Lihua Xu, Geguang Pu and Zhendong Su"
 address: "Gothenburg, Sweden"
-year: 2017
+year: 2018
 remark: 'ACM SIGSOFT Distinguished Paper Award'
 citation: ''
 ---
