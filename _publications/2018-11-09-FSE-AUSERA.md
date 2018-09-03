@@ -1,13 +1,10 @@
 ---
 title: "Are Mobile Banking Apps Secure? What Can be Improved"
 collection: publications
-permalink: /publication/2018-11-09-fse-ausera
+permalink: /publication/2018-11-09-FSE-AUSERA
 excerpt: 'It is a work to detect Android vulnerabilities in Banking Apps'
 date: 2018-11-09
 venue: 'The 26th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Sofware Engineering'
-<!--paperurl: 'http://impillar.github.io/files/cybersecurity2018droidecho.pdf'
-bib: 'http://impillar.github.io/files/cybersecurity2018droidecho.md'
--->
 author: "Sen Chen, Ting Su, Lingling Fan, Guozhu Meng, Lihua Xu and Yang Liu"
 year: 2018
 citation: ''
