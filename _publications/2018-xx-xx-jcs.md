@@ -7,7 +7,7 @@ date: 2018-xx-xx
 venue: 'Journal of Computer and Security'
 paperurl: 'http://impillar.github.io/files/jcs2018.pdf'
 bib: 'http://impillar.github.io/files/jcs2018.md'
-author: "Zhushou Tang, Minhui Xue, Guozhu Meng, Chengguo Ying, Yugeng Liu, Jianan He, Yang Liu and Haojin Zhu"
+author: "Zhushou Tang, Minhui Xue, Guozhu Meng, Chengguo Ying, Yugeng Liu, Jianan He, Yang Liu, and Haojin Zhu"
 year: 2018
 citation: ''
 ---
