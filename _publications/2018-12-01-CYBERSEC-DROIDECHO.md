@@ -7,7 +7,7 @@ date: 2018-09-06
 venue: 'Cybersecurity'
 paperurl: 'http://impillar.github.io/files/cybersecurity2018droidecho.pdf'
 bib: 'http://impillar.github.io/files/cybersecurity2018droidecho.md'
-author: "Guozhu Meng, Ruitao Feng, Guangdong Bai, Kai Chen and Yang Liu"
+author: "Guozhu Meng, Ruitao Feng, Guangdong Bai, Kai Chen, and Yang Liu"
 year: 2018
 citation: ''
 ---
