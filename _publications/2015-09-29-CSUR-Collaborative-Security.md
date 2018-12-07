@@ -6,7 +6,7 @@ excerpt: 'It is a survey of collaborative security' #'This paper is about the nu
 date: 2015-09-29
 venue: 'ACM Computing Surveys (CSUR)'
 paperurl: 'http://impillar.github.io/files/csur2015.pdf'
-bib: 'https://impillar.gihub.io/files/csur2015.md'
+bib: 'https://impillar.github.io/files/csur2015.md'
 volume: 48
 issue: 1
 page: "1--42"

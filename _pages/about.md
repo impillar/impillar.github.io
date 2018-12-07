@@ -24,6 +24,7 @@ He will join Institute of Information Engineering of Chinese Academy of Sciences
 
 Recent news
 ======
++ Our paper "Securing Android App Markets via Modelling and Predicting Malware Spread between Markets" has been accepted for publication in the IEEE Transactions on Information Forensics and Security.
 + We are organizing an exciting workshop on mobile app analysis (A-Mobile: [https://a-mobile.github.io/](https://a-mobile.github.io/) as a satellite event of the prestigious software engineering conference [ASE 2018](http://www.ase2018.com). We welcome all relevant submissions via easychair link: [https://easychair.org/conferences/?conf=amobile2018](https://easychair.org/conferences/?conf=amobile2018)
 + Our ICSE 2018 paper "Larget-Scale Analysis of Framework-Specific Exceptions in Android Apps" won ACM SIGSOFT Distinguished Paper Award
 + Our two research papers on empirical study of framework exception in Android, and deep learning based code generation from Android GUI designs is accepted by ICSE 2018
