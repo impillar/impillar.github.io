@@ -30,7 +30,7 @@
 		{% if post.author %}
 			{{ post.author }},
 		{% endif %}
-        "<b>{{title}}</b>,"
+        "<b>{{title}},</b>"
 		{% if post.venue %}
 			in <i>{{ post.venue}}</i>,
 		{% endif %}
@@ -44,7 +44,11 @@
         {{ post.address}},
 		{% endif %}
 		{% if post.year %}
-		{{ post.year}},
+			{% if post.page %}
+				{{ post.year}},
+			{% else %}
+				{{ post.year}}.
+			{% endif %}
 		{% endif %}
 		
 		{% if post.page %}

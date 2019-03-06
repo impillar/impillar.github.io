@@ -10,6 +10,7 @@ bib: 'http://impillar.github.io/files/icse2018ui2code.md'
 author: "Chunyang Chen, Ting Su, Guozhu Meng, Zhenchang Xing and Yang Liu"
 address: "Gothenburg, Sweden"
 year: 2018
+pages: "665-676"
 citation: ''
 ---
 <!--

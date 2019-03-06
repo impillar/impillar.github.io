@@ -3,12 +3,15 @@ title: "DroidEcho: An In-depth Dissection of Malicious Behaviors in Android Appl
 collection: publications
 permalink: /publication/2018-12-01-CYBERSEC-DROIDECHO
 excerpt: 'It is a work to detect Android malware'
-date: 2018-09-06
+date: 2018-06-05
 venue: 'Cybersecurity'
 paperurl: 'http://impillar.github.io/files/cybersecurity2018droidecho.pdf'
 bib: 'http://impillar.github.io/files/cybersecurity2018droidecho.md'
 author: "Guozhu Meng, Ruitao Feng, Guangdong Bai, Kai Chen, and Yang Liu"
 year: 2018
+volume: 1
+issue: 1
+page: "1--17"
 citation: ''
 ---
 <!--
