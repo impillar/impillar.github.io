@@ -3,14 +3,14 @@ title: "Are Mobile Banking Apps Secure? What can be Improved?"
 collection: publications
 permalink: /publication/2018-11-04-FSE-Ausera
 excerpt: 'It is a work to assess the security of mobile banking apps in large scale'
-date: 2018-05-27
+date: 2018-11-04
 venue: 'Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)'
 paperurl: 'http://impillar.github.io/files/fse2018ausera.pdf'
 bib: 'http://impillar.github.io/files/fse2018ausera.md'
 author: "Sen Chen, Ting Su, Lingling Fan, Guozhu Meng, Minhui Xue, Yang Liu and Lihua Xu"
 address: "Florida, USA"
 year: 2018
-pages: "797--802"
+page: "797--802"
 citation: ''
 ---
 <!--

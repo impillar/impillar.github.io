@@ -11,7 +11,7 @@ author: "Lingling Fan, Ting Su, Sen Chen, Guozhu Meng, Yang Liu, Lihua Xu, and G
 address: "Montpellier, France"
 year: 2018
 citation: ''
-pages: "486--497"
+page: "486--497"
 ---
 <!--
 This paper is about the number 1. The number 2 is left for future work.
