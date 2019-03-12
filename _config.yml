@@ -79,12 +79,12 @@ analytics:
 author:
   name             : "DR. MENG GUOZHU"
   avatar           : "profile.png"
-  bio              : "Research Fellow @ Nanyang Technological University"
-  location         : "Singapore"
+  bio              : "Associate Professor @ Institute of Information Engineering, Chinese Academy of Sciences"
+  location         : "China"
   employer         : 
   googlescholar    : "https://scholar.google.com.sg/citations?user=fpE34K0AAAAJ&hl=en"
   dblp             : "https://dblp.uni-trier.de/pers/hd/m/Meng:Guozhu"
-  email            : "gzmeng@ntu.edu.sg"
+  email            : "mengguozhu@iie.ac.cn" # "gzmeng@ntu.edu.sg"
   uri              : 
   bitbucket        :
   codepen          :
