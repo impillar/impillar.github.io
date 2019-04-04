@@ -1,7 +1,10 @@
 @inproceedings{icse2018crash,
-  author = {Lingling Fan, Ting Su, Sen Chen, Guozhu Meng, Yang Liu, Lihua Xu, Geguang Pu and Zhendong Su},
+  author = {Lingling Fan and Ting Su and Sen Chen and Guozhu Meng and Yang Liu and Lihua Xu and Geguang Pu and Zhendong Su},
   title = {Large-Scale Analysis of Framework-Specific Exceptions in Android Apps},
   booktitle = {The 40th International Conference on Software Engineering (ICSE)},
   location = {Gothenburg, Sweden},
-  year = 2018
+  pages = {408--419},
+  year = 2018,
+  publisher = {ACM},
+  address = {New York, NY, USA}
 }
