@@ -11,7 +11,7 @@ main:
 
   - title: "Teaching"
     url: /teaching/    
-    
+     
 #  - title: "Portfolio"
 #    url: /portfolio/
         
@@ -20,6 +20,8 @@ main:
     
   - title: "CV"
     url: /cv/
-    
+  
+  - title: "Conferences"
+    url: /deadlines/ 
 #  - title: "Guide"
 #    url: /markdown/
