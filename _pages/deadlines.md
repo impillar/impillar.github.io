@@ -1,12 +1,12 @@
 ---
-permalink: /
+permalink: /deadlines/
 title: "Conference Deadlines"
 excerpt: "Conference Deadlines"
 author_profile: true
-redirect_from:
-  - /deadlines/
-  - /deadlines.html
+
 ---
+
+{% include base_path %}
 
 The important dates for the conference on computer security and software engineering.
 
