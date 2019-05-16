@@ -6,8 +6,6 @@ author_profile: true
 
 ---
 
-{% include base_path %}
-
 The important dates for the conference on computer security and software engineering.
 
 ## Top-tier Conferences (CCF-A)
