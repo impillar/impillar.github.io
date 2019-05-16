@@ -24,6 +24,9 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 Recent news
 ======
++ The 2th International Workshop on Advances in Mobile App Analysis is open, please submit your paper at the following link:
+https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers(https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers)
+(A-Mobile: [https://a-mobile.github.io/](https://a-mobile.github.io/)
 + Our paper "Securing Android App Markets via Modelling and Predicting Malware Spread between Markets" has been accepted for publication in the IEEE Transactions on Information Forensics and Security.
 + We are organizing an exciting workshop on mobile app analysis (A-Mobile: [https://a-mobile.github.io/](https://a-mobile.github.io/) as a satellite event of the prestigious software engineering conference [ASE 2018](http://www.ase2018.com). We welcome all relevant submissions via easychair link: [https://easychair.org/conferences/?conf=amobile2018](https://easychair.org/conferences/?conf=amobile2018)
 + Our ICSE 2018 paper "Larget-Scale Analysis of Framework-Specific Exceptions in Android Apps" won ACM SIGSOFT Distinguished Paper Award
