@@ -12,6 +12,8 @@ The important dates for the conferences on computer security and software engine
 
 | Conference Name | Conference Date | Call for Papers| Deadline | Notes | 
 |:--------|:-------:|:--------|:--------|:--------|
+
+| USENIX Security | Aug 12-14, 2020 | https://www.usenix.org/conference/usenixsecurity20 | ~~Spring: 8:00am at May 16, 2019 (UTC+8)~~ <br> Summer: 8:00am at Aug 24, 2019 (UTC+8) <br> Fall: 8:00am at Nov 16, 2019 (UTC+8) <br> Winter: 8:00am at Feb 15, 2019 (UTC+8) | |
 | ICSE | May 23-26, 2020 | https://conf.researchr.org/home/icse-2020 | 19:59pm at Aug 24, 2019 (UTC+8)| |
 | IEEE S&P| May 18-20, 2020|  http://www.ieee-security.org/TC/SP2020/cfpapers.html   | 6am at 2nd of each month (UTC+8)   | |
 | NDSS |  Feb 23-26, 2020 | https://www.ndss-symposium.org/ | Summer: 19:59pm at Jun 14, 2019 (UTC+8) <br> Fall: 19:59pm at Sept 14, 2019 (UTC+8)| |
