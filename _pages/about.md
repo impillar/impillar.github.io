@@ -24,7 +24,7 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 Recent news
 ======
-+ :star: We are organizing an issus on "Data-driven Security" for Cybersecurity journal with Dr. Liu Yang, Dr. Ou xinming, and Dr. Xing Xinyu. Please refer to the following link about this issue. [https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA](https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA).
++ :star: We are organizing an issus on "Data-driven Security" for Cybersecurity journal with Dr. Liu Yang, Dr. Ou xinming, and Dr. Xing Xinyu. Please refer to the following link about this issue. [https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA](https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA). All the intiative and empirical artifacts on security are welcome. 
 + :star: The 2th International Workshop on Advances in Mobile App Analysis is open, please submit your paper at the following link:
 https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers(https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers)
 (A-Mobile: [https://a-mobile.github.io/](https://a-mobile.github.io/)
