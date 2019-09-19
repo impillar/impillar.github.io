@@ -26,10 +26,10 @@ Recent news
 ======
 + :star: Won 2019 ACM SIGSAC China Arising Star Award.
 + :star: Our paper "Characterizing Android Signature Issues" has been accepted for publication in ASE 2019.
-+ :star: We are organizing an issus on "Data-driven Security" for Cybersecurity journal with Dr. Liu Yang, Dr. Ou xinming, and Dr. Xing Xinyu. Please refer to the following link about this issue. [https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA](https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA). All the intiative and empirical artifacts on security are welcome. 
-+ :star: The 2th International Workshop on Advances in Mobile App Analysis is open, please submit your paper at the following link:
-https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers(https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers)
-(A-Mobile: [https://a-mobile.github.io/](https://a-mobile.github.io/)
++ We are organizing an issus on "Data-driven Security" for Cybersecurity journal with Dr. Liu Yang, Dr. Ou xinming, and Dr. Xing Xinyu. Please refer to the following link about this issue. [https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA](https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA). All the intiative and empirical artifacts on security are welcome. 
++ The 2th International Workshop on Advances in Mobile App Analysis is open, please submit your paper at the following link:
+[https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers](https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers)
+(A-Mobile: [https://a-mobile.github.io/](https://a-mobile.github.io/))
 + Our paper "Securing Android App Markets via Modelling and Predicting Malware Spread between Markets" has been accepted for publication in the IEEE Transactions on Information Forensics and Security.
 + We are organizing an exciting workshop on mobile app analysis (A-Mobile: [https://a-mobile.github.io/](https://a-mobile.github.io/) as a satellite event of the prestigious software engineering conference [ASE 2018](http://www.ase2018.com). We welcome all relevant submissions via easychair link: [https://easychair.org/conferences/?conf=amobile2018](https://easychair.org/conferences/?conf=amobile2018)
 + Our ICSE 2018 paper "Larget-Scale Analysis of Framework-Specific Exceptions in Android Apps" won ACM SIGSOFT Distinguished Paper Award
