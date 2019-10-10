@@ -7,9 +7,11 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path PDF %}
-[PDF](https://impillar.github.io/files/resume.pdf)
+{% include base_path %}
 
+You can also find my CV in the PDF file [<a href="https://impillar.github.io/files/resume.pdf" target="_blank">CV</a>]
+ 
+ 
 Education
 ======
 * B.S. in School Software Engineering, Tianjin University, 2009
