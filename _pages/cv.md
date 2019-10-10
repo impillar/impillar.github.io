@@ -7,10 +7,7 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
-<font color="blue">Please find my <a href="https://impillar.github.io/files/resume.pdf" target="_blank">CV</a> in a PDF file.</font>
-
+{% include base_path [PDF](https://impillar.github.io/files/resume.pdf) %}
 
 Education
 ======
