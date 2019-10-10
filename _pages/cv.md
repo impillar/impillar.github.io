@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Please find my <a href="https://impillar.github.io/files/resume.pdf" target="_blank">CV</a> in a PDF file.
+<font color="blue">Please find my <a href="https://impillar.github.io/files/resume.pdf" target="_blank">CV</a> in a PDF file.</font>
 =====
 
 Education
