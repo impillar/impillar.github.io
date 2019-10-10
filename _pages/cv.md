@@ -7,7 +7,8 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path [PDF](https://impillar.github.io/files/resume.pdf) %}
+{% include base_path PDF %}
+[PDF](https://impillar.github.io/files/resume.pdf)
 
 Education
 ======
