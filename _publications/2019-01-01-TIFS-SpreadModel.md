@@ -7,11 +7,12 @@ date: 2018-12-27
 venue: 'IEEE Transactions on Information Forensics and Security'
 paperurl: 'https://impillar.github.io/files/tifs2018spread.pdf'
 bib: 'https://impillar.github.io/files/tifs2018spread.md'
-volume: xx
-issue: xx
-page: "xx"
+volume: 14
+issue: 7
+page: "1944 - 1959"
 author: "Guozhu Meng, Matthew Patrick, Yinxing Xue, Yang Liu and Jie Zhang"
-year: 2018
+month: July
+year: 2019
 ---
 This paper is about the number 1. The number 2 is left for future work.
 
