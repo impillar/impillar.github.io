@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Dr. Guozhu Meng obtained his Ph.D degree from the School of Computer Science and Engineering, Nanyang Technological University, Singapore at 2017. His supervisors are Assoc Prof. [Liu Yang](http://www.ntu.edu.sg/home/yangliu/) and Assoc Prof. [Zhang Jie](http://www.ntu.edu.sg/home/zhangj/). In addition, he has been working closely with Dr. [Xue Yinxing](https://sites.google.com/site/yinxingxue/).
+Dr. Guozhu Meng obtained his Ph.D degree from the School of Computer Science and Engineering, Nanyang Technological University, Singapore at 2017. His supervisors are Assoc Prof. [Liu Yang](http://www.ntu.edu.sg/home/yangliu/) and Assoc Prof. [Zhang Jie](http://www.ntu.edu.sg/home/zhangj/). 
+
+<!--In addition, he has been working closely with Dr. [Xue Yinxing](https://sites.google.com/site/yinxingxue/).-->
 
 He joined Institute of Information Engineering of Chinese Academy of Sciences as Associate Professor in 2018. His research focuses on system security with a specialization on mobile computing as follows:
 
@@ -24,6 +26,7 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 Recent news
 ======
++ :star2: Our two papers have been accepted fro publication in ICSE 2020.
 + :star2: Our paper "RoLMA: A Practical Adversarial Attack against Deep Learning-based LPR Systems" has been accepted for publication in Inscrypt 2019.
 + :star2: <font color='red'>Won 2019 ACM SIGSAC China Arising Star Award.</font>
 + :star2: Our paper "Characterizing Android Signature Issues" has been accepted for publication in ASE 2019.
