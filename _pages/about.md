@@ -8,25 +8,24 @@ redirect_from:
   - /about.html
 ---
 
-Dr. Guozhu Meng obtained his Ph.D degree from the School of Computer Science and Engineering, Nanyang Technological University, Singapore at 2017. His supervisors are Assoc Prof. [Liu Yang](http://www.ntu.edu.sg/home/yangliu/) and Assoc Prof. [Zhang Jie](http://www.ntu.edu.sg/home/zhangj/). 
+Dr. Guozhu Meng obtained his Ph.D degree from the School of Computer Science and Engineering, Nanyang Technological University, Singapore at 2017. His supervisors are Full Prof. [Liu Yang](http://www.ntu.edu.sg/home/yangliu/) and Assoc Prof. [Zhang Jie](http://www.ntu.edu.sg/home/zhangj/). 
 
 <!--In addition, he has been working closely with Dr. [Xue Yinxing](https://sites.google.com/site/yinxingxue/).-->
 
-He joined Institute of Information Engineering of Chinese Academy of Sciences as Associate Professor in 2018. His research focuses on system security with a specialization on mobile computing as follows:
+He joined Institute of Information Engineering of Chinese Academy of Sciences as Associate Professor in 2018. His research focuses on system security and artificial intelligence security as follows:
 
-**Android security**. Conducted a work to analyze Android malware and detect malware (ISSTA 2016 paper, IJCNN 2016 paper), and a work to evaluate existing anti-malware tools (AsiaCCS 2016 paper). Another work has been done, with regard to Android ecosystem, to analyze the spread model of Android malware across multiple markets, and security patches of apps across verions.
+**Android security**. We employ multiple techniques such as static analysis and machine learning to detect Android malware (ISSTA 2016, IJCNN 2016). With evolutionary algorithms, we conduct a work to evaluate existing anti-malware tools (AsiaCCS 2016, TIFS 2017). Another work has been done, with regard to Android ecosystem, to analyze the spread model of Android malware across multiple markets (TIFS 2019), security analysis of third-party libraries (C&S 2019), and security patches of apps across versions.
 
-**Big data analysis**. We have collected millions of Android apps and malware, and conducted a work to try to learn knowledge from the big data such as bug detection and crash analysis (FSE 2017 paper, ICSE 2018 paper), automated GUI code generation (ICSE 2018 paper), malware characteristics, evolution and trend. The main techniques include machine learning, deep learning and statistics inference.
+**Big data analysis**. We have collected millions of Android apps and malware, and conducted a work to try to learn knowledge from the big data such as bug detection and crash analysis (FSE 2017, ICSE 2018), automated GUI code generation (ICSE 2018), malware characteristics (ASE 2019), evolution and trend. 
 
-**Mobile energy analysis and optimization**. We have conducted a work to study the issues of power consumption, and propose optimizing solutions to raise the efficiency of battery on mobile device (TMC 2016 paper, ICCPS 2017 paper). In addition, we carry on a work to detect energy bugs in Android apps in order to optimize energy usage at application level.
+**Vulnerability detection**. We attempt to detect weaknesses existing in Android apps, especially in security-critical apps such as financial apps (FSE 2019, ICSE 2020). In addition, we perform a large-scale analysis of vulnerabilities in five C projects and identify around four thoudsands security bugs among them (ICSE 2020), of which the data is released at [https://github.com/twelveand0/CarrotsBlender](https://github.com/twelveand0/CarrotsBlender).
 
-**Vulnerability detection**. We attempt to detect vulnerabilities existing in Android OS and Android apps. We have instrumented Android OS and Android apps to mark the execution path and trace, and employed testing technology to explore all possible execution paths. We have started to work on the detection of logic vulnerability in Android OS, and security flaws in some security-critical apps such as financial apps.
-
+**AI Security and Privacy**. We have conducted a comprehensive survey on security and privacy of deep learning systems which can be referred to at [https://arxiv.org/abs/1911.12562](https://arxiv.org/abs/1911.12562). We are also interested in protecting deep learning system from model stealing, backdoor and model inversion. 
 
 
 Recent news
 ======
-+ :star2: Our two papers have been accepted fro publication in ICSE 2020.
++ :star2: Our two papers have been accepted for publication in ICSE 2020.
 + :star2: Our paper "RoLMA: A Practical Adversarial Attack against Deep Learning-based LPR Systems" has been accepted for publication in Inscrypt 2019.
 + :star2: <font color='red'>Won 2019 ACM SIGSAC China Arising Star Award.</font>
 + :star2: Our paper "Characterizing Android Signature Issues" has been accepted for publication in ASE 2019.
