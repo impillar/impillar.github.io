@@ -25,10 +25,12 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 Recent news
 ======
-+ :star2: Our two papers have been accepted for publication in ICSE 2020.
-+ :star2: Our paper "RoLMA: A Practical Adversarial Attack against Deep Learning-based LPR Systems" has been accepted for publication in Inscrypt 2019.
-+ :star2: <font color='red'>Won 2019 ACM SIGSAC China Arising Star Award.</font>
-+ :star2: Our paper "Characterizing Android Signature Issues" has been accepted for publication in ASE 2019.
++ :star2: Our paper "A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices" is accepted by IEEE TIFS 2020.
++ :star2: Our paper "A3IDENT: A Two-phased Approach to Identify the Leading Authors of Android Apps" is accepted by ICSME 2020.
++ :star2: Our two papers have been accepted for publication in ICSE 2020: "[A Large-Scale Empirical Study on Vulnerability Distribution within Projects and the Lessons Learned](https://impillar.github.io/files/icse2020vul.pdf)" and "[An Empirical Assessment of Security Risks of Global Android Banking Apps](https://impillar.github.io/files/icse2020ausera.pdf)".
++ Our paper "RoLMA: A Practical Adversarial Attack against Deep Learning-based LPR Systems" has been accepted for publication in Inscrypt 2019.
++ <font color='red'>Won 2019 ACM SIGSAC China Arising Star Award.</font>
++ Our paper "Characterizing Android Signature Issues" has been accepted for publication in ASE 2019.
 + We are organizing an issus on "Data-driven Security" for Cybersecurity journal with Dr. Liu Yang, Dr. Ou xinming, and Dr. Xing Xinyu. Please refer to the following link about this issue. [https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA](https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA). All the intiative and empirical artifacts on security are welcome. 
 + The 2th International Workshop on Advances in Mobile App Analysis is open, please submit your paper at the following link:
 [https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers](https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers)
