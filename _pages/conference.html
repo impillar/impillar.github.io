@@ -42,7 +42,7 @@ permalink: /conference/
       </div>
       <div class="conf-container">
         {% for conf in site.data.conferences %}
-        <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for sub in conf.sub %} {{sub}} {% endfor %}">
+        <div id="{{ conf.id | slugify }}" class="conf {% for sub in conf.sub %} {{sub}} {% endfor %}">
           <div class="row">
               <div>
                 <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
