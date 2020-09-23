@@ -76,8 +76,7 @@ permalink: /conference/
 	
     <script type="text/javascript" charset="utf-8">
     $(function() {
-        var colors = ['#341f97', '#ee5253', '#2e86de',
-                      '#ff9f43', '#10ac84', '#222f3e']
+        var colors = ['#341f97', '#ee5253', '#2e86de', '#ff9f43', '#10ac84', '#222f3e'];
         function addUtcTimeZones() {
           for (let offset = -12; offset <= 12; offset++) {
             const posixSign = offset <= 0 ? '+' : '-';
@@ -145,11 +144,11 @@ permalink: /conference/
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
 
           var today = moment();
-          diff = today.diff(confDate)
-          $('#{{conf.id}}').attr("diff", diff)
+          diff = today.diff(confDate);
+          $('#{{conf.id}}').attr("diff", diff);
           if (diff > 0) {
             $('#{{conf.id}}').addClass('past');
-            $('#{{conf.id}}').appendTo($("#past_confs"))
+            $('#{{conf.id}}').appendTo($("#past_confs"));
           }
         {% endif %}
         {% endfor %}
