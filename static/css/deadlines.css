@@ -1,8 +1,92 @@
+.container{
+	margin-right:auto;
+	margin-left:auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.page-header{padding-bottom:10.5px;margin:46px 0 23px;border-bottom:1px solid #eeeeee}
+.row{margin-left:-15px;margin-right:-15px}
+
+
+.col-xs-5{
+	float: left;
+}
+.col-xs-7{
+	float: right;
+}
+.col-xs-12{
+	float: left;
+}
+
+@media (min-width:768px){
+	.container{width:750px}
+}
+
+@media (min-width:992px){
+	.container{width:970px}
+}
 .checkbox {
     font-size: 12px;
 	position: relative;
 	display: block;
 	min-height: 30px;
+}
+
+.form-group{
+	display: inline-block;
+}
+
+.conf-row {
+  width: 100%;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.conf-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.deadline, .meta {
+  font-size: 13px;
+}
+
+.note {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.timer {
+  font-size: 20px;
+  font-weight: 400;
+}
+.left-row{
+	width: 50%;
+	float: left;
+}
+.right-row{
+	width: 50%;
+	float: right;
+}
+
+#conf-timer {
+  font-size: 72px;
+  color: #444;
+}
+
+.conf-sub {
+  color: rgb(36, 101, 191);
+  background: rgba(236, 240, 241, 0.7);
+  font-size: 13px;
+  padding: 3px 5px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.conf-sub::selection {
+  background: #0097e6;
 }
 
 .checkbox input[type="checkbox"]:checked:after {
@@ -12,4 +96,67 @@
 
 .checkbox input[type="checkbox"]:after, .checkbox input[type="checkbox"]:focus:after {
   border-color: #0097e6;
+}
+
+@media only screen and (max-width: 780px) {
+  #conf-timer {
+    font-size: 64px;
+  }
+  .calendar {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #conf-timer {
+    font-size: 36px;
+  }
+  .conf-place {
+    display: none;
+  }
+  .conf-date {
+    display: none;
+  }
+  .note {
+    display: none;
+  }
+  .conf-row {
+    margin-bottom: 7px;
+	display: flex;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #conf-timer {
+    font-size: 28px;
+  }
+}
+
+.link-top{
+	width: 80%;
+	height: 1px;
+	border-top: solid #111111 1px;
+	margin-bottom: 15pt;
+	margin-top: 6pt;
+}
+
+.checkbox {
+  font-size: 12px;
+}
+
+.calendar {
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.calendar img {
+  margin-right: 5px;
+}
+
+.ind-cal {
+  margin: 0 5px;
+}
+
+.calendar img {
+  height: 20px;
 }
