@@ -105,7 +105,7 @@ permalink: /conference/
 
         {% for conf in site.data.conferences %}
         {% for sub in conf.sub %}
-        $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
+        $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLowerCase());
         {% endfor %}
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
