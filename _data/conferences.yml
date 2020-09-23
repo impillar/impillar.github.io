@@ -1,6 +1,6 @@
 ---
 
-- title: ICLR
+- name: ICLR
   hindex: 150
   year: 2021
   id: iclr21
@@ -15,7 +15,7 @@
     <a href=''https://iclr.cc/Conferences/2021/CallForPapers''>here</a>.'
 
 
-- title: WWW
+- name: WWW
   hindex: 70
   year: 2021
   id: www21
