@@ -27,302 +27,207 @@ title: "Conference Deadlines"
     <script src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/static/js/ouical.min.js" | prepend:site.baseurl }}"></script> -->
 
-
+ <div class="top-strip"></div>
     <div class="container">
-        <div class="page-header">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <h1>
-                    {{ site.title }} <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ site.description }}{% if site.twitter_hashtag %} #{{ site.twitter_hashtag }}{% endif %}" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-                  </h1>
-                </div>
-                <div class="meta col-xs-12">
-                  {{ site.description }}.
-                  To add/edit a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
-                </div>
-            </div>
-            <br>
-            <div class="row">
-              <div class="col-xs-12">
-                <!-- <div class="well"> -->
-                  <form class="form-horizontal">
-                    <div class="form-group">
-                      {% for type in site.data.types %}
-                      <div class="col-md-4 col-xs-6">
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" id="{{ type.sub }}-checkbox" class=""> {{ type.name }}
-                          </label>
-                        </div>
-                      </div>
-                      {% endfor %}
-                    </div>
-                  </form>
-                <!-- </div> -->
-              </div>
-            </div>
-            <div class="row">
-              <div class="meta col-xs-12">
-                <span class="local-timezone-hide">
-                  Deadlines are shown in <span class="local-timezone">America/New_York</span> time.
-                  To view them in conference website timezones, click on them.
-                </span>
-              </div>
-              <div class="meta col-xs-12">
-                You can optionally export all deadlines to
-                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/ai-deadlines.ics">Google Calendar</a> or
-                <a href="/ai-deadlines.ics">.ics</a>.
-              </div>
-            </div>
+      <div class="page-header">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8">
+            <h1>
+              {{ site.title }}<br>
+              <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ site.description }}{% if site.twitter_hashtag %} #{{ site.twitter_hashtag }}{% endif %}" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+            </h1>
+          </div>
+          <div class="col-xs-12">
+            {{ site.description }}
+            To add/update a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
+          </div>
         </div>
-        <div id="confs">
-        <div id="coming_confs">
-          {% for conf in site.data.conferences %}
-          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
-            <div class="row conf-row">
-                <div class="col-xs-5 col-sm-6">
-                    <a class="conf-title" href="/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
+        <hr>
+        <div class="row">
+          <div class="col-xs-12">
+            <!-- <div class="well"> -->
+              <form class="form-inline">
+                <div class="form-group">
+                  {% for type in site.data.types %}
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" id="{{ type.sub }}-checkbox" class=""> {{ type.name }}
+                    </label>
+                  </div>
+                  {% endfor %}
                 </div>
-                <div class="col-xs-7 col-sm-6">
-                  <span class="timer"></span>
-                </div>
-            </div>
-            <div class="row">
+              </form>
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="conf-container">
+        {% for conf in site.data.conferences %}
+        <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for sub in conf.sub %} {{sub}} {% endfor %}">
+          <div class="row">
               <div class="col-xs-12 col-sm-6">
+                <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
                 <div class="meta">
-                  <span class="conf-date">{{conf.date}}.</span>
-                  <span class="conf-place">
-                    {% if conf.place == "Online" %}
-                    <a href="#">{{conf.place}}</a>.
-                    {% else %}
-                    <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
-                    {% endif %}
-                  </span>
+                  {{ conf.description }}<br>
+                  {{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>
                 </div>
-                {% if conf.note %}
-                <div class="note">
-                  {{conf.note}}
-                </div>
-                {% endif %}
               </div>
               <div class="col-xs-12 col-sm-6">
+                <span class="timer"></span>
                 <div class="deadline">
                   <div>Deadline:
                     <span class="deadline-time"></span>
+                    <div class="meta">
+                      {{ conf.comment }}
+                    </div>
                   </div>
                 </div>
-                <div class="calendar"></div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12">
-                {% for sub in conf.sub %}
-                <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
-                {% endfor %}
-              </div>
-            </div>
-            <hr>
           </div>
-          {% endfor %}
+          <hr>
         </div>
-        <div id="past_confs">
-        </div>
-        </div>
-        <footer>
-          <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <a href="/">{{ site.domain }}</a> is maintained by <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br>
-              If you find it useful, consider buying him <a target="_blank" href="https://read.gift/u/abhshkdz">a book</a> or <a title="_blank" href="https://www.buymeacoffee.com/abhshkdz">coffee</a>.
-            </div>
-          </div>
-        </footer>
-        <br><br>
+        {% endfor %}
+      </div>
+      <footer>
+        Maintained by @<a href="//twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a>.
+      </footer>
     </div>
     <script type="text/javascript" charset="utf-8">
     $(function() {
-        // Make sure this is >= no. of subs
-        // Currently not used
-        var colors = ['#341f97', '#ee5253', '#2e86de',
-                      '#ff9f43', '#10ac84', '#222f3e']
+      deadlineByConf = {};
 
-        // Borrowed from https://github.com/moment/moment-timezone/issues/167
-        // Adds support for time zones 'UTC-12'..'UTC+12'
-        function addUtcTimeZones() {
-          // Moment.js uses the IANA timezone database, which supports generic time zones like 'Etc/GMT+1'.
-          // However, the signs for these time zones are inverted compared to ISO 8601.
-          // For more details, see https://github.com/moment/moment-timezone/issues/167
-          for (let offset = -12; offset <= 12; offset++) {
-            const posixSign = offset <= 0 ? '+' : '-';
-            const isoSign = offset >= 0 ? '+' : '-';
-            const link = `Etc/GMT${posixSign}${Math.abs(offset)}|UTC${isoSign}${Math.abs(offset)}`;
-            moment.tz.link(link);
+      {% for conf in site.data.conferences %}
+      {% assign conf_id = conf.name | append: conf.year | slugify %}
+      {% if conf.deadline == "TBA" %}
+      $('#{{ conf_id }} .timer').html("TBA");
+      $('#{{ conf_id }} .deadline-time').html("TBA");
+      deadlineByConf["{{ conf_id }}"] = moment();
+
+      {% else %}
+      var rawDeadlines = {{ conf.deadline | jsonify }} || [];
+      if (rawDeadlines.constructor !== Array) {
+        rawDeadlines = [rawDeadlines];
+      }
+      var parsedDeadlines = [];
+      while (rawDeadlines.length > 0) {
+        var rawDeadline = rawDeadlines.pop();
+        // check if deadline is template
+        if (rawDeadline.indexOf('%m') >= 0) {
+          for (var m = 1; m <= 12; m++) {
+            rawDeadlines.push(rawDeadline.replace('%m', m < 10 ? '0' + m : m));
           }
-        }
-        addUtcTimeZones();
-
-        try {
-          var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-          $('.local-timezone').text(local_timezone.toString());
-        }
-        catch(err) {
-          $('.local-timezone-hide').hide();
-        }
-
-
-        // Get all subs
-        var conf_type_data = {{ site.data.types | jsonify }};
-        var all_subs = [];
-        var sub2name = {}; var name2sub = {};
-        for (var i = 0; i < conf_type_data.length; i++) {
-          all_subs[i] = conf_type_data[i]['sub'];
-          sub2name[conf_type_data[i]['sub']] = conf_type_data[i]['name'];
-          name2sub[conf_type_data[i]['name']] = conf_type_data[i]['sub'];
-        }
-
-        {% for conf in site.data.conferences %}
-        {% for sub in conf.sub %}
-        $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
-        {% endfor %}
-        {% if conf.deadline == "TBA" %}
-          $('#{{conf.id}} .timer').html("TBA");
-          $('#{{conf.id}} .deadline-time').html("TBA");
-        {% else %}
+        } else if (rawDeadline.indexOf('%y') >= 0) {
+          year = parseInt(moment().year());
+          rawDeadlines.push(rawDeadline.replace('%y', year));
+          rawDeadlines.push(rawDeadline.replace('%y', year + 1));
+        } else {
           // adjust date according to deadline timezone
-          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
-          var confDate = moment.tz("{{conf.deadline}}", timezone);
+          {% if conf.timezone %}
+          var deadline = moment.tz(rawDeadline, "{{ conf.timezone }}");
+          {% else %}
+          var deadline = moment(rawDeadline + "-12:00");
+          {% endif %}
+          parsedDeadlines.push(deadline);
+        }
+      }
 
-          // render countdown timer
-          $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-          });
+      // check which deadline is closest
+      var confDeadline = parsedDeadlines[0];
+      var today = moment();
+      for (var i = 1; i < parsedDeadlines.length; i++) {
+        deadlineCandidate = parsedDeadlines[i];
+          if ((today.diff(deadlineCandidate) < 0 && today.diff(deadlineCandidate) > today.diff(confDeadline))) {
+          confDeadline = deadlineCandidate;
+        }
+      }
 
-          // convert deadline to local timezone
-          try {
-            var localConfDate = moment.tz(confDate, local_timezone);
-            $('#{{conf.id}} .deadline-time').html(localConfDate.toString());
-          }
-          catch(err) {
-            console.log("Error converting to local timezone.");
-          }
+      // render countdown timer
+      if (confDeadline) {
 
-          // add calendar button
-          var myCalendar = createCalendar({
-            options: {
-              class: 'calendar-obj',
-
-              // You can pass an ID. If you don't, one will be generated for you
-              id: '{{conf.id}}'
-            },
-            data: {
-              // Event title
-              title: '{{conf.title}} {{conf.year}} deadline',
-
-              // Event start date
-              start: confDate.toDate(), // new Date('June 15, 2013 19:00'),
-
-              // Event duration
-              duration: 60,
-            }
-          });
-          document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
-
-          // check if date has passed, add 'past' class to it
+        $('#{{ conf_id }} .timer').countdown(confDeadline.toDate(), function(event) {
           var today = moment();
-          diff = today.diff(confDate)
-          $('#{{conf.id}}').attr("diff", diff)
-          if (diff > 0) {
-            $('#{{conf.id}}').addClass('past');
-            $('#{{conf.id}}').appendTo($("#past_confs"))
+          if (today.diff(confDeadline) <= 0) {
+            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           }
-        {% endif %}
-        {% endfor %}
+        });
 
-        // Sort coming_confs and past_confs
-        $("#coming_confs .ConfItem").sort(function (a, b) {
-          return $(b).attr('diff') - $(a).attr('diff');
-        }).appendTo($("#coming_confs"));
-
-        $("#past_confs .ConfItem").sort(function (a, b) {
-          return $(b).attr('diff') - $(a).attr('diff');
-        }).appendTo($("#past_confs"));
-
-        // Get subjects from URL
-        var url = new URL(window.location);
-        var subs = url.searchParams.get('sub');
-        if (subs == undefined) {
-           subs = store.get('{{ site.domain }}');
-        } else {
-           subs = subs.toUpperCase().split(',');
+        // check if date has passed, add 'past' class to it
+        if (today.diff(confDeadline) > 0) {
+          $('#{{ conf_id }}').addClass('past');
         }
-        if (subs != undefined) {
-          // Hide unchecked subs
+
+        $('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+
+        deadlineByConf["{{ conf_id }}"] = confDeadline;
+      }
+      {% endif %}
+      {% endfor %}
+
+      // Reorder list
+      confs = $('.conf');
+      confs.detach().sort(function(a, b) {
+        return deadlineByConf[a.id] < deadlineByConf[b.id];
+      });
+      $('.conf-container').append(confs);
+
+      // Set checkboxes
+      var conf_type_data = {{ site.data.types | jsonify }};
+      var all_subs = [];
+      var toggle_status = {};
+      for (var i = 0; i < conf_type_data.length; i++) {
+        all_subs[i] = conf_type_data[i]['sub'];
+        toggle_status[all_subs[i]] = false;
+      }
+      var subs = store.get('{{ site.domain }}');
+      if (subs === undefined) {
+        subs = all_subs;
+      }
+      for (var i = 0; i < subs.length; i++) {
+        $('#' + subs[i] + '-checkbox').prop('checked', true);
+        toggle_status[subs[i]] = true;
+      }
+      store.set('{{ site.domain }}', subs);
+
+      function update_conf_list() {
+        confs.each(function(i, conf) {
+          var conf = $(conf);
+          var show = false;
           for (var i = 0; i < all_subs.length; i++) {
-            if (subs.indexOf(all_subs[i]) < 0) {
-              $('.' + all_subs[i] + '-conf').hide();
+            if(conf.hasClass(all_subs[i])) {
+              show = show | toggle_status[all_subs[i]];
             }
           }
-          // In case a conf with multiple types is wrongly hid, show all confs with at least one checked type.
-          for (var i = 0; i < subs.length; i++) {
-            $('.' + subs[i] + '-conf').show();
+          if (show) {
+            conf.show();
+          } else {
+            conf.hide()
           }
+        });
+      }
+      update_conf_list();
+
+      // Event handler on checkbox change
+      $('form :checkbox').change(function(e) {
+        var checked = $(this).is(':checked');
+        var sub = $(this).prop('id').slice(0, -9);
+        toggle_status[sub] = checked;
+
+        if (checked == true) {
+          if (subs.indexOf(sub) < 0)
+            subs.push(sub);
         }
-        // Get subjects from browser cache
-        if (subs === undefined) {
-          subs = all_subs;
-          for (var i = 0; i < subs.length; i++) {
-            $('#' + subs[i] + '-checkbox').prop('checked', true);
-          }
-        } else {
-          for (var i = 0; i < subs.length; i++) {
-            $('#' + subs[i] + '-checkbox').prop('checked', true);
-          }
+        else {
+          var idx = subs.indexOf(sub);
+          if (idx >= 0)
+            subs.splice(idx, 1);
         }
         store.set('{{ site.domain }}', subs);
-        window.history.pushState('', '', '/?sub=' + subs.join());
 
-        // Event handler on checkbox change
-        $('form :checkbox').change(function(e) {
-          var checked = $(this).is(':checked');
-          var cid = $(this).prop('id');
-          var csub = cid.substring(0, cid.length - 9);
-          if (checked == true) {
-            $('.' + csub + '-conf').show();
-            if (subs.indexOf(csub) < 0)
-              subs.push(csub);
-          }
-          else {
-            $('.' + csub + '-conf').hide();
-            var idx = subs.indexOf(csub);
-            if (idx >= 0)
-              subs.splice(idx, 1);
-            // In case a conf with multiple types (including this type) is wrongly hid, show all confs with at least one checked type.
-            for (var i = 0; i < subs.length; i++) {
-              $('.' + subs[i] + '-conf').show();
-            }
-          }
-          console.log(subs);
-          store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '/?sub=' + subs.join());
-        });
-
-        // Event handler on sub click
-        $('.conf-sub').click(function(e) {
-          var csub = $(this).data('sub');
-          for (var i = 0; i < subs.length; i++) {
-            if (subs[i] != csub) {
-              $('#' + subs[i] + '-checkbox').prop('checked', false);
-              $('.' + subs[i] + '-conf').hide();
-            }
-          }
-          $('#' + csub + '-checkbox').prop('checked', true);
-          $('.' + csub + '-conf').show();
-          subs = [csub];
-          console.log(subs);
-          store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '/?sub=' + subs.join());
-        });
+        update_conf_list();
+      });
     });
+
     <!-- Google analytics -->
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
