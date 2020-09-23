@@ -1,3 +1,10 @@
+.checkbox {
+    font-size: 12px;
+	position: relative;
+	display: block;
+	min-height: 30px;
+}
+
 .checkbox input[type="checkbox"]:checked:after {
   background-color: #0097e6;
   border-color: #0097e6;
