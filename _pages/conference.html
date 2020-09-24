@@ -179,7 +179,7 @@ permalink: /conference/
 
           var today = moment();
           diff = today.diff(confDate);
-          $('#{{conf.id}}').attr("diff", diff)
+          $('#{{conf.id}}').attr("diff", diff);
           if (diff > 0) {
             $('#{{conf.id}}').addClass('past');
             $('#{{conf.id}}').appendTo($("#past_confs"))
