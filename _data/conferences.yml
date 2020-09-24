@@ -3,6 +3,7 @@
 # Security and Privacy
 - name: S&P (Oakland)
   year: 2021
+  id: sp21
   date: "May 23 – 27 2021"
   description: IEEE Symposium on Security and Privacy
   link: https://www.ieee-security.org/TC/SP2021/
@@ -19,6 +20,7 @@
 - name: Euro S&P
   description: IEEE European Symposium on Security and Privacy
   year: 2020
+  id: eurosp20
   link: https://www.ieee-security.org/TC/EuroSP2020/
   deadline: "2019-11-20 23:59"
   note: Voluntary Abstract Registration until 2019-10-22
@@ -30,6 +32,7 @@
 - name: CCS
   description: ACM Conference on Computer and Communications Security
   year: 2020
+  id: ccs20
   link: https://www.sigsac.org/ccs/CCS2020/
   deadline:
     - "%y-01-20 23:59"
