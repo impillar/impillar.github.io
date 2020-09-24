@@ -1,28 +1,41 @@
 ---
 
-- name: ICLR
-  hindex: 150
+# Security and Privacy
+- name: S&P (Oakland)
   year: 2021
-  id: iclr21
-  link: http://iclr.cc/
-  deadline: '2020-10-02 07:59:59'
-  abstract_deadline: '2020-09-28 07:59:59'
-  timezone: UTC-7
-  date: May 4, 2021
-  place: Vienna, Austria
-  sub: AI
-  note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2020. More info
-    <a href=''https://iclr.cc/Conferences/2021/CallForPapers''>here</a>.'
-
-
-- name: WWW
-  hindex: 70
-  year: 2021
-  id: www21
-  link: http://www2021.thewebconf.org/
-  deadline: '2020-10-19 23:59:59'
+  date: "May 23 – 27 2021"
+  description: IEEE Symposium on Security and Privacy
+  link: https://www.ieee-security.org/TC/SP2021/
+  deadline:
+    - "2020-03-05 23:59"
+    - "2020-06-04 23:59"
+    - "2020-09-03 23:59"
+    - "2020-12-03 23:59"
   timezone: UTC-12
-  date: April 19-23, 2021
-  place: Ljubljana, Slovenia
-  sub: AI
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
+  place: San Francisco, California, USA
+  sub: SEC
+
+- name: Euro S&P
+  description: IEEE European Symposium on Security and Privacy
+  year: 2020
+  link: https://www.ieee-security.org/TC/EuroSP2020/
+  deadline: "2019-11-20 23:59"
+  note: Voluntary Abstract Registration until 2019-10-22
+  date: "June 16 - June 18"
+  place: Genova, Italy
+  timezone: UTC-12
+  sub: SEC
+
+- name: CCS
+  description: ACM Conference on Computer and Communications Security
+  year: 2020
+  link: https://www.sigsac.org/ccs/CCS2020/
+  deadline:
+    - "%y-01-20 23:59"
+    - "%y-05-04 23:59"
+  note: 2 review cycles
+  date: "November 9-13"
+  place: Orlando, FL, USA
+  timezone: UTC-12
+  sub: SEC
