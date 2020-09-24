@@ -14,7 +14,7 @@
   timezone: UTC-12
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
   place: San Francisco, California, USA
-  sub: SEC
+  sub: AI
 
 - name: Euro S&P
   description: IEEE European Symposium on Security and Privacy
@@ -25,7 +25,7 @@
   date: "June 16 - June 18"
   place: Genova, Italy
   timezone: UTC-12
-  sub: SEC
+  sub: AI
 
 - name: CCS
   description: ACM Conference on Computer and Communications Security
@@ -38,4 +38,4 @@
   date: "November 9-13"
   place: Orlando, FL, USA
   timezone: UTC-12
-  sub: SEC
+  sub: AI
