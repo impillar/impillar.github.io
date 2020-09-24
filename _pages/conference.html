@@ -33,13 +33,13 @@ permalink: /conference/
               </div>
             </div>
             <div class="row">
-              <div class="meta col-xs-12">
+              <div>
                 <span class="local-timezone-hide">
                   Deadlines are shown in <span class="local-timezone">America/New_York</span> time.
                   To view them in conference website timezones, click on them.
                 </span>
               </div>
-              <div class="meta col-xs-12">
+              <div>
                 You can optionally export all deadlines to
                 <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/ai-deadlines.ics">Google Calendar</a> or
                 <a href="/ai-deadlines.ics">.ics</a>.
@@ -51,15 +51,15 @@ permalink: /conference/
           {% for conf in site.data.conferences %}
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
-                <div class="col-xs-5 col-sm-6">
+                <div class="left-row">
                     <a class="conf-title" href="/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
                 </div>
-                <div class="col-xs-7 col-sm-6">
+                <div class="right-row">
                   <span class="timer"></span>
                 </div>
             </div>
             <div class="row">
-              <div class="col-xs-12 col-sm-6">
+              <div class="left-row">
                 <div class="meta">
                   <span class="conf-date">{{conf.date}}.</span>
                   <span class="conf-place">
@@ -76,7 +76,7 @@ permalink: /conference/
                 </div>
                 {% endif %}
               </div>
-              <div class="col-xs-12 col-sm-6">
+              <div class="right-row">
                 <div class="deadline">
                   <div>Deadline:
                     <span class="deadline-time"></span>
@@ -86,7 +86,7 @@ permalink: /conference/
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-12">
+              <div class="left-row">
                 {% for sub in conf.sub %}
                 <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
                 {% endfor %}
