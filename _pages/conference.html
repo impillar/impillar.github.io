@@ -178,7 +178,7 @@ permalink: /conference/
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
 
           var today = moment();
-          diff = today.diff(confDate)
+          diff = today.diff(confDate);
           $('#{{conf.id}}').attr("diff", diff)
           if (diff > 0) {
             $('#{{conf.id}}').addClass('past');
