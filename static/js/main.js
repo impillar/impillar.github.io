@@ -1,5 +1,3 @@
----
----
 $(function() {
   deadlineByConf = {};
 
@@ -61,7 +59,7 @@ $(function() {
   if (confDeadline) {
     function make_update_countdown_fn(confDeadline) {
       return function(event) {
-        diff = moment() - confDeadline
+        diff = moment() - confDeadline;
         if (diff <= 0) {
            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
         } else {
@@ -86,8 +84,8 @@ $(function() {
     var today = moment();
     var a = deadlineByConf[a.id];
     var b = deadlineByConf[b.id];
-    var diff1 = today.diff(a)
-    var diff2 = today.diff(b)
+    var diff1 = today.diff(a);
+    var diff2 = today.diff(b);
     if (a == null && b == null) {
       return 0;
     }
@@ -161,13 +159,15 @@ $(function() {
     toggle_status[tag] = checked;
 
     if (checked == true) {
-      if (tags.indexOf(tag) < 0)
+      if (tags.indexOf(tag) < 0){
         tags.push(tag);
+	  }
     }
     else {
       var idx = tags.indexOf(tag);
-      if (idx >= 0)
+      if (idx >= 0){
         tags.splice(idx, 1);
+	  }
     }
     store.set('{{ site.domain }}', tags);
     update_conf_list();
