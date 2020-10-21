@@ -5,6 +5,7 @@ excerpt: "This is a page showing all the dealines of related conferences"
 author_profile: false
 layout: external
 ---
+{% include base_path %}
 <html>
   <head>
     <meta charset="utf-8">
@@ -13,10 +14,10 @@ layout: external
 
     <title>{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}" media="screen,projection">
-    <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ base_path }}/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ base_path }}/static/css/deadlines.css" media="screen,projection">
+    <link rel="shortcut icon" href="{{ base_path }}/static/img/favicon.png">
+    <script src="{{ base_path }}/static/js/jquery.min.js"></script>
   </head>
   <body>
     <div class="top-strip"></div>
