@@ -1,7 +1,7 @@
 ---
 
 # Security and Privacy
-- name: S&P (Oakland)
+- title: S&P (Oakland)
   year: 2021
   id: sp21
   date: "May 23 – 27 2021"
@@ -17,7 +17,7 @@
   place: San Francisco, California, USA
   sub: AI
 
-- name: Euro S&P
+- title: Euro S&P
   description: IEEE European Symposium on Security and Privacy
   year: 2020
   id: eurosp20
@@ -29,7 +29,7 @@
   timezone: UTC-12
   sub: AI
 
-- name: CCS
+- title: CCS
   description: ACM Conference on Computer and Communications Security
   year: 2020
   id: ccs20
