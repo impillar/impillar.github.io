@@ -1,19 +1,22 @@
 ---
-
 # Security and Privacy
-- title: S&P (Oakland)
+- name: S&P (Oakland)
   year: 2021
   id: sp21
   date: "May 23 – 27 2021"
   description: IEEE Symposium on Security and Privacy
   link: https://www.ieee-security.org/TC/SP2021/
-  deadline: '2020-03-05 23:59'
+  deadline: 
+    - "2020-03-05 23:59"
+    - "2020-06-04 23:59"
+    - "2020-09-03 23:59"
+    - "2020-12-03 23:59"
   timezone: UTC-12
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
   place: San Francisco, California, USA
-  sub: AI
+  sub: SEC
 
-- title: Euro S&P
+- name: Euro S&P
   description: IEEE European Symposium on Security and Privacy
   year: 2020
   id: eurosp20
@@ -23,9 +26,9 @@
   date: "June 16 - June 18"
   place: Genova, Italy
   timezone: UTC-12
-  sub: AI
+  sub: SEC
 
-- title: CCS
+- name: CCS
   description: ACM Conference on Computer and Communications Security
   year: 2020
   id: ccs20
