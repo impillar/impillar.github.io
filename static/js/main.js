@@ -18,7 +18,6 @@ $(function() {
   var parsedDeadlines = [];
   while (rawDeadlines.length > 0) {
     var rawDeadline = rawDeadlines.pop();
-    // check if date is template
     if (rawDeadline.indexOf('%m') >= 0) {
       for (var m = 1; m <= 12; m++) {
         rawDeadlines.push(rawDeadline.replace('%m', m < 10 ? '0' + m : m));
@@ -29,14 +28,12 @@ $(function() {
       rawDeadlines.push(rawDeadline.replace('%y', year + 1));
 
     } else {
-      // adjust date according to deadline timezone
       {% if conf.timezone %}
       var deadline = moment.tz(rawDeadline, "{{ conf.timezone }}");
       {% else %}
       var deadline = moment.tz(rawDeadline, "Etc/GMT+12"); // Anywhere on Earth
       {% endif %}
 
-      // post-process date
       if (deadline.minutes() === 0) {
         deadline.subtract(1, 'seconds');
       }
@@ -47,7 +44,6 @@ $(function() {
     }
   }
 
-  // check which deadline is closest
   var confDeadline = parsedDeadlines[0];
   var today = moment();
   for (var i = 1; i < parsedDeadlines.length; i++) {
@@ -57,7 +53,6 @@ $(function() {
     }
   }
 
-  // render countdown timer
   if (confDeadline) {
     function make_update_countdown_fn(confDeadline) {
       return function(event) {
@@ -70,7 +65,6 @@ $(function() {
       }
     }
     $('#{{ conf_id }} .timer').countdown(confDeadline.toDate(), make_update_countdown_fn(confDeadline));
-    // check if date has passed, add 'past' class to it
     if (moment() - confDeadline > 0) {
       $('#{{ conf_id }}').addClass('past');
     }
@@ -80,7 +74,6 @@ $(function() {
   {% endif %}
   {% endfor %}
 
-  // Reorder list
   confs = $('.conf');
   confs.detach().sort(function(a, b) {
     var today = moment();
@@ -118,7 +111,6 @@ $(function() {
   });
   $('.conf-container').append(confs);
 
-  // Set checkboxes
   var conf_type_data = {{ site.data.types | jsonify }};
   var all_tags = [];
   var toggle_status = {};
@@ -154,7 +146,6 @@ $(function() {
   }
   update_conf_list();
 
-  // Event handler on checkbox change
   $('form :checkbox').change(function(e) {
     var checked = $(this).is(':checked');
     var tag = $(this).prop('id').slice(0, -9);
