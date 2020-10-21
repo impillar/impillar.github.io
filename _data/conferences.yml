@@ -7,11 +7,7 @@
   date: "May 23 – 27 2021"
   description: IEEE Symposium on Security and Privacy
   link: https://www.ieee-security.org/TC/SP2021/
-  deadline:
-    - "2020-03-05 23:59"
-    - "2020-06-04 23:59"
-    - "2020-09-03 23:59"
-    - "2020-12-03 23:59"
+  deadline: '2020-03-05 23:59'
   timezone: UTC-12
   note: '<b>NOTE</b>: Mandatory abstract deadline on October 12, 2020'
   place: San Francisco, California, USA
@@ -34,9 +30,7 @@
   year: 2020
   id: ccs20
   link: https://www.sigsac.org/ccs/CCS2020/
-  deadline:
-    - "%y-01-20 23:59"
-    - "%y-05-04 23:59"
+  deadline: '2020-09-29 23:59:59'
   note: 2 review cycles
   date: "November 9-13"
   place: Orlando, FL, USA
