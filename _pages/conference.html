@@ -5,4 +5,30 @@ title: "Conference Deadlines"
 excerpt: "This is a page showing all the dealines of related conferences"
 ---
 
-Hello World!
+	<div class="conf-container">
+		{% for conf in site.data.conferences %}
+        <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
+          <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
+                <div class="meta">
+                  {{ conf.description }}<br>
+                  {{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <span class="timer"></span>
+                <div class="deadline">
+                  <div>Deadline:
+                    <span class="deadline-time"></span>
+                    <div class="meta">
+                      {{ conf.comment }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <hr>
+        </div>
+        {% endfor %}
+    </div>
