@@ -7,7 +7,7 @@ excerpt: "This is a page showing all the dealines of related conferences"
 
 	<div>
 		{% for conf in site.data.conferences %}
-        <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
+        <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}" style="display: flex;">
           <div>
               <div>
                 <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
