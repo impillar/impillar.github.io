@@ -79,17 +79,19 @@ $(function() {
 				}
 			}
 			if (confDeadline) {
+				var timer{{ conf_id }} = new Timer();
+				timer{{ conf_id }}.start({countdown: true, startValues: {seconds: confDeadline.diff(moment())/1000}});
 
-			alert(confDeadline.diff(moment()).toString().strftime('%D days %Hh %Mm %Ss'));
-			alert("today"+moment());
-			alert(confDeadline.toDate().strftime('%D days %Hh %Mm %Ss'));
-			
-				$('#{{ conf_id }} .timer').countdown(confDeadline.toDate(), function(event) {
-					var today = moment();
-					if (today.diff(confDeadline) <= 0) {
-						$(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-					}
+				$('#{{ conf_id }} .timer').html(timer{{ conf_id }}.getTimeValues().toString());
+
+				timer{{ conf_id }}.addEventListener('secondsUpdated', function (e) {
+					$('#{{ conf_id }} .timer').html(timer{{ conf_id }}.getTimeValues().toString());
 				});
+
+				timer{{ conf_id }}.addEventListener('targetAchieved', function (e) {
+					$('#{{ conf_id }} .timer').html('KABOOM!!');
+				});
+
 				if (today.diff(confDeadline) > 0) {
 					$('#{{ conf_id }}').addClass('past');
 				}
