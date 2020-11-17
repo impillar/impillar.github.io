@@ -79,22 +79,15 @@ $(function() {
 				}
 			}
 			if (confDeadline) {
-				var timer{{ conf_id }} = new Timer();
-				timer{{ conf_id }}.start({countdown: true, startValues: {seconds: confDeadline.diff(moment())/1000}});
+			
+				var timeLeft = confDeadline.diff(moment())/1000;
+				var daysLeft = Math.floor(timeLeft / (60 * 60 * 24));
+				var hoursLeft = Math.floor((timeLeft / (60 * 60)) % 24);
+				var minutesLeft = Math.floor(timeLeft / 60 % 60);
+				var secondLeft = Math.floor(timeLeft % 60);
 
-				$('#{{ conf_id }} .timer').html(timer{{ conf_id }}.getTimeValues().toString());
-
-				timer{{ conf_id }}.addEventListener('secondsUpdated', function (e) {
-					$('#{{ conf_id }} .timer').html(timer{{ conf_id }}.getTimeValues().toString());
-				});
-
-				timer{{ conf_id }}.addEventListener('targetAchieved', function (e) {
-					$('#{{ conf_id }} .timer').html('KABOOM!!');
-				});
-
-				if (today.diff(confDeadline) > 0) {
-					$('#{{ conf_id }}').addClass('past');
-				}
+				const timeLeftText = `${daysLeft} days ${hoursLeft}:${minutesLeft}:${secondLeft}.`;
+				$('#{{ conf_id }} .timer').html(timeLeftText);
 
 				$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
 
