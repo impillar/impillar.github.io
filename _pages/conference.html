@@ -80,7 +80,7 @@ $(function() {
 			}
 			if (confDeadline) {
 
-			alert(confDeadline+"-----"+confDeadline.toDate());
+			alert(confDeadline.diff(moment()).strftime('%D days %Hh %Mm %Ss'));
 			alert("today"+moment());
 			alert(confDeadline.toDate().strftime('%D days %Hh %Mm %Ss'));
 			
