@@ -66,8 +66,8 @@ $(function() {
 					var deadline = moment.tz(rawDeadline, "{{ conf.timezone }}");
 					{% else %}
 					var deadline = moment(rawDeadline + "-12:00");
-					alert(deadline);
 					{% endif %}
+					alert(deadline);
 					parsedDeadlines.push(deadline);
 				}
 			}
