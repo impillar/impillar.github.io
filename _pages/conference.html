@@ -78,7 +78,8 @@ $(function() {
 					confDeadline = deadlineCandidate;
 				}
 			}
-			alert(confDeadline);
+			alert(confDeadline.toDate());
+			alert("today"+moment());
 			alert(confDeadline.toDate().strftime('%D days %Hh %Mm %Ss'));
 			if (confDeadline) {
 
