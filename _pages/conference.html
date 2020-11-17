@@ -78,7 +78,7 @@ $(function() {
 					confDeadline = deadlineCandidate;
 				}
 			}
-			alert(confDeadline.strftime('%D days %Hh %Mm %Ss'));
+			alert(confDeadline.toDate().strftime('%D days %Hh %Mm %Ss'));
 			if (confDeadline) {
 
 				$('#{{ conf_id }} .timer').countdown(confDeadline.toDate(), function(event) {
