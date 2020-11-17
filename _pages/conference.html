@@ -10,7 +10,7 @@ excerpt: "This is a page showing all the dealines of related conferences"
 <script src="{{ site.baseurl}}/static/js/easytimer.min.js"></script>
 	<div class="conf-container">
 		{% for conf in site.data.conferences %}
-        <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}" style="display: flex;">
+        <div id="{{ conf.id }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}" style="display: flex;">
           <div>
               <div>
                 <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
@@ -40,7 +40,7 @@ excerpt: "This is a page showing all the dealines of related conferences"
 $(function() {
 	deadlineByConf = {};
     {% for conf in site.data.conferences %}
-		{% assign conf_id = conf.name | append: conf.year | slugify %}
+		{% assign conf_id = conf.id %}
 		{% if conf.deadline == "TBA" %}
 			$('#{{ conf_id }} .timer').html("TBA");
 			$('#{{ conf_id }} .deadline-time').html("TBA");
