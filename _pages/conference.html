@@ -67,7 +67,6 @@ $(function() {
 					{% else %}
 					var deadline = moment(rawDeadline + "-12:00");
 					{% endif %}
-					alert(deadline);
 					parsedDeadlines.push(deadline);
 				}
 			}
@@ -79,6 +78,7 @@ $(function() {
 					confDeadline = deadlineCandidate;
 				}
 			}
+			alert(confDeadline+confDeadline.toDate());
 			if (confDeadline) {
 
 				$('#{{ conf_id }} .timer').countdown(confDeadline.toDate(), function(event) {
