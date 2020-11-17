@@ -5,8 +5,9 @@ title: "Conference Deadlines"
 excerpt: "This is a page showing all the dealines of related conferences"
 ---
 <script src="{{ site.baseurl}}/static/js/jquery.min.js"></script>
+<script src="{{ site.baseurl}}/static/js/moment.min.js"></script>
 <script src="{{ site.baseurl}}/static/js/easytimer.min.js"></script>
-	<div>
+	<div class="conf-container">
 		{% for conf in site.data.conferences %}
         <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}" style="display: flex;">
           <div>
@@ -34,16 +35,65 @@ excerpt: "This is a page showing all the dealines of related conferences"
         {% endfor %}
     </div>
 <script>
-var timer = new Timer();
-timer.start({countdown: true, startValues: {seconds: 30}});
 
-$('#{{ conf.name | append: conf.year | slugify }} .deadline-time').html(timer.getTimeValues().toString());
+$(function() {
+	deadlineByConf = {};
+    {% for conf in site.data.conferences %}
+		{% assign conf_id = conf.name | append: conf.year | slugify %}
+		{% if conf.deadline == "TBA" %}
+			$('#{{ conf_id }} .timer').html("TBA");
+			$('#{{ conf_id }} .deadline-time').html("TBA");
+			deadlineByConf["{{ conf_id }}"] = moment();
+		{% else %}
+			var rawDeadlines = {{ conf.deadline | jsonify }} || [];
+			if (rawDeadlines.constructor !== Array) {
+				rawDeadlines = [rawDeadlines];
+			}
+			var parsedDeadlines = [];
+			while (rawDeadlines.length > 0) {
+				var rawDeadline = rawDeadlines.pop();
+				if (rawDeadline.indexOf('%m') >= 0) {
+					for (var m = 1; m <= 12; m++) {
+						rawDeadlines.push(rawDeadline.replace('%m', m < 10 ? '0' + m : m));
+					}
+				} else if (rawDeadline.indexOf('%y') >= 0) {
+					year = parseInt(moment().year());
+					rawDeadlines.push(rawDeadline.replace('%y', year));
+					rawDeadlines.push(rawDeadline.replace('%y', year + 1));
+				} else {
+					{% if conf.timezone %}
+					var deadline = moment.tz(rawDeadline, "{{ conf.timezone }}");
+					{% else %}
+					var deadline = moment(rawDeadline + "-12:00");
+					{% endif %}
+					parsedDeadlines.push(deadline);
+				}
+			}
+			var confDeadline = parsedDeadlines[0];
+			var today = moment();
+			for (var i = 1; i < parsedDeadlines.length; i++) {
+				deadlineCandidate = parsedDeadlines[i];
+				if ((today.diff(deadlineCandidate) < 0 && today.diff(deadlineCandidate) > today.diff(confDeadline))) {
+					confDeadline = deadlineCandidate;
+				}
+			}
+			if (confDeadline) {
+				$('#{{ conf_id }} .timer').countdown(confDeadline.toDate(), function(event) {
+					var today = moment();
+					if (today.diff(confDeadline) <= 0) {
+						$(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+					}
+				});
+				if (today.diff(confDeadline) > 0) {
+					$('#{{ conf_id }}').addClass('past');
+				}
 
-timer.addEventListener('secondsUpdated', function (e) {
-    $('#{{ conf.name | append: conf.year | slugify }} .deadline-time').html(timer.getTimeValues().toString());
-});
+				$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
 
-timer.addEventListener('targetAchieved', function (e) {
-    $('#{{ conf.name | append: conf.year | slugify }} .deadline-time').html('KABOOM!!');
-});
+				deadlineByConf["{{ conf_id }}"] = confDeadline;
+			}
+		{% endif %}
+	{% endfor %}
+		
+}
 </script>
