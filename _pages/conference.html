@@ -81,16 +81,17 @@ $(function() {
 			if (confDeadline) {
 			
 				var timeLeft = confDeadline.diff(moment())/1000;
-				var daysLeft = Math.floor(timeLeft / (60 * 60 * 24));
-				var hoursLeft = Math.floor((timeLeft / (60 * 60)) % 24);
-				var minutesLeft = Math.floor(timeLeft / 60 % 60);
-				var secondLeft = Math.floor(timeLeft % 60);
+				if (timeLeft >= 0) {
+					var daysLeft = Math.floor(timeLeft / (60 * 60 * 24));
+					var hoursLeft = Math.floor((timeLeft / (60 * 60)) % 24);
+					var minutesLeft = Math.floor(timeLeft / 60 % 60);
+					var secondLeft = Math.floor(timeLeft % 60);
 
-				const timeLeftText = `${daysLeft} days ${hoursLeft}:${minutesLeft}:${secondLeft}.`;
-				$('#{{ conf_id }} .timer').html(timeLeftText);
+					const timeLeftText = `${daysLeft} days ${hoursLeft}:${minutesLeft}:${secondLeft}.`;
+					$('#{{ conf_id }} .timer').html(timeLeftText);
 
-				$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-
+					$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+				}
 				deadlineByConf["{{ conf_id }}"] = confDeadline;
 			}
 		{% endif %}
