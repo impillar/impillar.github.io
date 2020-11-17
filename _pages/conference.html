@@ -4,7 +4,7 @@ layout: single
 title: "Conference Deadlines"
 excerpt: "This is a page showing all the dealines of related conferences"
 ---
-
+<script src="{{ site.baseurl}}/static/js/easytimer.min.js"></script>
 	<div>
 		{% for conf in site.data.conferences %}
         <div id="{{ conf.name | append: conf.year | slugify }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}" style="display: flex;">
@@ -32,3 +32,17 @@ excerpt: "This is a page showing all the dealines of related conferences"
         </div>
         {% endfor %}
     </div>
+<script>
+var timer = new Timer();
+timer.start({countdown: true, startValues: {seconds: 30}});
+
+$('#{{ conf.name | append: conf.year | slugify }} .deadline-time').html(timer.getTimeValues().toString());
+
+timer.addEventListener('secondsUpdated', function (e) {
+    $('#{{ conf.name | append: conf.year | slugify }} .deadline-time').html(timer.getTimeValues().toString());
+});
+
+timer.addEventListener('targetAchieved', function (e) {
+    $('#{{ conf.name | append: conf.year | slugify }} .deadline-time').html('KABOOM!!');
+});
+</script>
