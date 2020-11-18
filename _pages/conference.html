@@ -13,21 +13,19 @@ excerpt: "This is a page showing all the dealines of related conferences"
         <div id="{{ conf.id }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}" style="display: flex;">
           <div>
               <div>
-                <h2><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h2>
+                <h4><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h4>
+				<span class="timer"></span>
                 <div>
                   {{ conf.description }}<br>
                   {{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>
                 </div>
               </div>
               <div>
-                <span class="timer"></span>
-                <div>
-                  <div>Deadline:
+                <div>Deadline:
                     <span class="deadline-time"></span>
                     <div class="meta">
                       {{ conf.comment }}
                     </div>
-                  </div>
                 </div>
               </div>
           </div>
