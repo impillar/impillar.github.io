@@ -8,25 +8,27 @@ excerpt: "This is a page showing all the dealines of related conferences"
 <script src="{{ site.baseurl}}/static/js/moment.min.js"></script>
 <script src="{{ site.baseurl}}/static/js/moment-timezone-with-data.min.js"></script>
 <script src="{{ site.baseurl}}/static/js/easytimer.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/static/css/deadlines.css" media="screen,projection">
+
 	<div class="conf-container">
 		{% for conf in site.data.conferences %}
         <div id="{{ conf.id }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
-          <div>
-              <div style="display: flex; justify-content: flex-start;">
+          <div class="row">
+              <div class="col">
                 <h3><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h3>
-				<span class="timer"></span>
+				<div>
+					{{ conf.description }}<br>
+					{{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>
+				</div>
 			  </div>
-                <div>
-                  {{ conf.description }}<br>
-                  {{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>
-                </div>
-              <div>
-                <div>Deadline:
-                    <span class="deadline-time"></span>
-                    <div class="meta">
-                      {{ conf.comment }}
-                    </div>
-                </div>
+              <div class="col">				
+				  <span class="timer"></span>
+					<div>Deadline:
+						<span class="deadline-time"></span>
+						<div class="meta">
+						{{ conf.comment }}
+						</div>
+					</div>
               </div>
           </div>
           <hr>
@@ -88,7 +90,7 @@ $(function() {
 					const timeLeftText = daysLeft + ' days ' + hoursLeft.toString().padStart(2, '0') + ':' + minutesLeft.toString().padStart(2, '0') + ':' + secondLeft.toString().padStart(2, '0');
 					$('#{{ conf_id }} .timer').html(timeLeftText);
 
-					$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a') + '({{ conf.timezone }})');
+					$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a') + ' ({{ conf.timezone }})');
 				}
 				deadlineByConf["{{ conf_id }}"] = confDeadline;
 			}
