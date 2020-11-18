@@ -88,9 +88,7 @@ $(function() {
 
 					$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
 				}else{
-					alert($('#{{ conf_id }}'));
-					alert($('#{{ conf_id }}').parentNode);
-					$('#{{ conf_id }}').parentNode.removeChild($('#{{ conf_id }}'));
+					$('#{{ conf_id }}').remove();
 				}
 				deadlineByConf["{{ conf_id }}"] = confDeadline;
 			}
