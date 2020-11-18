@@ -15,7 +15,7 @@ excerpt: "This is a page showing all the dealines of related conferences"
         <div id="{{ conf.id }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
           <div class="row">
               <div class="col">
-				<h3><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a> -  <span class="timer"></span></h3>
+				<h3><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a> ---  <span class="timer"></span></h3>
 				<div>
 					{{ conf.description }}
 				</div>
@@ -88,6 +88,8 @@ $(function() {
 
 					$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
 				}else{
+					alert($('#{{ conf_id }}'));
+					alert($('#{{ conf_id }}').parentNode);
 					$('#{{ conf_id }}').parentNode.removeChild($('#{{ conf_id }}'));
 				}
 				deadlineByConf["{{ conf_id }}"] = confDeadline;
