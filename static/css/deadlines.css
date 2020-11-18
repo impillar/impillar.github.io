@@ -1,7 +1,7 @@
 .row{
   margin-right: -15px;
   margin-left: -15px;
-  display: table;
+  display: inline-block;
 }
 .col{
   padding-right: 15px;
