@@ -88,7 +88,7 @@ $(function() {
 					const timeLeftText = daysLeft + ' days ' + hoursLeft.toString().padStart(2, '0') + ':' + minutesLeft.toString().padStart(2, '0') + ':' + secondLeft.toString().padStart(2, '0');
 					$('#{{ conf_id }} .timer').html(timeLeftText);
 
-					$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a') + '('+conf.timezone+')');
+					$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a') + '('{{ conf.timezone }}')');
 				}
 				deadlineByConf["{{ conf_id }}"] = confDeadline;
 			}
