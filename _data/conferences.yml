@@ -15,6 +15,43 @@
   place: San Francisco, California, USA
   sub: SEC
 
+- name: AsiaCCS
+  year: 2021
+  id: asiaccs21
+  date: "June 7 - 11 2021"
+  description: The 16th ACM ASIA Conference on Computer and Communications Security
+  link: https://asiaccs2021.comp.polyu.edu.hk/
+  deadline:
+    - "2020-12-11 23:59"
+  timezone: Etc/GMT+12
+  place: Hongkong, China
+  sub: SEC
+  
+- name: ISSTA
+  year: 2021
+  id: issta21
+  date: "July 12 - 16 2021"
+  description: The ACM SIGSOFT International Symposium on Software Testing and Analysis
+  link: https://conf.researchr.org/home/issta-2021
+  deadline:
+    - "2021-01-29 23:59"
+  timezone: Etc/GMT+12
+  place: Aarhus, Denmark
+  sub: SE
+  
+- name: ICML
+  year: 2021
+  id: icml21
+  date: "July 18 - 24 2021"
+  description: The 38th International Conference on Machine Learning
+  link: https://icml.cc/Conferences/2021
+  deadline:
+    - "2021-02-04 23:59"
+  timezone: Etc/GMT+12
+  place: Vienna, Austria
+  comment: '<b>NOTE</b>: Mandatory abstract deadline on Jan 8, 2021 (AoE)'
+  sub: ML
+  
 - name: 'USENIX SEC'
   year: 2021
   id: usenix21
@@ -28,43 +65,19 @@
   timezone: Etc/GMT+12
   place: Vancouver, Canada
   sub: SEC
-  
-- name: AsiaCCS
-  year: 2021
-  id: asiaccs21
-  date: "June 7 - 11 2021"
-  description: The 16th ACM ASIA Conference on Computer and Communications Security
-  link: https://asiaccs2021.comp.polyu.edu.hk/
-  deadline:
-    - "2020-12-11 23:59"
-  timezone: Etc/GMT+12
-  place: Hongkong, China
-  sub: SEC
- 
-- name: ICML
-  year: 2021
-  id: icml21
-  date: "July 18 - 24 2021"
-  description: The 38th International Conference on Machine Learning
-  link: https://icml.cc/Conferences/2021
-  deadline:
-    - "2021-02-04 23:59"
-  timezone: Etc/GMT+12
-  place: Vienna, Austria
-  comment: '<b>NOTE</b>: Mandatory abstract deadline on Jan 8, 2021 (AoE)'
-  sub: ML
 
-- name: ISSTA
+- name: IJCAI
   year: 2021
-  id: issta21
-  date: "July 12 - 16 2021"
-  description: The ACM SIGSOFT International Symposium on Software Testing and Analysis
-  link: https://conf.researchr.org/home/issta-2021
+  id: ijcai21
+  date: "August 21 - 26 2021"
+  description: The 30th International Joint Conference on Artificial Intelligence
+  link: https://ijcai-21.org/
   deadline:
-    - "2021-01-29 23:59"
+    - "2021-01-18 23:59"
   timezone: Etc/GMT+12
-  place: Aarhus, Denmark
-  sub: SE
+  place: Montreal, Canada
+  comment: '<b>NOTE</b>: Mandatory abstract deadline on Jan 12, 2021 (AoE) and author info. deadline on Jan 14, 2021 (AoE)'
+  sub: ML
 
 - name: ESEC/FSE
   year: 2021
