@@ -23,7 +23,8 @@ excerpt: "This is a page showing all the dealines of related conferences"
 					<span class="deadline-time"></span>
 				</div>
 				<div>
-					{{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>
+					{{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br> 
+					{{ conf.comment }}
 				</div>
 			  </div>
           </div>
