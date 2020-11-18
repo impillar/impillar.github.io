@@ -87,7 +87,7 @@ $(function() {
 					var minutesLeft = Math.floor(timeLeft / 60 % 60);
 					var secondLeft = Math.floor(timeLeft % 60);
 
-					const timeLeftText = daysLeft + ' days ' + hoursLeft.toString().padStart(2, '0') + ':' + minutesLeft.toString().padStart(2, '0') + ':' + secondLeft.toString().padStart(2, '0');
+					const timeLeftText = daysLeft + ' days ' + hoursLeft.toString().padStart(2, '0') + ' hours ' + minutesLeft.toString().padStart(2, '0') + ' minutes ' + secondLeft.toString().padStart(2, '0') + ' seconds.';
 					$('#{{ conf_id }} .timer').html(timeLeftText);
 
 					$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a') + ' ({{ conf.timezone }})');
