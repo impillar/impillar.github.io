@@ -10,16 +10,16 @@ excerpt: "This is a page showing all the dealines of related conferences"
 <script src="{{ site.baseurl}}/static/js/easytimer.min.js"></script>
 	<div class="conf-container">
 		{% for conf in site.data.conferences %}
-        <div id="{{ conf.id }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}" style="display: flex; justify-content: flex-start;">
+        <div id="{{ conf.id }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
           <div>
-              <div>
+              <div style="display: flex; justify-content: flex-start;">
                 <h3><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a></h3>
 				<span class="timer"></span>
+			  </div>
                 <div>
                   {{ conf.description }}<br>
                   {{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br>
                 </div>
-              </div>
               <div>
                 <div>Deadline:
                     <span class="deadline-time"></span>
@@ -88,7 +88,7 @@ $(function() {
 					const timeLeftText = `${daysLeft} days ${hoursLeft}:${minutesLeft}:${secondLeft}.`;
 					$('#{{ conf_id }} .timer').html(timeLeftText);
 
-					$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+					$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a') + '('+conf.timezone+')');
 				}
 				deadlineByConf["{{ conf_id }}"] = confDeadline;
 			}
