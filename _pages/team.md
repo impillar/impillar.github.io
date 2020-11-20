@@ -5,7 +5,7 @@ excerpt: "Research Team"
 author_profile: true
 ---
 
-Currently I'm working in the Cyber Security Lab directed by Prof. [Kai Chen](http://kaichen.org). We are looking for self-motivated and diligent students for Graduate Programs, please drop us an email for Ph.D./Master applications. 
+Currently I'm working in the software and system security group of State Key Laboratory of Information Security, directed by Prof. [Kai Chen](http://kaichen.org). We are looking for self-motivated and diligent students for Graduate Programs, please drop us an email for Ph.D./Master applications. 
 
 # Current Students:
 Weihao Huang, Ph.D. (Sep., 2017) (co-supervised)
