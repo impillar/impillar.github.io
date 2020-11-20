@@ -21,8 +21,8 @@ main:
 #  - title: "CV"
 #    url: /cv/
 
- - title: "Research Team"
-   url: /team/
+  - title: "Research Team"
+    url: /team/
   
   - title: "Conferences"
     url: /conference/ 
