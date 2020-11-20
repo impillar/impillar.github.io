@@ -5,7 +5,7 @@ main:
 
   - title: "Research Team"
     url: /team/
-	
+
 #  - title: "Projects"
 #    url: /projects/
 
@@ -26,8 +26,7 @@ main:
 
   
   - title: "Conferences"
-    url: /conference/ 
-	
+    url: /conference/ 	
   - title: "中文"
     url: http://people.ucas.ac.cn/~gzmeng
 #  - title: "Guide"
