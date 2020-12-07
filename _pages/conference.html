@@ -34,8 +34,8 @@ excerpt: "This is a page showing all the dealines of related conferences"
     </div>
 <script>
 
+deadlineByConf = {};
 $(function() {
-	deadlineByConf = {};
     {% for conf in site.data.conferences %}
 		{% assign conf_id = conf.id %}
 		{% if conf.deadline == "TBA" %}
