@@ -96,13 +96,9 @@ $(function() {
 	{% endfor %}
     confs = $('.conf');
 	confs.detach().sort(function(a, b) {
-		var today = moment();
 		var a = deadlineByConf[a.id];
 		var b = deadlineByConf[b.id];
-		var diff1 = today.diff(a);
-		var diff2 = today.diff(b);
-		alert(a + " " + b);
-		alert(diff1 + " " + diff2);
+		return a - b;
 	});	
 	$('.conf-container').append(confs);
 });
