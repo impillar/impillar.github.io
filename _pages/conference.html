@@ -95,7 +95,6 @@ $(function() {
 			}
 		{% endif %}
 	{% endfor %}
-	// Reorder list
     confs = $('.conf');
     confs.detach().sort(function(a, b) {
 		return deadlineByConf[a.id] < deadlineByConf[b.id];
