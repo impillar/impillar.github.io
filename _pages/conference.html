@@ -101,8 +101,7 @@ $(function() {
 		var b = deadlineByConf[b.id];
 		var diff1 = today.diff(a);
 		var diff2 = today.diff(b);
-		alert(deadlineByConf[a.id]);
-		alert(deadlineByConf[b.id]);
+		alert(a.id);
 		alert(diff1 + " " + diff2);
 	});	
 	$('.conf-container').append(confs);
