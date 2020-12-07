@@ -96,12 +96,12 @@ $(function() {
 		{% endif %}
 	{% endfor %}
     confs = $('.conf');
-    confs.sort(function(a, b) {
+    confs.detach().sort(function(a, b) {
 		alert(deadlineByConf[a.id]);
 		alert(deadlineByConf[b.id]);
 		alert(deadlineByConf[a.id] < deadlineByConf[b.id]);
 		return deadlineByConf[a.id] < deadlineByConf[b.id];
     });	
-	confs.detach().appendTo($('.conf-container'));
+	$('.conf-container').append(confs);
 });
 </script>
