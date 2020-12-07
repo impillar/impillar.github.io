@@ -1,0 +1,105 @@
+---
+permalink: /conferencet/
+layout: single
+title: "Conference Deadlines"
+excerpt: "This is a page showing all the dealines of related conferences"
+---
+<script src="{{ site.baseurl}}/static/js/jquery.min.js"></script>
+<script src="{{ site.baseurl}}/static/js/moment.min.js"></script>
+<script src="{{ site.baseurl}}/static/js/moment-timezone-with-data.min.js"></script>
+<script src="{{ site.baseurl}}/static/js/easytimer.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/static/css/deadlines.css" media="screen,projection">
+
+	<div class="conf-container">
+		{% for conf in site.data.conferences %}
+        <div id="{{ conf.id }}" class="conf {% for tag in conf.tags %} {{tag}} {% endfor %}">
+          <div class="row">
+              <div class="col">
+				<h3><a href="{{conf.link}}">{{conf.name}} {{conf.year}}</a> ---  <span class="timer"></span></h3>
+				<div>
+					{{ conf.description }}
+				</div>
+				<div>Deadline:
+					<span class="deadline-time"></span>
+				</div>
+				<div>
+					{{conf.date | replace: '-', '–'}} {% if conf.place %}// <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>{% endif %}<br> 
+					{{ conf.comment }}
+				</div>
+			  </div>
+          </div>
+          <hr>
+        </div>
+        {% endfor %}
+    </div>
+<script>
+
+$(function() {
+	deadlineByConf = {};
+    {% for conf in site.data.conferences %}
+		{% assign conf_id = conf.id %}
+		{% if conf.deadline == "TBA" %}
+			$('#{{ conf_id }} .timer').html("TBA");
+			$('#{{ conf_id }} .deadline-time').html("TBA");
+			deadlineByConf["{{ conf_id }}"] = moment();
+		{% else %}
+			var rawDeadlines = {{ conf.deadline | jsonify }} || [];
+			if (rawDeadlines.constructor !== Array) {
+				rawDeadlines = [rawDeadlines];
+			}
+			var parsedDeadlines = [];
+			while (rawDeadlines.length > 0) {
+				var rawDeadline = rawDeadlines.pop();
+				if (rawDeadline.indexOf('%m') >= 0) {
+					for (var m = 1; m <= 12; m++) {
+						rawDeadlines.push(rawDeadline.replace('%m', m < 10 ? '0' + m : m));
+					}
+				} else if (rawDeadline.indexOf('%y') >= 0) {
+					year = parseInt(moment().year());
+					rawDeadlines.push(rawDeadline.replace('%y', year));
+					rawDeadlines.push(rawDeadline.replace('%y', year + 1));
+				} else {
+					{% if conf.timezone %}
+					var deadline = moment.tz(rawDeadline, "{{ conf.timezone }}");
+					{% else %}
+					var deadline = moment(rawDeadline + "-12:00");
+					{% endif %}
+					parsedDeadlines.push(deadline);
+				}
+			}
+			var confDeadline = parsedDeadlines[0];
+			var today = moment();
+			for (var i = 1; i < parsedDeadlines.length; i++) {
+				deadlineCandidate = parsedDeadlines[i];
+				if ((today.diff(deadlineCandidate) < 0 && today.diff(deadlineCandidate) > today.diff(confDeadline))) {
+					confDeadline = deadlineCandidate;
+				}
+			}
+			if (confDeadline) {
+			
+				var timeLeft = confDeadline.diff(moment())/1000;
+				if (timeLeft >= 0) {
+					var daysLeft = Math.floor(timeLeft / (60 * 60 * 24));
+					var hoursLeft = Math.floor((timeLeft / (60 * 60)) % 24);
+					var minutesLeft = Math.floor(timeLeft / 60 % 60);
+					var secondLeft = Math.floor(timeLeft % 60);
+
+					const timeLeftText = daysLeft + ' days ' + hoursLeft.toString().padStart(2, '0') + ' hours ' + minutesLeft.toString().padStart(2, '0') + ' minutes ' + secondLeft.toString().padStart(2, '0') + ' seconds.';
+					$('#{{ conf_id }} .timer').html(timeLeftText);
+
+					$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
+				}else{
+					$('#{{ conf_id }}').remove();
+				}
+				deadlineByConf["{{ conf_id }}"] = confDeadline;
+			}
+		{% endif %}
+	{% endfor %}
+    confs = $('.conf');
+    confs.detach().sort(function(a, b) {
+		return deadlineByConf[a.id] > deadlineByConf[b.id];
+    });	
+	alert(confs);
+	$('.conf-container').append(confs);
+});
+</script>
