@@ -1,5 +1,18 @@
 ---
 # Security and Privacy
+- name: CCS
+  year: 2021
+  id: ccs21
+  date: "November 14-19, 2021"
+  description: The ACM Conference on Computer and Communications Security
+  link: https://www.sigsac.org/ccs/CCS2021/index.html
+  deadline:
+    - "2021-01-20"
+    - "2021-05-06"
+  timezone: Etc/GMT+12
+  place: Seoul, South Korea
+  sub: SEC
+  
 - name: S&P (Oakland)
   year: 2021
   id: sp21
