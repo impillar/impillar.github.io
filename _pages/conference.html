@@ -86,12 +86,11 @@ $(function() {
 					const timeLeftText = daysLeft + ' days ' + hoursLeft.toString().padStart(2, '0') + ' hours ' + minutesLeft.toString().padStart(2, '0') + ' minutes ' + secondLeft.toString().padStart(2, '0') + ' seconds.';
 					$('#{{ conf_id }} .timer').html(timeLeftText);
 
-					$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));
-					
-					deadlineByConf["{{ conf_id }}"] = confDeadline;
+					$('#{{ conf_id }} .deadline-time').html(confDeadline.local().format('D MMM YYYY, h:mm:ss a'));	
 				}else{
 					$('#{{ conf_id }}').remove();
 				}
+				deadlineByConf["{{ conf_id }}"] = confDeadline;
 			}
 		{% endif %}
 	{% endfor %}
@@ -102,7 +101,8 @@ $(function() {
 		var b = deadlineByConf[b.id];
 		var diff1 = today.diff(a);
 		var diff2 = today.diff(b);
-		alert(deadlineByConf[a.id] + " " + deadlineByConf[b.id]);
+		alert(deadlineByConf[a.id]);
+		alert(deadlineByConf[b.id]);
 		alert(diff1 + " " + diff2);
 	});	
 	$('.conf-container').append(confs);
