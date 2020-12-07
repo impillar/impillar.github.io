@@ -95,11 +95,11 @@ $(function() {
 			}
 		{% endif %}
 	{% endfor %}
-    confs = $('.conf');
-    confs.detach().sort(function(a, b) {
-		return deadlineByConf[a.id] > deadlineByConf[b.id];
-    });	
-	alert(confs);
-	$('.conf-container').append(confs);
+    
 });
+confs = $('.conf');
+confs.detach().sort(function(a, b) {
+	return deadlineByConf[a.id] > deadlineByConf[b.id];
+});	
+$('.conf-container').append(confs);
 </script>
