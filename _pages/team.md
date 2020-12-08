@@ -11,7 +11,7 @@ Currently I'm working in the software and system security group of State Key Lab
 
 Yingzhe He, Ph.D. (Sep., 2017) (co-supervised)
 
-Dongsong Yu, Ph.D. (Sep., 2017) (co-supervised)
+Dongsong Yu, Ph.D. (Sep., 2015) (co-supervised)
 
 Weihao Huang, Ph.D. (Sep., 2018) (co-supervised)
 
