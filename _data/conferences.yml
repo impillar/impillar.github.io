@@ -1,5 +1,18 @@
 ---
 # Security and Privacy
+- name: DSN
+  year: 2021
+  id: dsn21
+  date: "June 21-24, 2021"
+  description: The 51st Annual IEEE/IFIP International Conference on Dependable Systems and Networks
+  link: http://dsn2021.ntu.edu.tw/index.html
+  deadline:
+    - "2021-12-11 23:59:59"
+  timezone: Etc/GMT+12
+  place: Taipei, Taiwan, China
+  sub: SEC
+  
+  
 - name: CCS
   year: 2021
   id: ccs21
