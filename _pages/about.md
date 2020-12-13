@@ -18,13 +18,14 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 **Big data analysis**. We have collected millions of Android apps and malware, and conducted a work to try to learn knowledge from the big data such as bug detection and crash analysis (FSE 2017, ICSE 2018), automated GUI code generation (ICSE 2018), malware characteristics (ASE 2019), evolution and trend. 
 
-**Vulnerability detection**. We attempt to detect weaknesses existing in Android apps, especially in security-critical apps such as financial apps (FSE 2019, ICSE 2020). In addition, we perform a large-scale analysis of vulnerabilities in five C projects and identify around four thoudsand security bugs among them (ICSE 2020), of which the data is released at [https://github.com/twelveand0/CarrotsBlender](https://github.com/twelveand0/CarrotsBlender).
+**Vulnerability detection**. We attempt to detect weaknesses existing in Android apps, especially in security-critical apps such as financial apps (FSE 2019, ICSE 2020). In addition, we perform a large-scale analysis of vulnerabilities in five C projects and identify around four thousand security bugs among them (ICSE 2020), of which the data is released at [https://github.com/twelveand0/CarrotsBlender](https://github.com/twelveand0/CarrotsBlender).
 
 **AI Security and Privacy**. We have conducted a comprehensive survey on security and privacy of deep learning systems which can be referred to at [https://arxiv.org/abs/1911.12562](https://arxiv.org/abs/1911.12562). We are also interested in protecting deep learning system from model stealing, backdoor and model inversion. 
 
 
 Recent news
 ======
++ :star2: [8/12/2020] Our paper "DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks" is conditinally accepted by USENIX Security 2021.
 + :star2: Our paper "Towards Security Threats of Deep Learning Systems: A Survey" is accepted by IEEE TSE 2020.
 + :star2: Our paper "A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices" is accepted by IEEE TIFS 2020.
 + :star2: Our paper "A3IDENT: A Two-phased Approach to Identify the Leading Authors of Android Apps" is accepted by ICSME 2020.
