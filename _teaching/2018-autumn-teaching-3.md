@@ -1,5 +1,5 @@
 ---
-title: "Static Analysis for Mobile Applications"
+title: "Static Analysis for Mobile Applications1"
 collection: teaching
 type: "Graduate course: Software Security and Testing"
 #permalink: /teaching/2018-autumn-teaching-3
