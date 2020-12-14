@@ -25,7 +25,7 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 Recent news
 ======
-+ :star2: [8/12/2020] Our paper "DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks" is conditinally accepted by USENIX Security 2021.
++ :star2: [8/12/2020] Our paper "DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks" is conditionally accepted by USENIX Security 2021.
 + :star2: Our paper "Towards Security Threats of Deep Learning Systems: A Survey" is accepted by IEEE TSE 2020.
 + :star2: Our paper "A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices" is accepted by IEEE TIFS 2020.
 + :star2: Our paper "A3IDENT: A Two-phased Approach to Identify the Leading Authors of Android Apps" is accepted by ICSME 2020.
