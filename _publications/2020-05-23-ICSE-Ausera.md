@@ -10,7 +10,7 @@ bib: 'http://impillar.github.io/files/icse2020ausera.md'
 author: "Sen Chen, Lingling Fan, Guozhu Meng, Ting Su, Minhui Xue, Yinxing Xue, Yang Liu, Lihua Xu"
 address: "Seoul, South Korean"
 year: 2020
-page: "1310-1322"
+page: "1310--1322"
 citation: ''
 ---
 <!--
