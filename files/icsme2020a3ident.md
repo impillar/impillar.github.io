@@ -4,5 +4,7 @@
   booktitle = {36th IEEE International Conference on Software Maintenance and Evolution (ICSME)},
   publisher = {IEEE},
   location = {Adelaide, Australia},
-  year = 2020
+  year = 2020,
+  pages = {617-628},
+  doi={10.1109/ICSME46990.2020.00064}
 }
