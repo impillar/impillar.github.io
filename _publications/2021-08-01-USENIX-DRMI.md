@@ -2,7 +2,7 @@
 title: "DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks"
 collection: publications
 permalink: /publication/2021-08-01-USENIX-DRMI
-excerpt: 'It is a work of reducing data for efficient black-box attacks' #'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'It is a work of reducing data for efficient black-box attacks' 
 date: 2021-08-01
 venue: 'Proceedings of the 30th USENIX Security Symposium (USENIX)'
 bib: 'http://impillar.github.io/files/usenix2021drmi.md'
