@@ -5,8 +5,8 @@ permalink: /publication/2020-10-01-TIFS-Mobitive
 excerpt: 'It is a mobile solution to detect Android malware.'
 date: 2020-10-01
 venue: 'IEEE Transactions on Information Forensics and Security'
-paperurl: 'javascript:void(0);'
-bib: 'javascript:void(0);'
+paperurl: 'https://impillar.github.io/files/tifs2020mobitive.pdf'
+bib: 'https://impillar.github.io/files/tifs2020mobitive.md'
 author: "Ruitao Feng, Sen Chen, Xiaofei Xie, Guozhu Meng, Shang-Wei Lin, and Yang Liu"
 year: 2020
 ---
