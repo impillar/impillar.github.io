@@ -1,4 +1,4 @@
-@INPROCEEDINGS{ijcnn2016,
+@INPROCEEDINGS{inscrypt2019,
   author={Mingming Zha and Guozhu Meng and Chaoyang Lin and Zhe Zhou and Kai Chen},
   booktitle={Information Security and Cryptology (Inscrypt)},
   title={RoLMA: A Practical Adversarial Attack Against Deep Learning-Based LPR Systems},
