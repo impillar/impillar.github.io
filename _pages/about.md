@@ -20,7 +20,7 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 **Vulnerability detection**. We attempt to detect weaknesses existing in Android apps, especially in security-critical apps such as financial apps (FSE 2019, ICSE 2020). In addition, we perform a large-scale analysis of vulnerabilities in five C projects and identify around four thousand security bugs among them (ICSE 2020), of which the data is released at [https://github.com/twelveand0/CarrotsBlender](https://github.com/twelveand0/CarrotsBlender).
 
-**AI Security and Privacy**. We have conducted a comprehensive survey on security and privacy of deep learning systems which has been accepted by IEEE Transactions on Software Engineering (https://arxiv.org/abs/1911.12562](https://arxiv.org/abs/1911.12562). We are also interested in protecting deep learning system from model stealing (USENIX Sec 2021), backdoor and model inversion. 
+**AI Security and Privacy**. We have conducted a comprehensive survey on security and privacy of deep learning systems which has been accepted by IEEE Transactions on Software Engineering ([https://arxiv.org/abs/1911.12562](https://arxiv.org/abs/1911.12562)). We are also interested in protecting deep learning system from model stealing (USENIX Sec 2021), backdoor and model inversion. 
 
 
 Recent news
