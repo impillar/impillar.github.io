@@ -25,6 +25,7 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 Recent news
 ======
++ :star2: [16/1/2021] Our two papers "SEPAL: Towards a Large-scale Analysis of SEAndroid Policy Customization" and "Have You been Properly Notified? Automatic Compliance Analysis of Privacy Policy Text with GDPR Article 13" are accepted by WWW 2021.
 + :star2: [8/12/2020] Our paper "DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks" is accepted by USENIX Security 2021.
 + :star2: Our paper "Towards Security Threats of Deep Learning Systems: A Survey" is accepted by IEEE TSE 2020.
 + :star2: Our paper "A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices" is accepted by IEEE TIFS 2020.
