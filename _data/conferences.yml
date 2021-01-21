@@ -100,10 +100,10 @@
   description: The 30th International Joint Conference on Artificial Intelligence
   link: https://ijcai-21.org/
   deadline:
-    - "2021-01-18 23:59:59"
+    - "2021-01-20 23:59:59"
   timezone: Etc/GMT+12
   place: Montreal, Canada
-  comment: '<b>NOTE</b>: Mandatory abstract deadline on Jan 12, 2021 (AoE) and author info. deadline on Jan 14, 2021 (AoE)'
+  comment: '<b>NOTE</b>: Mandatory abstract deadline on Jan 13, 2021 (AoE) and author info. deadline on Jan 16, 2021 (AoE)'
   sub: ML
 
 - name: ESEC/FSE
