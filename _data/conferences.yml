@@ -11,7 +11,7 @@
     - "2021-05-12 23:59:59"
   timezone: Etc/GMT+12
   place: Darmstadt, Germany
-  comment: '<b>NOTE</b>: Mandatory abstract deadline on January 05, 2021 (AoE) for winder cycle, May 05, 2021 (AoE) for Spring cycle.'
+  comment: '<b>NOTE</b>: Mandatory abstract deadline on January 05, 2021 (AoE) for Winter cycle, May 05, 2021 (AoE) for Spring cycle.'
   sub: SEC
   
 - name: DSN
