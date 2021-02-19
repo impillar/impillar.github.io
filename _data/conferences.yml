@@ -1,5 +1,19 @@
 ---
 # Security and Privacy
+- name: ESORICS
+  year: 2021
+  id: esorics21
+  date: "October 04-08, 2021"
+  description: The 26th European Symposium on Research in Computer Security (ESORICS) 2021
+  link: https://esorics2021.athene-center.de/index.php
+  deadline:
+    - "2021-01-12 23:59:59"
+    - "2021-05-12 23:59:59"
+  timezone: Etc/GMT+12
+  place: Darmstadt, Germany
+  comment: '<b>NOTE</b>: Mandatory abstract deadline on January 05, 2021 (AoE) for winder cycle, May 05, 2021 (AoE) for Spring cycle.'
+  sub: SEC
+  
 - name: DSN
   year: 2021
   id: dsn21
