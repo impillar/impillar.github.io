@@ -1,5 +1,19 @@
 ---
 # Security and Privacy
+- name: 'USENIX SEC'
+  year: 2022
+  id: usenix22
+  date: "August 10 – 12 2022"
+  description: The 31st USENIX Security Symposium
+  link: https://www.usenix.org/conference/usenixsecurity22
+  deadline: 
+    - "2021-06-08 23:59:59"
+    - "2021-10-12 23:59:59"
+    - "2022-02-01 23:59:59"
+  timezone: Etc/GMT+12
+  place: Boston, MA, USA
+  sub: SEC
+  
 - name: S&P (Oakland)
   year: 2022
   id: sp22
