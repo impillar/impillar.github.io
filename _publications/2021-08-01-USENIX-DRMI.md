@@ -8,6 +8,7 @@ venue: 'Proceedings of the 30th USENIX Security Symposium (USENIX)'
 author: "Yingzhe He, Guozhu Meng, Kai Chen, Jinwen He, and Xingbo Hu"
 address: "Vancouver, B.C., Canada"
 year: 2021
+paperurl: 'http://impillar.github.io/files/usenix2021drmi.pdf'
+bib: 'http://impillar.github.io/files/usenix2021drmi.md'
 citation: ''
-remark: "(to appear)"
 ---
