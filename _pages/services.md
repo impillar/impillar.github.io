@@ -5,7 +5,6 @@ excerpt: "Professional services"
 author_profile: true
 ---
 
-Currently I'm working in the software and system security group of State Key Laboratory of Information Security, directed by Prof. [Kai Chen](http://kaichen.org). We are looking for self-motivated and diligent students for Graduate Programs, please drop us an email for Ph.D./Master applications. 
 
 # Oraganization:
 
