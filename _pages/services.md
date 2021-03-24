@@ -10,7 +10,7 @@ Currently I'm working in the software and system security group of State Key Lab
 # Oraganization:
 
 1. [Artificial Intelligence Security](http://www.jsjkx.com/CN/news/news46.shtml){:target="_blank" rel="noopener"}, special issue of the journal Computer Science (Editor), 2021
-2. [Data-Driven Security](https://www.springeropen.com/collections/data-driven-security){:target="_blank" rel="noopener"}, Issue 1 of [CyberSecurity](https://link.springer.com/journal/42400){CyberSecurity}{:target="_blank" rel="noopener"} (Guest Editor), 2020
+2. [Data-Driven Security](https://www.springeropen.com/collections/data-driven-security){:target="_blank" rel="noopener"}, Issue 1 of [CyberSecurity](https://link.springer.com/journal/42400){:target="_blank" rel="noopener"} (Guest Editor), 2020
 3. [Special Track on Security and Privacy of Modern Software (SPMS 2020)](https://internetware2020.github.io/sp55.html/){:target="_blank" rel="noopener"}, 2020
 4. [The 3rd International Workshop on Advances in Mobile App Analysis (A-Mobile 2020)](https://a-mobile.github.io/){:target="_blank" rel="noopener"}, 2020
 5. [The 2nd International Workshop on Advances in Mobile App Analysis (A-Mobile 2019)](https://a-mobile.github.io/amobile2019.html){:target="_blank" rel="noopener"}, 2019
