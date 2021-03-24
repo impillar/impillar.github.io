@@ -81,7 +81,7 @@ author:
   avatar           : "profile.png"
   bio              : "Associate Professor @ Institute of Information Engineering, Chinese Academy of Sciences"
   location         : "China"
-  employer         : 
+  employer         :  University of Chinese Academy of Sciences
   googlescholar    : "https://scholar.google.com.sg/citations?user=fpE34K0AAAAJ&hl=en"
   dblp             : "https://dblp.uni-trier.de/pers/hd/m/Meng:Guozhu"
   email            : "mengguozhu@iie.ac.cn" # "gzmeng@ntu.edu.sg"
@@ -227,13 +227,13 @@ defaults:
       share: true
       comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  #- scope:
+  #    path: ""
+  #    type: talks
+  #  values:
+  #    layout: talk
+  #    author_profile: true
+  #    share: true
       
 # Sass/SCSS
 sass:
