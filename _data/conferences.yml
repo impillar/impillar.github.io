@@ -1,9 +1,22 @@
 ---
+# Programming Language
+- name: 'POPL'
+  year: 2022
+  id: popl22
+  date: "January 16 – 21, 2022"
+  description: The annual Symposium on Principles of Programming Languages 2022
+  link: https://popl22.sigplan.org/
+  deadline: 
+    - "2021-07-08 23:59:59"
+  timezone: Etc/GMT+12
+  place: Philadelphia, Pennsylvania, USA
+  sub: PL
+  
 # Security and Privacy
 - name: 'USENIX SEC'
   year: 2022
   id: usenix22
-  date: "August 10 – 12 2022"
+  date: "August 10 – 12, 2022"
   description: The 31st USENIX Security Symposium
   link: https://www.usenix.org/conference/usenixsecurity22
   deadline: 
@@ -14,10 +27,35 @@
   place: Boston, MA, USA
   sub: SEC
   
+- name: 'NDSS'
+  year: 2022
+  id: ndss22
+  date: "February 27 – March 3, 2022"
+  description: The 2022 Network and Distributed System Security Symposium
+  link: https://www.ndss-symposium.org/
+  deadline: 
+    - "2021-05-21 23:59:59"
+    - "2021-07-23 23:59:59"
+  timezone: Etc/GMT+12
+  place: San Diego, CA, USA
+  sub: SEC
+  
+  - name: 'ACSAC'
+  year: 2021
+  id: acsac2021
+  date: "December 6 – 10, 2021"
+  description: The 2021 Annual Computer Security Applications Conference (ACSAC)
+  link: https://www.acsac.org/
+  deadline: 
+    - "2021-06-23 23:59:59"
+  timezone: Etc/GMT+12
+  place: Austin, Texas, USA
+  sub: SEC
+
 - name: S&P (Oakland)
   year: 2022
   id: sp22
-  date: "May 22 – 26 2022"
+  date: "May 22 – 26, 2022"
   description: IEEE Symposium on Security and Privacy
   link: https://www.ieee-security.org/TC/SP2022/index.html
   deadline: 
