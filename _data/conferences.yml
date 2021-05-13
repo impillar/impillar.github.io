@@ -1,6 +1,6 @@
 ---
 # Programming Language
-- name: 'POPL'
+- name: POPL
   year: 2022
   id: popl22
   date: "January 16 – 21, 2022"
@@ -27,7 +27,7 @@
   place: Boston, MA, USA
   sub: SEC
   
-- name: 'NDSS'
+- name: NDSS
   year: 2022
   id: ndss22
   date: "February 27 – March 3, 2022"
@@ -40,7 +40,7 @@
   place: San Diego, CA, USA
   sub: SEC
   
-  - name: 'ACSAC'
+  - name: ACSAC
   year: 2021
   id: acsac2021
   date: "December 6 – 10, 2021"
