@@ -29,6 +29,12 @@ Xiaodong Zhang, Master, (Sep., 2020)
 
 Qiucun Yan, Master, (Sep., 2020)
 
+Kun Lai, Master, (Sep., 2021)
+
+Yibing Lan, Master, (Sep., 2021)
+
+Lu Xiang, Master, (Sep., 2021)
+
 # Former Students:
 Bingchang Liu, Ph.D. (Sep., 2016 - June, 2020) (co-supervised) (Ali Star, Ant Group)
 
