@@ -1,5 +1,17 @@
 ---
-
+- name: AsiaCCS
+  year: 2022
+  id: asiaccs22
+  date: "May 30 - June 3 2022"
+  description: The 17th ACM ASIA Conference on Computer and Communications Security
+  link: https://asiaccs2022.conferenceservice.jp/
+  deadline:
+    - "2021-07-30 23:59:59"
+    - "2021-11-19 23:59:59"
+  timezone: Etc/GMT+12
+  place: Nagasaki, Japan
+  sub: SEC
+  
 - name: ICSE
   year: 2022
   id: icse22
