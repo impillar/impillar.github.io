@@ -1,4 +1,31 @@
 ---
+
+- name: ICSE
+  year: 2022
+  id: icse22
+  date: "May 21 - 29 2022"
+  description: The 44th International Conference on Software Engineering
+  link: https://conf.researchr.org/track/icse-2022/icse-2022-papers
+  deadline:
+    - "2021-09-03 23:59:59"
+  timezone: Etc/GMT+12
+  place: Pittsburgh, PA, USA
+  comment: '<b>NOTE</b>: Mandatory abstract deadline on August 27, 2021 (AoE).'
+  sub: SE
+
+- name: ESEC/FSE
+  year: 2022
+  id: fse22
+  date: "November 14 - 18 2022"
+  description: The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+  link: https://2022.esec-fse.org/
+  deadline:
+    - "2022-03-16 23:59:59"
+  timezone: Etc/GMT+12
+  place: Singapore, Singapore
+  comment: '<b>NOTE</b>: Mandatory abstract deadline on March 09, 2022 (AoE).'
+  sub: SE
+  
 - name: POPL
   year: 2022
   id: popl22
