@@ -25,6 +25,9 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 Recent news
 ======
++ :star2: [02/07/2021] The 4th International Workshop on Advances in Mobile App Analysis is open for submission, please submit your paper at the following link:
+[https://easychair.org/conferences/?conf=amobile2021](https://easychair.org/conferences/?conf=amobile2021){:target="_blank" rel="noopener"}
+(A-Mobile: [https://a-mobile.github.io/](https://a-mobile.github.io/){:target="_blank" rel="noopener"})
 + :star2: [16/1/2021] Our two papers "SEPAL: Towards a Large-scale Analysis of SEAndroid Policy Customization" and "Have You been Properly Notified? Automatic Compliance Analysis of Privacy Policy Text with GDPR Article 13" are accepted by WWW 2021.
 + :star2: [8/12/2020] Our paper "DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks" is accepted by USENIX Security 2021.
 + :star2: Our paper "Towards Security Threats of Deep Learning Systems: A Survey" is accepted by IEEE TSE 2020.
@@ -35,7 +38,7 @@ Recent news
 + <font color='red'>Won 2019 ACM SIGSAC China Arising Star Award.</font>
 + Our paper "Characterizing Android Signature Issues" has been accepted for publication in ASE 2019.
 + We are organizing an issus on "Data-driven Security" for Cybersecurity journal with Dr. Liu Yang, Dr. Ou xinming, and Dr. Xing Xinyu. Please refer to the following link about this issue. [https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA](https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA){:target="_blank" rel="noopener"}. All the initiative and empirical artifacts on security are welcome. 
-+ The 2th International Workshop on Advances in Mobile App Analysis is open, please submit your paper at the following link:
++ The 2nd International Workshop on Advances in Mobile App Analysis is open, please submit your paper at the following link:
 [https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers](https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers)
 (A-Mobile: [https://a-mobile.github.io/](https://a-mobile.github.io/){:target="_blank" rel="noopener"})
 + Our paper "Securing Android App Markets via Modelling and Predicting Malware Spread between Markets" has been accepted for publication in the IEEE Transactions on Information Forensics and Security.
