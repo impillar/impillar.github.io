@@ -5,7 +5,8 @@ excerpt: "Research Team"
 author_profile: true
 ---
 
-Currently I'm working in the software and system security group of State Key Laboratory of Information Security, directed by Prof. [Kai Chen](http://kaichen.org). We are looking for self-motivated and diligent students for Graduate Programs, please drop us an email for Ph.D./Master applications. 
+Currently I'm working in the software and system security group of State Key Laboratory of Information Security, directed by Prof. [Kai Chen](http://kaichen.org). 
+We are looking for self-motivated and diligent students for Graduate Programs with [the University of Chinese Academy of Sciences](https://www.ucas.edu.cn/){:target="_blank" rel="noopener"}, please drop us an email for Ph.D./Master applications. 
 
 # Current Students:
 
