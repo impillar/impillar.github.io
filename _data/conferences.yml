@@ -1,4 +1,43 @@
 ---
+- name: DSN
+  year: 2022
+  id: dsn22
+  date: "June 27 - June 30 2022"
+  description: The 52nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks
+  link: https://dsn2022.github.io/
+  deadline:
+    - "2021-12-10 23:59:59"
+  timezone: Etc/GMT+12
+  place: Baltimore, Maryland, USA
+  comment: '<b>NOTE</b>: Mandatory abstract deadline on December 3, 2021 (AoE).'
+  sub: SEC
+  
+- name: TheWebConf
+  year: 2022
+  id: www22
+  date: "April 25 - April 29 2022"
+  description: The 31st Web Conference 
+  link: https://www2022.thewebconf.org/
+  deadline:
+    - "2021-10-21 23:59:59"
+  timezone: Etc/GMT+12
+  place: Lyon, France
+  comment: '<b>NOTE</b>: Mandatory abstract deadline on Octorber 14, 2021 (AoE).'
+  sub: SEC
+  
+- name: DSN
+  year: 2022
+  id: dsn22
+  date: "June 27 - June 30 2022"
+  description: The 52nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks
+  link: https://dsn2022.github.io/
+  deadline:
+    - "2021-12-10 23:59:59"
+  timezone: Etc/GMT+12
+  place: Baltimore, Maryland, USA
+  comment: '<b>NOTE</b>: Mandatory abstract deadline on December 3, 2021 (AoE).'
+  sub: SEC
+  
 - name: AsiaCCS
   year: 2022
   id: asiaccs22
