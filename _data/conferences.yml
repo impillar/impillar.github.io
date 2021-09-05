@@ -1,9 +1,21 @@
 ---
+- name: PLDI
+  year: 2022
+  id: pldi22
+  date: "June 22 - June 24 2022"
+  description: the 43rd ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)
+  link: https://pldi22.sigplan.org/
+  deadline:
+    - "2021-11-19 23:59:59"
+  timezone: Etc/GMT+12
+  place: San Diego, California, USA
+  sub: PL
+  
 - name: DSN
   year: 2022
   id: dsn22
   date: "June 27 - June 30 2022"
-  description: The 52nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks
+  description: The 52nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)
   link: https://dsn2022.github.io/
   deadline:
     - "2021-12-10 23:59:59"
@@ -16,14 +28,14 @@
   year: 2022
   id: www22
   date: "April 25 - April 29 2022"
-  description: The 31st Web Conference 
+  description: The 31st Web Conference (WWW)
   link: https://www2022.thewebconf.org/
   deadline:
     - "2021-10-21 23:59:59"
   timezone: Etc/GMT+12
   place: Lyon, France
   comment: '<b>NOTE</b>: Mandatory abstract deadline on Octorber 14, 2021 (AoE).'
-  sub: SEC
+  sub: OTHERS
   
 - name: DSN
   year: 2022
