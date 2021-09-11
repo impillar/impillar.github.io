@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Dr. Guozhu Meng obtained his Ph.D degree from the School of Computer Science and Engineering, Nanyang Technological University, Singapore at 2017. His supervisors are Full Prof. [Liu Yang](http://www.ntu.edu.sg/home/yangliu/){:target="_blank" rel="noopener"} and Assoc Prof. [Zhang Jie](http://www.ntu.edu.sg/home/zhangj/){:target="_blank" rel="noopener"}. 
+Dr. Guozhu Meng obtained his Ph.D degree from the School of Computer Science and Engineering, Nanyang Technological University, Singapore at 2017. His supervisors are Full Prof. [Liu Yang](https://personal.ntu.edu.sg/yangliu/index.html){:target="_blank" rel="noopener"} and Assoc Prof. [Zhang Jie](https://personal.ntu.edu.sg/zhangj/){:target="_blank" rel="noopener"}. 
 
 <!--In addition, he has been working closely with Dr. [Xue Yinxing](https://sites.google.com/site/yinxingxue/).-->
 
