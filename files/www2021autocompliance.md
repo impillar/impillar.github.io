@@ -1,0 +1,15 @@
+@inproceedings{www2021autocompliance,
+	author = {Liu, Shuang and Zhao, Baiyang and Guo, Renjie and Meng, Guozhu and Zhang, Fan and Zhang, Meishan},
+	title = {Have You Been Properly Notified? Automatic Compliance Analysis of Privacy Policy Text with GDPR Article 13},
+	year = {2021},
+	isbn = {9781450383127},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3442381.3450022},
+	doi = {10.1145/3442381.3450022},
+	pages = {2154–2164},
+	numpages = {11},
+	keywords = {Natural Language Processing, Privacy, Compliance Analysis},
+	location = {Ljubljana, Slovenia},
+	series = {WWW '21}
+}
