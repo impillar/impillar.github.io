@@ -8,5 +8,6 @@ venue: 'The 32nd International Symposium on Software Reliability Engineering (IS
 author: "Yuekang Li, Guozhu Meng, Jun Xu, Cen Zhang, Hongxu Chen, Xiaofei Xie, Haijun Wang and Yang Liu"
 year: 2021
 address: "Wuhan, China"
-remark: "(to appear)"
+paperurl: 'http://impillar.github.io/files/issre2021vallnut.pdf'
+bib: 'http://impillar.github.io/files/issre2021vallnut.md'
 ---
