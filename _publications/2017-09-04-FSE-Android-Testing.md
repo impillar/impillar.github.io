@@ -12,10 +12,5 @@ address: "Paderborn, Germany"
 paperurl: 'http://impillar.github.io/files/fse2017stoat.pdf'
 bib: 'http://impillar.github.io/files/fse2017stoat.md'
 remark: 'First Prize of Tool Demo in NASAC 2017'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: ''
 ---
-This paper is about the number 1. The number 2 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
