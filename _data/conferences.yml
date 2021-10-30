@@ -1,4 +1,16 @@
 ---
+- name: ISSTA
+  year: 2022
+  id: issta22
+  date: "July 18 - 22 2022"
+  description: The ACM SIGSOFT International Symposium on Software Testing and Analysis
+  link: https://conf.researchr.org/home/issta-2022
+  deadline:
+    - "2022-01-28 23:59:59"
+  timezone: Etc/GMT+12
+  place: Daejeon, South Korea
+  sub: SE
+  
 - name: PLDI
   year: 2022
   id: pldi22
