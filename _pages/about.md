@@ -25,6 +25,7 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 Recent news
 ======
++ :star2: [18/12/2021] Our paper "Learning Program Semantics with Code Representations: An Empirical Study" is accepted by SANER 2022.
 + :star2: [31/7/2021] Our paper "VALL-NUT: Principled Anti-Greybox-Fuzzing" is accepted by ISSRE 2021.
 + :star2: [02/07/2021] The 4th International Workshop on Advances in Mobile App Analysis is open for submission, please submit your paper at the following link:
 [https://easychair.org/conferences/?conf=amobile2021](https://easychair.org/conferences/?conf=amobile2021){:target="_blank" rel="noopener"}
