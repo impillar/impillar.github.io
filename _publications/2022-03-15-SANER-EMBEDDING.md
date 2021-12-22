@@ -8,7 +8,7 @@ author: "Siow Jing Kai, Shangqing Liu, Xiaofei Xie, Guozhu Meng and Yang Liu"
 venue: '29th IEEE International Conference onSoftware Analysis, Evolution and Reengineering (SANER 2022)'
 year: 2022
 address: "Hawaii"
-note: "to appear"
+NOTE: "to appear"
 # paperurl: 'http://impillar.github.io/files/iccps2017vbash.pdf'
 # bib: 'http://impillar.github.io/files/iccps2017vbash.md'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
