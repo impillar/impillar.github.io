@@ -1,4 +1,17 @@
 ---
+- name: ASE
+  year: 2022
+  id: ase22
+  date: "September 26 - October 1, 2022"
+  description: The 37th IEEE/ACM International Conference on Automated Software Engineering
+  link: https://conf.researchr.org/home/ase-2022
+  deadline:
+    - "2022-05-06 23:59:59"
+  timezone: Etc/GMT+12
+  place: Ann Arbor, Michigan, United States
+  comment: '<b>NOTE</b>: Mandatory abstract deadline on April 29, 2022 (AoE)'
+  sub: SE
+  
 - name: CCS
   year: 2022
   id: ccs22
