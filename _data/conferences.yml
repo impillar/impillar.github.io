@@ -1,4 +1,17 @@
 ---
+- name: CCS
+  year: 2022
+  id: ccs22
+  date: "November 14-19, 2022"
+  description: The ACM Conference on Computer and Communications Security
+  link: https://www.sigsac.org/ccs/CCS2022/
+  deadline:
+    - "2022-01-14 23:59:59"
+    - "2022-05-02 23:59:59"
+  timezone: Etc/GMT+12
+  place: Los Angeles, USA
+  sub: SEC
+  
 - name: ISSTA
   year: 2022
   id: issta22
