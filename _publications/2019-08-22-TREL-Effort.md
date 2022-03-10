@@ -1,15 +1,15 @@
 ---
 title: "Large-Scale Empirical Studies on Effort-Aware Security Vulnerability Prediction Methods"
 collection: publications
-permalink: /publication/2017-06-01-TMC-Android-Performance-1
+permalink: /publication/2019-08-22-TREL-Effort
 excerpt: 'It is a work to evaluate the effort-aware security vulnerability prediction methods.'
 date: 2019-08-22
 author: "Xiang Chen, Yingquan Zhao, Zhanqi Cui, Guozhu Meng, Yang Liu, and Zan Wang"
 venue: 'IEEE Transactions on Reliability'
-volume: X
-issue: X
-year: 2019
-page: "1--18"
+volume: 69
+issue: 1
+year: 2020
+page: "70--87"
 paperurl: 'http://impillar.github.io/files/trel2019effort.pdf'
 bib: 'http://impillar.github.io/files/trel2019effort.md'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
