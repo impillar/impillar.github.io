@@ -1,4 +1,16 @@
 ---
+- name: ICSE
+  year: 2023
+  id: icse23
+  date: "May 14 - 20 2023"
+  description: The 45th International Conference on Software Engineering
+  link: https://conf.researchr.org/home/icse-2023
+  deadline:
+    - "2022-09-01 23:59:59"
+  timezone: Etc/GMT+12
+  place: Melbourne, Australia
+  sub: SE
+  
 - name: POPL
   year: 2023
   id: popl23
