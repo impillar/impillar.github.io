@@ -1,4 +1,16 @@
 ---
+- name: POPL
+  year: 2023
+  id: popl23
+  date: "January 15 – 21, 2023"
+  description: The annual Symposium on Principles of Programming Languages (POPL) 2023
+  link: https://conf.researchr.org/home/POPL-2023
+  deadline: 
+    - "2022-07-07 23:59:59"
+  timezone: Etc/GMT+12
+  place: San Antonio, Texas, USA (tentative)
+  sub: PL
+  
 - name: S&P (Oakland)
   year: 2023
   id: sp23
