@@ -1,4 +1,18 @@
 ---
+- name: S&P (Oakland)
+  year: 2023
+  id: sp23
+  date: "May 22 – 26, 2023"
+  description: IEEE Symposium on Security and Privacy
+  link: https://www.ieee-security.org/TC/SP2023
+  deadline: 
+    - "2022-04-01 23:59:59"
+    - "2022-08-19 23:59:59"
+    - "2022-12-02 23:59:59"
+  timezone: Etc/GMT+12
+  place: San Francisco, California, USA
+  sub: SEC
+  
 - name: ASE
   year: 2022
   id: ase22
