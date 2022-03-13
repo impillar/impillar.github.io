@@ -159,7 +159,7 @@
   description: The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
   link: https://2022.esec-fse.org/
   deadline:
-    - "2022-03-16 23:59:59"
+    - "2022-03-17 23:59:59"
   timezone: Etc/GMT+12
   place: Singapore, Singapore
   comment: '<b>NOTE</b>: Mandatory abstract deadline on March 09, 2022 (AoE).'
