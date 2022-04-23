@@ -9,6 +9,7 @@ author: "Zizhuang Deng, Kai Chen, Guozhu Meng, Xiaodong Zhang, Ke Xu and Yao Che
 address: "Los Angeles, USA"
 year: 2022
 citation: ''
-paperurl: 'http://impillar.github.io/files/ccs2022advdroid.pdf'
-bib: 'http://impillar.github.io/files/ccs2022advdroid.md'
+# paperurl: 'http://impillar.github.io/files/ccs2022advdroid.pdf'
+# bib: 'http://impillar.github.io/files/ccs2022advdroid.md'
+remark: 'to appear'
 ---
