@@ -5,7 +5,7 @@ permalink: /publication/2022-03-15-SANER-EMBEDDING
 excerpt: 'It is a work to empirically study how code representations affect program semantics learning.'
 date: 2022-03-15
 author: "Siow Jing Kai, Shangqing Liu, Xiaofei Xie, Guozhu Meng and Yang Liu"
-venue: '29th IEEE International Conference onSoftware Analysis, Evolution and Reengineering (SANER 2022)'
+venue: '29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2022)'
 year: 2022
 address: "Hawaii"
 NOTE: "to appear"
