@@ -29,11 +29,9 @@ Yibing Lan, Master, (Sep., 2021)
 
 Lu Xiang, Master, (Sep., 2021)
 
-# Interns:
+Fan Xiang, Master, (Sep., 2022)
 
-Fan Xiang, USTC (Talent Program in Artificial Intelligence)
-
-Yuling Cai, USTC (School of the Gifted Young, Talent Program in Artificial Intelligence)
+Yuling Cai, Master, (Sep., 2022)
 
 # Former Students:
 
