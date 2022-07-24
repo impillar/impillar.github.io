@@ -10,17 +10,12 @@ We are looking for self-motivated and diligent students for Graduate Programs wi
 
 # Current Students:
 
-Yingzhe He, Ph.D. (Sep., 2017) (co-supervised)
-
-Dongsong Yu, Ph.D. (Sep., 2015) (co-supervised)
 
 Zizhuang Deng, Ph.D. (Sep., 2018) (co-supervised)
 
 Weihao Huang, Ph.D. (Sep., 2018) (co-supervised)
 
 Jinwen He, Ph.D. (Sep., 2019) (co-supervised)
-
-Xingbo Hu, Master, (Sep., 2019)
 
 Xueyang Li, Master, (Sep., 2020)
 
@@ -42,9 +37,16 @@ Yuling Cai, USTC (School of the Gifted Young, Talent Program in Artificial Intel
 
 # Former Students:
 
+
+Yingzhe He, Ph.D. (Sep., 2017 - June, 2022) (co-supervised) (Huawei Topminds “天才少年”计划)
+
+Dongsong Yu, Ph.D. (Sep., 2015 - June, 2022) (co-supervised) (Assistant Professor, Zhongguancun National Laboratory)
+
+Xingbo Hu, Master, (Sep., 2019 - June, 2022) (Huawei)
+
 Yuhang Zhao, Master (Sep., 2018 - June, 2021) (co-supervised) (China Mobile Research Institute)
 
-Wei Wang, Master (Sep., 2018 - Jan., 2021) (co-supervised)
+Wei Wang, Master (Sep., 2018 - Jan., 2021) (co-supervised with Tianjin University)
 
 Bingchang Liu, Ph.D. (Sep., 2016 - June, 2020) (co-supervised) (Ali Star, Ant Group)
 
