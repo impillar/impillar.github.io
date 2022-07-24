@@ -17,6 +17,8 @@ Weihao Huang, Ph.D. (Sep., 2018) (co-supervised)
 
 Jinwen He, Ph.D. (Sep., 2019) (co-supervised)
 
+Hongcheng Chen, Master
+
 Xueyang Li, Master, (Sep., 2020)
 
 Xiaodong Zhang, Master, (Sep., 2020)
