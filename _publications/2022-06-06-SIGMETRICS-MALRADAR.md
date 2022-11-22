@@ -9,10 +9,9 @@ venue: 'ACM SIGMETRICS / IFIP PERFORMANCE 2022 (SIGMETRICS 2022)'
 year: 2022
 address: "Mumbai, India"
 NOTE: "to appear"
-# paperurl: 'http://impillar.github.io/files/iccps2017vbash.pdf'
-# bib: 'http://impillar.github.io/files/iccps2017vbash.md'
+paperurl: 'http://impillar.github.io/files/sigmetrics2022malradar.pdf'
+bib: 'http://impillar.github.io/files/sigmetrics2022malradar.md'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
-remark: '(to appear)'
 ---
 This paper is about the number 1. The number 2 is left for future work.
 
