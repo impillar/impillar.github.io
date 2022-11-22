@@ -12,5 +12,4 @@ citation: ''
 page: "785–799"
 paperurl: 'http://impillar.github.io/files/ccs2022advdroid.pdf'
 bib: 'http://impillar.github.io/files/ccs2022advdroid.md'
-remark: '(to appear)'
 ---
