@@ -26,7 +26,7 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 Recent news
 ======
 + :star2: [09/12/2022] Our paper "Title: ContraBERT: Enhancing Code Pre-trained Models via Contrastive Learning" is accepted by ICSE 2023. Congratulations to Shangqing!
-+ :star2: [04/11/2022] I was awared as Beijing Nova 2023, a very competing award for young researchers from both academia and industry.
++ :star2: [04/11/2022] I was awared as Beijing Nova 2023, a very competing award for young researchers from both academia and industry in Beijing.
 + :star2: [24/04/2022] Our paper "Understanding Real-world Threats to Deep Learning Models in Android Apps" is accepted by CCS 2022. Congratulations to Zizhuang and Xiaodong!
 + :star2: [18/12/2021] Our paper "Learning Program Semantics with Code Representations: An Empirical Study" is accepted by SANER 2022.
 + [31/7/2021] Our paper "VALL-NUT: Principled Anti-Greybox-Fuzzing" is accepted by ISSRE 2021.
