@@ -25,14 +25,16 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 Recent news
 ======
++ :star2: [09/12/2022] Our paper "Title: ContraBERT: Enhancing Code Pre-trained Models via Contrastive Learning" is accepted by ICSE 2023. Congratulations to Shangqing!
++ :star2: [04/11/2022] I was awared as Beijing Nova 2023, a very competing award for young researchers from both academia and industry.
 + :star2: [24/04/2022] Our paper "Understanding Real-world Threats to Deep Learning Models in Android Apps" is accepted by CCS 2022. Congratulations to Zizhuang and Xiaodong!
 + :star2: [18/12/2021] Our paper "Learning Program Semantics with Code Representations: An Empirical Study" is accepted by SANER 2022.
-+ :star2: [31/7/2021] Our paper "VALL-NUT: Principled Anti-Greybox-Fuzzing" is accepted by ISSRE 2021.
-+ :star2: [02/07/2021] The 4th International Workshop on Advances in Mobile App Analysis is open for submission, please submit your paper at the following link:
++ [31/7/2021] Our paper "VALL-NUT: Principled Anti-Greybox-Fuzzing" is accepted by ISSRE 2021.
++ [02/07/2021] The 4th International Workshop on Advances in Mobile App Analysis is open for submission, please submit your paper at the following link:
 [https://easychair.org/conferences/?conf=amobile2021](https://easychair.org/conferences/?conf=amobile2021){:target="_blank" rel="noopener"}
 (A-Mobile: [https://a-mobile.github.io/](https://a-mobile.github.io/){:target="_blank" rel="noopener"})
-+ :star2: [16/1/2021] Our two papers "SEPAL: Towards a Large-scale Analysis of SEAndroid Policy Customization" and "Have You been Properly Notified? Automatic Compliance Analysis of Privacy Policy Text with GDPR Article 13" are accepted by WWW 2021.
-+ :star2: [8/12/2020] Our paper "DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks" is accepted by USENIX Security 2021.
++ [16/1/2021] Our two papers "SEPAL: Towards a Large-scale Analysis of SEAndroid Policy Customization" and "Have You been Properly Notified? Automatic Compliance Analysis of Privacy Policy Text with GDPR Article 13" are accepted by WWW 2021.
++ [8/12/2020] Our paper "DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks" is accepted by USENIX Security 2021.
 + Our paper "Towards Security Threats of Deep Learning Systems: A Survey" is accepted by IEEE TSE 2020.
 + Our paper "A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices" is accepted by IEEE TIFS 2020.
 + Our paper "A3IDENT: A Two-phased Approach to Identify the Leading Authors of Android Apps" is accepted by ICSME 2020.
