@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2020-05-23-ICSE-Ausera
 excerpt: 'It is a work to assess the security weaknesses in Android Banking Apps'
 date: 2020-05-23
-venue: 'The 42th International Conference on Software Engineering (ICSE)'
+venue: 'The 42nd International Conference on Software Engineering (ICSE)'
 paperurl: 'http://impillar.github.io/files/icse2020ausera.pdf'
 bib: 'http://impillar.github.io/files/icse2020ausera.md'
 author: "Sen Chen, Lingling Fan, Guozhu Meng, Ting Su, Minhui Xue, Yinxing Xue, Yang Liu, Lihua Xu"
