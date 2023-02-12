@@ -9,5 +9,5 @@ venue: 'IEEE Transactions on Software Engineering'
 # bib: 'http://impillar.github.io/files/tse2023graphsearchnet.md'
 author: "Shangqing Liu, Xiaofei Xie, Jingkai Siow, Lei Ma, Guozhu Meng, and Yang Liu"
 year: 2023
-remark: "To appear"
+remark: "(To appear)"
 ---
