@@ -12,4 +12,5 @@ citation: ''
 page: "785-799"
 paperurl: 'http://impillar.github.io/files/ccs2022advdroid.pdf'
 bib: 'http://impillar.github.io/files/ccs2022advdroid.md'
+remark: 'Second Prize of Tool Demo in ChinaSoft 2022'
 ---
