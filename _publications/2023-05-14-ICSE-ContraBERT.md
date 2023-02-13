@@ -7,7 +7,7 @@ date: 2023-05-14
 venue: 'The 45th International Conference on Software Engineering (ICSE)'
 # paperurl: 'http://impillar.github.io/files/icse2023contrabert.pdf'
 # bib: 'http://impillar.github.io/files/icse2023contrabert.md'
-author: "Shangqing Liu, Baozhi Wu, Xiaofei Xie, Guozhu Meng, and Yang Liu"
+author: "Shangqing Liu, Bozhi Wu, Xiaofei Xie, Guozhu Meng, and Yang Liu"
 address: "Melbourne, Australia"
 year: 2023
 citation: ''
