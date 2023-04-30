@@ -25,6 +25,7 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 Recent news
 ======
++ :star2: [30/04/2023] Our paper "Aliasing Backdoor Attacks on Pre-trained Models" is accepted by USENIX Security 2023. Congratulations to Chengan and Peizhuo!
 + :star2: [09/12/2022] Our paper "ContraBERT: Enhancing Code Pre-trained Models via Contrastive Learning" is accepted by ICSE 2023. Congratulations to Shangqing!
 + :star2: [04/11/2022] I was awared as Beijing Nova 2023, a very competing award for young researchers from both academia and industry in Beijing.
 + :star2: [24/04/2022] Our paper "Understanding Real-world Threats to Deep Learning Models in Android Apps" is accepted by CCS 2022. Congratulations to Zizhuang and Xiaodong!
