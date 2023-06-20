@@ -8,8 +8,8 @@ venue: 'Proceedings of the 32nd USENIX Security Symposium (USENIX)'
 author: "Zizhuang Deng, Guozhu Meng, Kai Chen, Tong Liu, Lu Xiang, and Chunyang Chen"
 address: "ANAHEIM, CA, USA"
 year: 2023
-# paperurl: 'http://impillar.github.io/files/usenix2023tensorscope.pdf'
-# bib: 'http://impillar.github.io/files/usenix2023tensorscope.md'
+paperurl: 'http://impillar.github.io/files/usenix2023tensorscope.pdf'
+bib: 'http://impillar.github.io/files/usenix2023tensorscope.md'
 # citation: ''
-remark: "(To appear)"
+# remark: "(To appear)"
 ---

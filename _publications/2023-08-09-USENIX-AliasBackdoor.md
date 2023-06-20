@@ -8,8 +8,8 @@ venue: 'Proceedings of the 32nd USENIX Security Symposium (USENIX)'
 author: "Chengan Wei, Yeonjoon Lee, Kai Chen, Guozhu Meng, and Peizhuo Lv"
 address: "ANAHEIM, CA, USA"
 year: 2023
-# paperurl: 'http://impillar.github.io/files/usenix2021drmi.pdf'
-# bib: 'http://impillar.github.io/files/usenix2021drmi.md'
+paperurl: 'http://impillar.github.io/files/usenix2023aliasbackdoor.pdf'
+bib: 'http://impillar.github.io/files/usenix2023aliasbackdoor.md'
 # citation: ''
-remark: "(To appear)"
+# remark: "(To appear)"
 ---
