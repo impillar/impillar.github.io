@@ -25,6 +25,7 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 Recent news
 ======
++ :star2: [05/30/2024] Our paper "Making Them Ask and Answer: Jailbreaking Large Language Models in Few Queries via Disguise and Reconstruction" is accepted by USENIX Security 2024. Congratulations to Liu Tong and Yingjie!
 + :star2: [03/06/2023] Our paper "Differential Testing of Cross Deep Learning Framework APIs: Revealing Inconsistencies and Vulnerabilities" is accepted by USENIX Security 2023. Congratulations to Zizhuang, Liu Tong and Xiang Lu!
 + :star2: [09/05/2023] Our paper "Good-looking but Lacking Faithfulness: Understanding Local Explanation Methods through Trend-based Testing" is accepted by CCS 2023. Congratulations to Jinwen and Congyi!
 + :star2: [30/04/2023] Our paper "Aliasing Backdoor Attacks on Pre-trained Models" is accepted by USENIX Security 2023. Congratulations to Chengan and Peizhuo!
