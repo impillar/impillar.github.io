@@ -5,7 +5,7 @@ permalink: /publication/2024-08-14-USENIX-DRA
 excerpt: 'It is a work of jailbreaking LLM by exploiting inherit vulnerabilites during safty alignment' 
 date: 2024-08-14
 venue: 'Proceedings of the 33rd USENIX Security Symposium (USENIX Sec)'
-author: "Tong Liu, Ying Jie, Zhe Zhao, Yinpeng Dong, Guozhu Meng, ​and Kai Chen"
+author: "Tong Liu, Yingjie Zhang, Zhe Zhao, Yinpeng Dong, Guozhu Meng, ​and Kai Chen"
 address: "PHILADELPHIA, PA, USA"
 year: 2024
 # paperurl: 'http://impillar.github.io/files/usenix2023aliasbackdoor.pdf'
