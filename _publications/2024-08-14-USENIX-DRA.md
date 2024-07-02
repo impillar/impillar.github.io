@@ -8,8 +8,7 @@ venue: 'Proceedings of the 33rd USENIX Security Symposium (USENIX Sec)'
 author: "Tong Liu, Yingjie Zhang, Zhe Zhao, Yinpeng Dong, Guozhu Meng, ​and Kai Chen"
 address: "PHILADELPHIA, PA, USA"
 year: 2024
-# paperurl: 'http://impillar.github.io/files/usenix2023aliasbackdoor.pdf'
-# bib: 'http://impillar.github.io/files/usenix2023aliasbackdoor.md'
+paperurl: 'http://impillar.github.io/files/usenix2024dra.pdf'
+bib: 'http://impillar.github.io/files/usenix2024dra.md'
 citation: ''
-remark: "(To appear)"
 --
