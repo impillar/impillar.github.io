@@ -30,6 +30,7 @@ Recent news
 + [03/06/2023] Our paper "Differential Testing of Cross Deep Learning Framework APIs: Revealing Inconsistencies and Vulnerabilities" is accepted by USENIX Security 2023. Congratulations to Zizhuang, Liu Tong and Xiang Lu!
 + [09/05/2023] Our paper "Good-looking but Lacking Faithfulness: Understanding Local Explanation Methods through Trend-based Testing" is accepted by CCS 2023. Congratulations to Jinwen and Congyi!
 + [30/04/2023] Our paper "Aliasing Backdoor Attacks on Pre-trained Models" is accepted by USENIX Security 2023. Congratulations to Chengan and Peizhuo!
+<!--
 # + [09/12/2022] Our paper "ContraBERT: Enhancing Code Pre-trained Models via Contrastive Learning" is accepted by ICSE 2023. Congratulations to Shangqing!
 # + [04/11/2022] I was awared as Beijing Nova 2023, a very competing award for young researchers from both academia and industry in Beijing.
 # + [24/04/2022] Our paper "Understanding Real-world Threats to Deep Learning Models in Android Apps" is accepted by CCS 2022. Congratulations to Zizhuang and Xiaodong!
@@ -58,3 +59,4 @@ Recent news
 # + <font color='red'>Our Automated Android App Testing tool-Stoat won the First Prize of Tool Demo in NASAC 2017</font>
 # + Our research paper on mining design templates for Java projects is accepted by ASE 2017
 # + Our research paper on model-based Android app testing is accepted by ESEC/FSE 2017
+-->
