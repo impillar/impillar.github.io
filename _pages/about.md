@@ -25,14 +25,15 @@ He joined Institute of Information Engineering of Chinese Academy of Sciences as
 
 Recent news
 ======
++ :star2: [07/05/2024] Our paper "Demystifying RCE Vulnerabilities in LLM-Integrated Apps" is accepted by CCS 2024. Congratulations to Liu Tong and Zizhuang!
 + :star2: [05/30/2024] Our paper "Making Them Ask and Answer: Jailbreaking Large Language Models in Few Queries via Disguise and Reconstruction" is accepted by USENIX Security 2024. Congratulations to Liu Tong and Yingjie!
-+ :star2: [03/06/2023] Our paper "Differential Testing of Cross Deep Learning Framework APIs: Revealing Inconsistencies and Vulnerabilities" is accepted by USENIX Security 2023. Congratulations to Zizhuang, Liu Tong and Xiang Lu!
-+ :star2: [09/05/2023] Our paper "Good-looking but Lacking Faithfulness: Understanding Local Explanation Methods through Trend-based Testing" is accepted by CCS 2023. Congratulations to Jinwen and Congyi!
-+ :star2: [30/04/2023] Our paper "Aliasing Backdoor Attacks on Pre-trained Models" is accepted by USENIX Security 2023. Congratulations to Chengan and Peizhuo!
-+ :star2: [09/12/2022] Our paper "ContraBERT: Enhancing Code Pre-trained Models via Contrastive Learning" is accepted by ICSE 2023. Congratulations to Shangqing!
-+ :star2: [04/11/2022] I was awared as Beijing Nova 2023, a very competing award for young researchers from both academia and industry in Beijing.
-+ :star2: [24/04/2022] Our paper "Understanding Real-world Threats to Deep Learning Models in Android Apps" is accepted by CCS 2022. Congratulations to Zizhuang and Xiaodong!
-+ :star2: [18/12/2021] Our paper "Learning Program Semantics with Code Representations: An Empirical Study" is accepted by SANER 2022.
++ [03/06/2023] Our paper "Differential Testing of Cross Deep Learning Framework APIs: Revealing Inconsistencies and Vulnerabilities" is accepted by USENIX Security 2023. Congratulations to Zizhuang, Liu Tong and Xiang Lu!
++ [09/05/2023] Our paper "Good-looking but Lacking Faithfulness: Understanding Local Explanation Methods through Trend-based Testing" is accepted by CCS 2023. Congratulations to Jinwen and Congyi!
++ [30/04/2023] Our paper "Aliasing Backdoor Attacks on Pre-trained Models" is accepted by USENIX Security 2023. Congratulations to Chengan and Peizhuo!
++ [09/12/2022] Our paper "ContraBERT: Enhancing Code Pre-trained Models via Contrastive Learning" is accepted by ICSE 2023. Congratulations to Shangqing!
++ [04/11/2022] I was awared as Beijing Nova 2023, a very competing award for young researchers from both academia and industry in Beijing.
++ [24/04/2022] Our paper "Understanding Real-world Threats to Deep Learning Models in Android Apps" is accepted by CCS 2022. Congratulations to Zizhuang and Xiaodong!
++ [18/12/2021] Our paper "Learning Program Semantics with Code Representations: An Empirical Study" is accepted by SANER 2022.
 + [31/7/2021] Our paper "VALL-NUT: Principled Anti-Greybox-Fuzzing" is accepted by ISSRE 2021.
 + [02/07/2021] The 4th International Workshop on Advances in Mobile App Analysis is open for submission, please submit your paper at the following link:
 [https://easychair.org/conferences/?conf=amobile2021](https://easychair.org/conferences/?conf=amobile2021){:target="_blank" rel="noopener"}
