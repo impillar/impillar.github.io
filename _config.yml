@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "DR. MENG GUOZHU's HOMEPAGE"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "DR. MENG GUOZHU"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://impillar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "impillar.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -73,18 +73,19 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          :  "UA-63308615-6"
 
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "DR. MENG GUOZHU"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Associate Professor @ Institute of Information Engineering, Chinese Academy of Sciences/ <br/>University of Chinese Academy of Sciences"
+  location         : "China"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    : "hhttps://scholar.google.com/citations?user=fpE34K0AAAAJ&hl=en"
+  dblp             : "https://dblp.uni-trier.de/pers/hd/m/Meng:Guozhu" 
+  email            : "mengguozhu@iie.ac.cn"
   uri              :
   bitbucket        :
   codepen          :
@@ -92,19 +93,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "impillar"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "http://orcid.org/0000-0001-6388-2571"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
@@ -249,7 +250,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: China/Beijing # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
