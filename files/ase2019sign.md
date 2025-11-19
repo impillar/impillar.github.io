@@ -1,0 +1,14 @@
+@inproceedings{ase2019sign,
+ author = {Haoyu Wang and Hongxuan Liu and Xusheng Xiao and Guozhu Meng and Yao Guo},
+ title = {{Characterizing Android App Signing Issues}},
+ booktitle = {Proceedings of the 34th ACM/IEEE International Conference on Automated Software Engineering},
+ series = {ASE 2019},
+ year = {2019},
+ isbn = {978-1-7281-2508-4},
+ location = {San Diego, CA, US},
+ numpages = {13},
+ page={280--292}
+ url = {https://doi.org/10.1109/ASE.2019.00035},
+ doi = {10.1109/ASE.2019.00035},
+ publisher = {IEEE}
+}
