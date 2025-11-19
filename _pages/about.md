@@ -1,50 +1,62 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Dr. Guozhu Meng obtained his Ph.D degree from the School of Computer Science and Engineering, Nanyang Technological University, Singapore at 2017. His supervisors are the Full Prof. [Liu Yang](https://personal.ntu.edu.sg/yangliu/index.html){:target="_blank" rel="noopener"} and Full Prof. [Zhang Jie](https://personal.ntu.edu.sg/zhangj/){:target="_blank" rel="noopener"}. 
 
-A data-driven personal website
+<!--In addition, he has been working closely with Dr. [Xue Yinxing](https://sites.google.com/site/yinxingxue/).-->
+
+He joined Institute of Information Engineering of Chinese Academy of Sciences as Associate Professor in 2018. His research focuses on system security and artificial intelligence security as follows:
+
+**Android security**. We employ multiple techniques such as static analysis and machine learning to detect Android malware (ISSTA 2016, IJCNN 2016). With evolutionary algorithms, we conduct a work to evaluate existing anti-malware tools (AsiaCCS 2016, TIFS 2017). Another work has been done, with regard to Android ecosystem, to analyze the spread model of Android malware across multiple markets (TIFS 2019), security analysis of third-party libraries (C&S 2019), and security patches of apps across versions.
+
+**Big data analysis**. We have collected millions of Android apps and malware, and conducted a work to try to learn knowledge from the big data such as bug detection and crash analysis (FSE 2017, ICSE 2018), automated GUI code generation (ICSE 2018), malware characteristics (ASE 2019), evolution and trend. 
+
+**Vulnerability detection**. We attempt to detect weaknesses existing in Android apps, especially in security-critical apps such as financial apps (FSE 2019, ICSE 2020). In addition, we perform a large-scale analysis of vulnerabilities in five C projects and identify around four thousand security bugs among them (ICSE 2020), of which the data is released at [https://github.com/twelveand0/CarrotsBlender](https://github.com/twelveand0/CarrotsBlender){:target="_blank" rel="noopener"}.
+
+**AI Security and Privacy**. We have conducted a comprehensive survey on security and privacy of deep learning systems which has been accepted by IEEE Transactions on Software Engineering ([https://arxiv.org/abs/1911.12562](https://arxiv.org/abs/1911.12562){:target="_blank" rel="noopener"}). We are also interested in protecting deep learning system from model stealing (USENIX Sec 2021), backdoor and model inversion. 
+
+
+Recent news
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
++ :star2: [07/05/2024] Our paper "Demystifying RCE Vulnerabilities in LLM-Integrated Apps" is accepted by CCS 2024. Congratulations to Liu Tong and Zizhuang!
++ :star2: [05/30/2024] Our paper "Making Them Ask and Answer: Jailbreaking Large Language Models in Few Queries via Disguise and Reconstruction" is accepted by USENIX Security 2024. Congratulations to Liu Tong and Yingjie!
++ [03/06/2023] Our paper "Differential Testing of Cross Deep Learning Framework APIs: Revealing Inconsistencies and Vulnerabilities" is accepted by USENIX Security 2023. Congratulations to Zizhuang, Liu Tong and Xiang Lu!
++ [09/05/2023] Our paper "Good-looking but Lacking Faithfulness: Understanding Local Explanation Methods through Trend-based Testing" is accepted by CCS 2023. Congratulations to Jinwen and Congyi!
++ [30/04/2023] Our paper "Aliasing Backdoor Attacks on Pre-trained Models" is accepted by USENIX Security 2023. Congratulations to Chengan and Peizhuo!
+<!--
+# + [09/12/2022] Our paper "ContraBERT: Enhancing Code Pre-trained Models via Contrastive Learning" is accepted by ICSE 2023. Congratulations to Shangqing!
+# + [04/11/2022] I was awared as Beijing Nova 2023, a very competing award for young researchers from both academia and industry in Beijing.
+# + [24/04/2022] Our paper "Understanding Real-world Threats to Deep Learning Models in Android Apps" is accepted by CCS 2022. Congratulations to Zizhuang and Xiaodong!
+# + [18/12/2021] Our paper "Learning Program Semantics with Code Representations: An Empirical Study" is accepted by SANER 2022.
+# + [31/7/2021] Our paper "VALL-NUT: Principled Anti-Greybox-Fuzzing" is accepted by ISSRE 2021.
+# + [02/07/2021] The 4th International Workshop on Advances in Mobile App Analysis is open for submission, please submit your paper at the following link:
+# [https://easychair.org/conferences/?conf=amobile2021](https://easychair.org/conferences/?conf=amobile2021){:target="_blank" rel="noopener"}
+# (A-Mobile: [https://a-mobile.github.io/](https://a-mobile.github.io/){:target="_blank" rel="noopener"})
+# + [16/1/2021] Our two papers "SEPAL: Towards a Large-scale Analysis of SEAndroid Policy Customization" and "Have You been Properly Notified? Automatic Compliance Analysis of Privacy Policy Text with GDPR Article 13" are accepted by WWW 2021.
+# + [8/12/2020] Our paper "DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks" is accepted by USENIX Security 2021.
+# + Our paper "Towards Security Threats of Deep Learning Systems: A Survey" is accepted by IEEE TSE 2020.
+# + Our paper "A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices" is accepted by IEEE TIFS 2020.
+# + Our paper "A3IDENT: A Two-phased Approach to Identify the Leading Authors of Android Apps" is accepted by ICSME 2020.
+# + Our two papers have been accepted for publication in ICSE 2020: "[A Large-Scale Empirical Study on Vulnerability Distribution within Projects and the Lessons Learned](https://impillar.github.io/files/icse2020vul.pdf)" and "[An Empirical Assessment of Security Risks of Global Android Banking Apps](https://impillar.github.io/files/icse2020ausera.pdf)".
+# + Our paper "RoLMA: A Practical Adversarial Attack against Deep Learning-based LPR Systems" has been accepted for publication in Inscrypt 2019.
+# + <font color='red'>Won 2019 ACM SIGSAC China Arising Star Award.</font>
+# + Our paper "Characterizing Android Signature Issues" has been accepted for publication in ASE 2019.
+# + We are organizing an issus on "Data-driven Security" for Cybersecurity journal with Dr. Liu Yang, Dr. Ou xinming, and Dr. Xing Xinyu. Please refer to the following link about this issue. [https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA](https://mp.weixin.qq.com/s/hn8wUtyTnpay_yDcuWj5KA){:target="_blank" rel="noopener"}. All the initiative and empirical artifacts on security are welcome. 
+# + The 2nd International Workshop on Advances in Mobile App Analysis is open, please submit your paper at the following link:
+# [https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers](https://2019.ase-conferences.org/home/a-mobile-2019#Call-for-Papers)
+# (A-Mobile: [https://a-mobile.github.io/](https://a-mobile.github.io/){:target="_blank" rel="noopener"})
+# + Our paper "Securing Android App Markets via Modelling and Predicting Malware Spread between Markets" has been accepted for publication in the IEEE Transactions on Information Forensics and Security.
+# + We are organizing an exciting workshop on mobile app analysis (A-Mobile: [https://a-mobile.github.io/](https://a-mobile.github.io/) as a satellite event of the prestigious software engineering conference [ASE 2018](http://www.ase2018.com). We welcome all relevant submissions via easychair link: [https://easychair.org/conferences/?conf=amobile2018](https://easychair.org/conferences/?conf=amobile2018){:target="_blank" rel="noopener"}
+# + <font color='red'>Our ICSE 2018 paper "Large-Scale Analysis of Framework-Specific Exceptions in Android Apps" won ACM SIGSOFT Distinguished Paper Award </font>
+# + Our two research papers on empirical study of framework exception in Android, and deep learning based code generation from Android GUI designs is accepted by ICSE 2018
+# + <font color='red'>Our Automated Android App Testing tool-Stoat won the First Prize of Tool Demo in NASAC 2017</font>
+# + Our research paper on mining design templates for Java projects is accepted by ASE 2017
+# + Our research paper on model-based Android app testing is accepted by ESEC/FSE 2017
+-->
