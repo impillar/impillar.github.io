@@ -59,13 +59,14 @@
 			&nbsp;[ 
 			{% if post.bib %}
 				<a href="{{ post.bib }}" style="color:blue">BIB</a> |
+			{% endif %}
 			{% if post.paperurl %}
-				<a href="{{ post.paperurl }}" style="color:blue">PDF</a> | 
+				<a href="{{ post.paperurl }}" style="color:blue">PDF</a>
 			{% endif %}
 			{% if post.code %}
-				<a href="{{ post.code }}" style="color:blue">CODE</a>
+				 | <a href="{{ post.code }}" style="color:blue">CODE</a>
 			{% endif %}		
-			]
+			&nbsp;]
 		{% endif %}
 
         {% if post.remark %}
