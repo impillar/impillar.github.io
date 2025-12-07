@@ -11,5 +11,5 @@ year: 2023
 paperurl: 'http://impillar.github.io/files/usenix2023tensorscope.pdf'
 bib: 'http://impillar.github.io/files/usenix2023tensorscope.md'
 # citation: ''
-# remark: "(To appear)"
+remark: 'Second Prize of Tool Demo in ChinaSoft 2023'
 ---

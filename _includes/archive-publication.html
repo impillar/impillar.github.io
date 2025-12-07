@@ -61,6 +61,8 @@
 		&nbsp;[ <span style="font-size:12px; color:blue"><a href="{{ post.bib }}">BIB</a></span> ]
 		{% elsif post.paperurl %}
 		&nbsp;[ <span style="font-size:12px; color:blue"><a href="{{ post.paperurl }}">PDF</a></span> ]
+		{% elsif post.code %}
+		&nbsp;[ <span style="font-size:12px; color:blue"><a href="{{ post.code }}">CODE</a></span> ]	
 		{% endif %}
 
         {% if post.remark %}
