@@ -1,5 +1,5 @@
 ---
-title: 'MDORMANT: Defending against Pose-driven Human Image Animation'
+title: 'DORMANT: Defending against Pose-driven Human Image Animation'
 collection: publications
 permalink: /publication/2025-08-13-USENIX-Dormant
 excerpt: 'It is a work of defending against pose-driven human image animation' 
