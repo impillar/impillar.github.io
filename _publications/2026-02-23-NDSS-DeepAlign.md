@@ -1,5 +1,5 @@
 ---
-title: 'DeepAlign: A black-box watermarking approach for deep neural networks'
+title: 'Bleeding Pathways: Vanishing Discriminability in LLM Hidden States Fuels Jailbreak Attacks'
 collection: publications
 permalink: /publication/2026-02-23-NDSS-DeepAlign
 excerpt: 'It is a work of defending jailbreak of large language models.'
