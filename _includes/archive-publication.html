@@ -58,9 +58,9 @@
 		{% if post.bib and post.paperurl %}
 		&nbsp;[ <span style="font-size:12px"><a href="{{ post.paperurl }}" style="color:blue">PDF</a> | <a href="{{ post.bib }}" style="color:blue">BIB</a></span> ]
 		{% elsif post.bib %}
-		&nbsp;[ <span style="font-size:12px color:blue"><a href="{{ post.bib }}">BIB</a></span> ]
+		&nbsp;[ <span style="font-size:12px; color:blue"><a href="{{ post.bib }}">BIB</a></span> ]
 		{% elsif post.paperurl %}
-		&nbsp;[ <span style="font-size:12px color:blue"><a href="{{ post.paperurl }}">PDF</a></span> ]
+		&nbsp;[ <span style="font-size:12px; color:blue"><a href="{{ post.paperurl }}">PDF</a></span> ]
 		{% endif %}
 
         {% if post.remark %}
