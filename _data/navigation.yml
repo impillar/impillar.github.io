@@ -28,8 +28,8 @@ main:
 #    url: /cv/
 
   
-  - title: "Conferences"
-    url: /conference/ 	
+#  - title: "Conferences"
+#    url: /conference/ 	
   - title: "中文"
     url: http://people.ucas.ac.cn/~gzmeng
 #  - title: "Guide"
