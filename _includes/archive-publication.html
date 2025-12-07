@@ -55,14 +55,17 @@
 		pp. {{ post.page}}.
 		{% endif %}
           
-		{% if post.bib and post.paperurl and post.code %}
-		&nbsp;[ <span style="font-size:12px"><a href="{{ post.paperurl }}" style="color:blue">PDF</a> | <a href="{{ post.bib }}" style="color:blue">BIB</a></span> ]
-		{% elsif post.bib %}
-		&nbsp;[ <span style="font-size:12px; color:blue"><a href="{{ post.bib }}">BIB</a></span> ]
-		{% elsif post.paperurl %}
-		&nbsp;[ <span style="font-size:12px; color:blue"><a href="{{ post.paperurl }}">PDF</a></span> ]
-		{% elsif post.code %}
-		&nbsp;[ <span style="font-size:12px; color:blue"><a href="{{ post.code }}">CODE</a></span> ]	
+		{% if post.bib or post.paperurl or post.code %}
+			&nbsp;[ 
+			{% if post.bib %}
+				<a href="{{ post.bib }}" style="color:blue">BIB</a> |
+			{% if post.paperurl %}
+				<a href="{{ post.paperurl }}" style="color:blue">PDF</a> | 
+			{% endif %}
+			{% if post.code %}
+				<a href="{{ post.code }}" style="color:blue">CODE</a>
+			{% endif %}		
+			]
 		{% endif %}
 
         {% if post.remark %}
