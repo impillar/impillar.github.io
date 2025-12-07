@@ -8,22 +8,21 @@ author_profile: true
 
 # Oraganization:
 
-1. [Artificial Intelligence Security](http://www.jsjkx.com/CN/news/news46.shtml){:target="_blank" rel="noopener"}, special issue of the journal Computer Science (Editor), 2021
-2. [Data-Driven Security](https://www.springeropen.com/collections/data-driven-security){:target="_blank" rel="noopener"}, Issue 1 of [CyberSecurity](https://link.springer.com/journal/42400){:target="_blank" rel="noopener"} (Guest Editor), 2020
-3. [Special Track on Security and Privacy of Modern Software (SPMS 2020)](https://internetware2020.github.io/sp55.html/){:target="_blank" rel="noopener"}, 2020
-4. [The 3rd International Workshop on Advances in Mobile App Analysis (A-Mobile 2020)](https://a-mobile.github.io/){:target="_blank" rel="noopener"}, 2020
-5. [The 2nd International Workshop on Advances in Mobile App Analysis (A-Mobile 2019)](https://a-mobile.github.io/amobile2019.html){:target="_blank" rel="noopener"}, 2019
-6. [The 1st International Workshop on Advances in Mobile App Analysis (A-Mobile 2018)](https://a-mobile.github.io/amobile2018.html){:target="_blank" rel="noopener"}, 2018
+1. [AI-Enabled Research Automation in Cybersecurity](https://link.springer.com/collections/hiajchbhih){:target="_blank" rel="noopener"} Special Issue of Journal Cybersecurity, Guest Editor, 2026
+2. [The International Workshop on Advances in Mobile App Analysis (A-Mobile)](https://a-mobile.github.io/amobile2018.html){:target="_blank" rel="noopener"}, Organizing Chair, 2018-2025
+3. [Advances in Mobile App Analysis and Systems](https://link.springer.com/collections/ihiejebagd){:target="_blank" rel="noopener"} Journal of Automated Software Engineering, Guest Editor, 2025
+4. The 18th International Conference on Information Security and Cryptology (Inscrypt), General Chair, 2022
+5. The 2nd International Workshop on Reliability of Autonomous Intelligent Systems, Organizing Chair, 2021
+6. [Artificial Intelligence Security](https://chinasoft.ccf.org.cn/2022/papers/2.html){:target="_blank" rel="noopener"} Special issue of ChinaSoft, Organizing Chair, 2022
+7. [Artificial Intelligence Security](http://www.jsjkx.com/CN/news/news46.shtml){:target="_blank" rel="noopener"}, special issue of the journal Computer Science, Guest Editor, 2021
+8. [Reliability of Advanced Driving Assistant System (RADAS 2021)](https://easychair.org/cfp/radas2021){:target="_blank" rel="noopener"}, Organizing Chair, 2021
+9. [Security and Privacy of Modern Software (SPMS 2020)](https://internetware2020.github.io/sp55.html/){:target="_blank" rel="noopener"} Special Track of Internetware, Organizing Chair, 2020
+10. [Data-Driven Security](https://www.springeropen.com/collections/data-driven-security){:target="_blank" rel="noopener"} Special issue of CyberSecurity, Guest Editor, 2020
 
-# PC Member:
-1. The 31st USENIX Security Symposium, 2022 (Artifact Evaluation)
-2. The 32nd International Symposium on Software Reliability Engineering (ISSRE), 2021
-3. The 27th Asia-pacific software engineering conference (APSEC), 2020
-4. The 29th International Joint Conference on Artificial Intelligence (IJCAI), 2020
-5. The 28th International Joint Conference on Artificial Intelligence (IJCAI), 2019
-6. 6th International Workshop on Graphical Models for Security (GraMSec), 2019
-7. 17th Annual International Conference on Privacy, Security, and Trust 2019 (PST), 2019
-8. 1st IEEE International Workshop on Artiﬁcial Intelligence for Mobile 2019 (AI4Mobile), 2019
+# Area Chair/(Senior)PC Member:
 
-# Peer Reviewer:
-IEEE TIFS, IEEE TDSC, IEEE TSE, IEEE TMC, Journal of Computers and Security, Frontiers of Computer Science (FCS), CyberSecurity, USENIX Sec 2020, USENIX Sec 2019, CCS 2019, AsiaCCS 2019, ASE 2018, ASE 2016
+1. Security: USENIX Sec-AE 2022, CCS 2024-2025, ACSAC 2024-2025
+2. Software Engineering: APSEC 2020, ISSRE 2021-2023, ICECCS 2025, ASE 2023, ISSTA 2026
+3. Others: Mobilesoft2019SRC,AI4Mobile 2019, PST 2019, GraMSec 2019, SecMT 2020, IJCAI 2019-2020, FCS 2021, CSCWD 2023, ICA3PP 2023-2024, WWW 2025-2026, ACM MM 2025, ECAI 2025
+
+
