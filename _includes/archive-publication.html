@@ -58,13 +58,13 @@
 		{% if post.bib or post.paperurl or post.code %}
 			&nbsp;[ 
 			{% if post.bib %}
-				<a href="{{ post.bib }}" style="color:blue">BIB</a> |
+				<span style="font-size:12px; color:blue"><a href="{{ post.bib }}" style="color:blue">BIB</a></span> |
 			{% endif %}
 			{% if post.paperurl %}
-				<a href="{{ post.paperurl }}" style="color:blue">PDF</a>
+				<span style="font-size:12px; color:blue"><a href="{{ post.paperurl }}" style="color:blue">PDF</a></span>
 			{% endif %}
 			{% if post.code %}
-				 | <a href="{{ post.code }}" style="color:blue">CODE</a>
+				 | <span style="font-size:12px; color:blue"><a href="{{ post.code }}" style="color:blue">CODE</a></span>
 			{% endif %}		
 			&nbsp;]
 		{% endif %}
