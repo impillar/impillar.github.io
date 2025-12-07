@@ -13,7 +13,7 @@
 {% endif %}
 <hr/>
 <div class="{{ include.type | default: "list" }}__item">
-	<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 		{% if include.type == "grid" and teaser %}
 		<div class="archive__item-teaser">
           <img src=
@@ -26,45 +26,42 @@
         </div>
 		{% endif %}
  
-      <li>
-		{% if post.author %}
-			{{ post.author }},
-		{% endif %}
-        "<b>{{post.title}}</b>,"
-		{% if post.venue %}
-			in <i>{{ post.venue}}</i>,
-		{% endif %}
-		{% if post.volume %}
-		vol. {{ post.volume}},
-		{% endif %}
-		{% if post.issue %}
-        issue {{ post.issue}},
-		{% endif %}
-		{% if post.address %}
-        {{ post.address}},
-		{% endif %}
-		{% if post.year %}
-			{% if post.page %}
-				{{ post.year}},
-			{% else %}
-				{{ post.year}}.
-			{% endif %}
-		{% endif %}
-		
-		{% if post.page %}
-		pp. {{ post.page}}.
-		{% endif %}
-          
-		{% if post.bib and post.paperurl %}
-		&nbsp;[ <span style="font-size:12px"><a href="{{ post.paperurl }}" style="color:blue">PDF</a> | <a href="{{ post.bib }}" style="color:blue">BIB</a></span> ]
-		{% elsif post.bib %}
-		&nbsp;[ <span style="font-size:12px color:blue"><a href="{{ post.bib }}">BIB</a></span> ]
-		{% elsif post.paperurl %}
-		&nbsp;[ <span style="font-size:12px color:blue"><a href="{{ post.paperurl }}">PDF</a></span> ]
-		{% endif %}
-
+      <li class="publication-item">
+        {% if post.author %}
+            <span class="pub-authors">{{ post.author }},</span>
+        {% endif %}
+        <span class="pub-title">"<b>{{ post.title }}</b>,"</span>
+        {% if post.venue %}
+            <span class="pub-venue">in <i>{{ post.venue }}</i>,</span>
+        {% endif %}
+        {% if post.volume %}
+        <span class="pub-meta">vol. {{ post.volume }},</span>
+        {% endif %}
+        {% if post.issue %}
+        <span class="pub-meta">issue {{ post.issue }},</span>
+        {% endif %}
+        {% if post.address %}
+        <span class="pub-meta">{{ post.address }},</span>
+        {% endif %}
+        {% if post.year %}
+            {% if post.page %}
+                <span class="pub-meta">{{ post.year }},</span>
+            {% else %}
+                <span class="pub-meta">{{ post.year }}.</span>
+            {% endif %}
+        {% endif %}
+        {% if post.page %}
+        <span class="pub-pages">pp. {{ post.page }}.</span>
+        {% endif %}
+        {% if post.bib and post.paperurl %}
+        <span class="pub-links">[ <a href="{{ post.paperurl }}" class="pub-link">PDF</a> | <a href="{{ post.bib }}" class="pub-link">BIB</a> ]</span>
+        {% elsif post.bib %}
+        <span class="pub-links">[ <a href="{{ post.bib }}" class="pub-link">BIB</a> ]</span>
+        {% elsif post.paperurl %}
+        <span class="pub-links">[ <a href="{{ post.paperurl }}" class="pub-link">PDF</a> ]</span>
+        {% endif %}
         {% if post.remark %}
-        &nbsp; <span style="font-weight:bold; color:red">{{ post.remark  }}</span>
+        <span class="pub-remark">{{ post.remark }}</span>
         {% endif %}
       </li>
  

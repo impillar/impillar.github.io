@@ -78,6 +78,51 @@
 }
 
 
+.archive__item .publication-item {
+  display: block;
+  margin: 0.75em 0;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.publication-item .pub-title {
+  font-weight: 600;
+}
+
+.publication-item .pub-venue {
+  font-style: italic;
+}
+
+.publication-item .pub-meta {
+  color: mix(#000, $text-color, 20%);
+}
+
+.publication-item .pub-pages {
+  color: mix(#000, $text-color, 20%);
+}
+
+.publication-item .pub-links {
+  margin-left: 0.5em;
+  font-size: $type-size-6;
+}
+
+.publication-item .pub-link {
+  color: $link-color;
+  text-decoration: none;
+}
+
+.publication-item .pub-link:hover {
+  color: $link-color-hover;
+  text-decoration: underline;
+}
+
+.publication-item .pub-remark {
+  margin-left: 0.5em;
+  font-weight: bold;
+  color: $danger-color;
+}
+
+
 /*
    List view
    ========================================================================== */
