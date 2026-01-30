@@ -1,0 +1,7 @@
+@inproceedings{ndss2013authscan,
+  author    = {Yingjie Zhang and Tong Liu and Zhe Zhao and Guozhu Meng and Kai Chen},
+  title     = {Bleeding Pathways: Vanishing Discriminability in LLM Hidden States Fuels Jailbreak Attacks},
+  booktitle = {33rd Annual Network and Distributed System Security Symposium (NDSS)},
+  year      = {2026},
+  month     = {feb}
+}
