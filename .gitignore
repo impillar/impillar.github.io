@@ -1,2 +1,19 @@
 _site/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.local-preview/
+vendor/bundle/
 
+# Local reference used when updating the homepage.
+/_data/cv.pdf
+
+# Frontend dependencies and operating-system metadata.
+node_modules/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+scripts/preview.ps1
+scripts/preview.sh

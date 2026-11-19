@@ -140,6 +140,9 @@ exclude:
   - package.json
   - Rakefile
   - README
+  - scripts
+  - .local-preview
+  - vendor
   - tmp
 keep_files:
   - .git

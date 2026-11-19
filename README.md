@@ -14,12 +14,44 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 See more info at https://academicpages.github.io/
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll serve` to generate the HTML and serve it from localhost:4000
+## Local preview on Windows with Ubuntu WSL
+
+From PowerShell in this repository, start the preview with:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\preview.ps1
+```
+
+Open <http://localhost:4000>. Saving a page rebuilds the site and reloads the
+browser. Press **Ctrl+C** in the terminal to stop the server. After changing
+either `_config.yml` or `_config.dev.yml`, stop and restart it.
+
+To check that the site builds without starting a server:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\preview.ps1 -Build
+```
+
+The script uses the `Ubuntu-24.04` WSL distribution by default. Pass
+`-Distribution <name>` if yours has a different name. Dependencies are installed
+automatically on first run and cached in `~/.cache/impillar-homepage/bundle`
+inside Ubuntu. Generated pages go into `_site/` and are ignored by Git.
+The development configuration disables analytics and comments, uses local
+navigation links, and includes future-dated publications for preview.
+
+### First-time setup on another machine
+
+Install Ubuntu WSL with `wsl --install -d Ubuntu-24.04` if needed. In Ubuntu, run:
+
+```bash
+sudo apt-get update
+sudo apt-get install -y ruby-full build-essential zlib1g-dev libssl-dev pkg-config
+sudo gem install bundler -v 4.0.0 --no-document
+```
+
+Ruby 3.2 or newer is required. On Linux, you can run
+`bash scripts/preview.sh` directly, or `bash scripts/preview.sh build` for a
+build only. Keep `Gemfile.lock` to use the tested dependency versions.
 
 # Changelog -- bugfixes and enhancements
 

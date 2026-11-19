@@ -9,5 +9,9 @@ paperurl: 'http://impillar.github.io/files/tdsc2025malfocus.pdf'
 bib: 'http://impillar.github.io/files/tdsc2025malfocus.md'
 author: "Weihao Huang, Chaoyang Lin, Lu Xiang, Zhiyu Zhang, Guozhu Meng, Lei Xue, Kai Chen, Lei Meng, and Zongming Zhang"
 year: 2025  
+volume: 22
+issue: 5
+page: "5060-5076"
+doi: "10.1109/TDSC.2025.3561052"
 # remark: "(To appear)"
 ---

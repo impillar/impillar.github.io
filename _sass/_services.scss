@@ -1,0 +1,103 @@
+/* Compact service records; scoped to the Professional Services page. */
+.professional-services {
+  font-size: 0.94em;
+  line-height: 1.5;
+
+  section + section {
+    margin-top: 2em;
+  }
+
+  h2 {
+    margin: 0 0 0.4em;
+    padding: 0 0 0.5em;
+    border-bottom: 2px solid #dce8ec;
+    color: #303e48;
+    font-size: 1.12em;
+  }
+
+  h3 {
+    margin: 1.2em 0 0.5em;
+    color: #596670;
+    font-size: 0.88em;
+  }
+
+  .service-list {
+    margin: 0;
+  }
+
+  .service-row {
+    display: grid;
+    grid-template-columns: 6.2em minmax(0, 1fr);
+    gap: 1em;
+    padding: 0.7em 0;
+    border-bottom: 1px solid #edf0f2;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  dt, dd {
+    margin: 0;
+    font-size: 1em;
+  }
+
+  dt {
+    padding-top: 0.12em;
+    color: #596670;
+    font-size: 0.88em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  dd {
+    min-width: 0;
+    overflow-wrap: break-word;
+  }
+
+  a, strong {
+    font-weight: 600;
+  }
+
+  a {
+    color: #246680;
+
+    &:hover, &:focus {
+      color: #17465a;
+      text-decoration: underline;
+    }
+  }
+
+  .service-detail {
+    display: block;
+    margin-top: 0.15em;
+    color: #596670;
+    font-size: 0.85em;
+  }
+
+  .service-status {
+    display: block;
+    color: #246680;
+    font-size: 0.82em;
+    font-weight: normal;
+  }
+
+  .service-upcoming {
+    background: #f3f8fa;
+  }
+
+  .service-memberships .service-row {
+    padding: 0.6em 0.55em;
+  }
+
+  @media (max-width: 480px) {
+    .service-row {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0.2em;
+    }
+
+    .service-status {
+      display: inline;
+      margin-left: 0.5em;
+    }
+  }
+}

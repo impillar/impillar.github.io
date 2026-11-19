@@ -1,0 +1,5 @@
+# WSL executes shell scripts directly from the Windows checkout.
+*.sh text eol=lf
+
+# Preserve downloaded papers byte-for-byte on Windows.
+*.pdf binary

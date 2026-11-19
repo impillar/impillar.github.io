@@ -1,0 +1,15 @@
+@article{fse2025webassembly,
+  author = {Kunsong Zhao and Zihao Li and Weimin Chen and Xiapu Luo and Ting Chen and Guozhu Meng and Yajin Zhou},
+  title = {{Recasting Type Hints from WebAssembly Contracts}},
+  journal = {Proceedings of the ACM on Software Engineering (FSE)},
+  year = {2025},
+  volume = {2},
+  number = {FSE},
+  pages = {2665--2688},
+  articleno = {FSE118},
+  numpages = {24},
+  month = {jul},
+  publisher = {Association for Computing Machinery},
+  doi = {10.1145/3729388},
+  url = {https://doi.org/10.1145/3729388}
+}

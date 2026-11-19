@@ -5,49 +5,64 @@ excerpt: "Research Team"
 author_profile: true
 ---
 
-Currently I'm working in the software and system security group of State Key Laboratory of Information Security, directed by Prof. [Kai Chen](http://kaichen.org). 
-We are looking for self-motivated and diligent students for Graduate Programs with [the University of Chinese Academy of Sciences](https://www.ucas.edu.cn/){:target="_blank" rel="noopener"}, please drop us an email for Ph.D./Master applications. 
+I lead the **AI Model Security Group** in the **State Key Laboratory of Cybersecurity Defense** at the Institute of Information Engineering, Chinese Academy of Sciences.
 
-# Current Students:
+We welcome motivated students interested in AI model security to apply for Ph.D. and master's programs at [the University of Chinese Academy of Sciences](https://www.ucas.edu.cn/){:target="_blank" rel="noopener"}. Please contact me at [mengguozhu@iie.ac.cn](mailto:mengguozhu@iie.ac.cn) if you are interested in joining our group.
 
+The following students are supervised or co-supervised by me.
 
-Zizhuang Deng, Ph.D. (Sep., 2018) (co-supervised)
+## Current Students
 
-Weihao Huang, Ph.D. (Sep., 2018) (co-supervised)
+### Ph.D. Students
 
-Jinwen He, Ph.D. (Sep., 2019) (co-supervised)
+- Jiachen Zhou (2021–present)
+- Tong Liu (2023–present)
+- Yingjie Zhang (2023–present)
+- Yilin Li (2023–present; transferred from the master's program)
+- Qingxin Wang (2023–present; transferred from the master's program)
+- Hailong Chang (2023–present)
+- Shuhui Xiao (2024–present; transferred from the master's program)
+- Shuaiyin Yao (2025–present)
+- Yifei Zhang (2026–present)
+- Sen Yu (2026–present)
 
-Hongcheng Chen, Master
+### Master's Students
 
-Xueyang Li, Master, (Sep., 2020)
+- Mingyang Sun (2024–present)
+- Ziyang Zhang (2025–present)
+- Yandong Guo (2026–present)
 
-Xiaodong Zhang, Master, (Sep., 2020)
+## Incoming Ph.D. Students (2027)
 
-Qiucun Yan, Master, (Sep., 2020)
+- Mingyu Yang
+- Honghao Li
+- Yijie Zheng
 
-Kun Lai, Master, (Sep., 2021)
+## Alumni
 
-Yibing Lan, Master, (Sep., 2021)
+### Ph.D. Graduates
 
-Lu Xiang, Master, (Sep., 2021)
+- Xueyang Li (2020–2026) — Xiaomi, "Future Star" program
+- Zizhuang Deng (2018–2024; co-supervised) — Research Associate Professor, Shandong University
+- Weihao Huang (2018–2023; co-supervised) — Postdoctoral Researcher, Sun Yat-sen University
+- Zhixiu Guo (2017–2023) — China Construction Bank
+- Yingzhe He (2017–2022; co-supervised) — Huawei, "Top Minds" program
+- Dongsong Yu (2015–2022; co-supervised) — Assistant Researcher, Zhongguancun Laboratory
+- Bingchang Liu (2016–2020; co-supervised) — Ant Group, "Ali Star" program
 
-Fan Xiang, Master, (Sep., 2022)
+### Master's Graduates
 
-Yuling Cai, Master, (Sep., 2022)
-
-# Former Students:
-
-
-Yingzhe He, Ph.D. (Sep., 2017 - June, 2022) (co-supervised) (Huawei Topminds “天才少年”计划)
-
-Dongsong Yu, Ph.D. (Sep., 2015 - June, 2022) (co-supervised) (Assistant Professor, Zhongguancun National Laboratory)
-
-Xingbo Hu, Master, (Sep., 2019 - June, 2022) (Huawei)
-
-Yuhang Zhao, Master (Sep., 2018 - June, 2021) (co-supervised) (China Mobile Research Institute)
-
-Wei Wang, Master (Sep., 2018 - Jan., 2021) (co-supervised with Tianjin University)
-
-Bingchang Liu, Ph.D. (Sep., 2016 - June, 2020) (co-supervised) (Ali Star, Ant Group)
-
-[Mingming Zha](https://sites.google.com/view/mingmingzha){:target="_blank" rel="noopener"}, Master (Sep., 2016 - Jan., 2020) (co-supervised) (Ph.D. in University of Indiana, Bloomington)
+- Mingsi Wang (2023–2026) — JD.com, TET program
+- Kun Sun (2023–2026) — Sinopec
+- Yuling Cai (2022–2025) — Alibaba Cloud
+- Fan Xiang (2022–2025) — Zhongguancun Laboratory
+- Kun Lai (2021–2024) — Alibaba Cloud
+- Yibing Lan (2021–2024) — China Construction Bank
+- Lu Xiang (2021–2024) — Galaxy Securities
+- Hongcheng Chen (2022–2023; joined my supervision in 2022) — JD.com
+- Qiucun Yan (2020–2023) — China Construction Bank
+- Xiaodong Zhang (2020–2023) — Dalian Commodity Exchange
+- Xingbo Hu (2019–2022) — Huawei
+- Yuhang Zhao (2018–2021; co-supervised) — China Mobile Research Institute
+- Wei Wang (2018–2021; co-supervised with Tianjin University)
+- [Mingming Zha](https://sites.google.com/view/mingmingzha){:target="_blank" rel="noopener"} (2016–2020; co-supervised) — Ph.D. studies at Indiana University Bloomington
