@@ -3,6 +3,7 @@
   title     = {{Making Them Ask and Answer: Jailbreaking Large Language Models in Few Queries via Disguise and Reconstruction}},
   booktitle = {Proceedings of the 33rd USENIX Security Symposium (USENIX)},
   year      = {2024},
+  pages     = {4711--4728},
   location  = {PHILADELPHIA, PA, USA},
   month     = Aug
 }

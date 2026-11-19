@@ -3,6 +3,7 @@
   title     = {{Differential Testing of Cross Deep Learning Framework APIs: Revealing Inconsistencies and Vulnerabilities}},
   booktitle = {Proceedings of the 32nd USENIX Security Symposium (USENIX)},
   year      = {2023},
+  pages     = {7393--7410},
   location  = {Anaheim, CA, USA},
   month     = Aug
 }

@@ -12,7 +12,7 @@ Dr. Guozhu Meng obtained his Ph.D degree from the School of Computer Science and
 
 <!--In addition, he has been working closely with Dr. [Xue Yinxing](https://sites.google.com/site/yinxingxue/).-->
 
-He joined Institute of Information Engineering of Chinese Academy of Sciences as Associate Professor in 2018. His research focuses on system security and artificial intelligence security as follows:
+His research focuses on system security and artificial intelligence security as follows:
 
 **Android security**. We employ multiple techniques such as static analysis and machine learning to detect Android malware (ISSTA 2016, IJCNN 2016). With evolutionary algorithms, we conduct a work to evaluate existing anti-malware tools (AsiaCCS 2016, TIFS 2017). Another work has been done, with regard to Android ecosystem, to analyze the spread model of Android malware across multiple markets (TIFS 2019), security analysis of third-party libraries (C&S 2019), and security patches of apps across versions.
 

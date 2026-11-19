@@ -8,7 +8,8 @@ venue: 'The 39th IEEE/ACM International Conference on Automated Software Enginee
 paperurl: 'http://impillar.github.io/files/ase2024advpro.pdf'
 bib: 'http://impillar.github.io/files/ase2024advpro.md'
 author: "Xueyang Li, Guozhu Meng, Shangqing Liu, Lu Xiang, Kun Sun, Kai Chen, and Yang Liu"
-address: "Michigan, USA"
+address: "Sacramento, California, USA"
+page: "1460-1471"
 year: 2024  
 citation: ''
 ---

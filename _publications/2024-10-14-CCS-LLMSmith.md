@@ -9,7 +9,7 @@ author: "Tong Liu, Zizhuang Deng, Guozhu Meng, Yuekang Li, and Kai Chen"
 address: "Salt Lake City, USA"
 year: 2024
 citation: ''
-page: "785-799"
+page: "1716-1730"
 paperurl: 'http://impillar.github.io/files/ccs2024llmsmith.pdf'
 bib: 'http://impillar.github.io/files/ccs2024llmsmith.md'
 code: 'https://github.com/LLMSmith/LLMSmith'
